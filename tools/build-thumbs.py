@@ -48,7 +48,7 @@ def main():
                 with Image.open(src) as im:
                     im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") else "RGB")
                     im.thumbnail((size, size), Image.LANCZOS)
-                    im.save(dst, "WEBP", quality=72, method=6)
+                    im.save(dst, "WEBP", quality=72, method=4)
                 made += 1
             except Exception as ex:
                 failed += 1
