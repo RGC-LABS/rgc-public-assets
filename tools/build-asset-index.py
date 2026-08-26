@@ -37,6 +37,9 @@ RAW = "https://raw.githubusercontent.com/{slug}/{commit}/{path}"
 
 IMG_EXT = (".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".tif", ".tiff")
 
+ASSETS_DIR = "public/assets"   # assets live here; urls are repo-relative, paths are not
+THUMBS_DIR = "public/thumbs"
+
 
 def git(root, *a):
     r = subprocess.run(("git", "-c", "core.quotepath=false", "-C", root) + a,
@@ -131,24 +134,30 @@ def main():
                  if a.get("content_id")}
     except Exception: pass
 
+    assets_root = os.path.join(root, ASSETS_DIR)
+    if not os.path.isdir(assets_root):
+        sys.exit(f"no {ASSETS_DIR}/ directory under {root}")
+
     entries, measured = [], 0
-    for dp, dns, fns in os.walk(root):
-        dns[:] = sorted(d for d in dns if d not in ("tools", ".git", ".github", "node_modules"))
+    for dp, dns, fns in os.walk(assets_root):
+        dns[:] = sorted(d for d in dns if not d.startswith("."))
         for fn in sorted(fns):
-            if fn.startswith(".") or fn in ("ASSET-INDEX.md", "assets.json"): continue
+            if fn.startswith("."): continue
             p = os.path.join(dp, fn)
-            rel = os.path.relpath(p, root).replace(os.sep, "/")
-            cid = blobs.get(rel)
+            rel = os.path.relpath(p, assets_root).replace(os.sep, "/")
+            repo_rel = f"{ASSETS_DIR}/{rel}"
+            cid = blobs.get(repo_rel)
             if os.path.splitext(fn)[1].lower() not in IMG_EXT:
                 d = ""
             elif cid and cid in cache:
                 d = cache[cid]
             else:
                 d = dims(p); measured += 1
-            commit, date, author, email = meta.get(rel, (None, None, None, None))
-            quoted = urllib.parse.quote(rel)
+            commit, date, author, email = meta.get(repo_rel, (None, None, None, None))
+            quoted = urllib.parse.quote(repo_rel)
             e = {
                 "path": rel,
+                "repo_path": repo_rel,
                 "category": rel.split("/")[0] if "/" in rel else "(root)",
                 "bytes": os.path.getsize(p),
                 "dimensions": d,
@@ -163,6 +172,14 @@ def main():
                 e["url_raw"] = RAW.format(slug=slug, commit=commit, path=quoted)
             else:
                 e["url"] = linkmap.get(rel) or linkmap.get(fn) or f"{base}/{quoted}"
+
+            thumb_rel = f"{THUMBS_DIR}/{os.path.splitext(rel)[0]}.webp"
+            tcommit = (meta.get(thumb_rel) or (None,))[0]
+            if slug and tcommit and os.path.exists(os.path.join(root, thumb_rel)):
+                e["thumb_url"] = CDN.format(slug=slug, commit=tcommit,
+                                            path=urllib.parse.quote(thumb_rel))
+            elif os.path.splitext(fn)[1].lower() == ".svg":
+                e["thumb_url"] = e["url"]          # vector: the original is already small
             entries.append(e)
 
     unpinned = [e for e in entries if slug and not e.get("commit")]
