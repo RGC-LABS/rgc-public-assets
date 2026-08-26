@@ -21,6 +21,19 @@ const SKILL_RAW = `https://raw.githubusercontent.com/${SKILL_REPO}/main/skills/$
 const SKILL_ZIP = `https://github.com/${SKILL_REPO}/archive/refs/heads/main.zip`;
 
 type Action = { do: string; code?: string; href?: string; hrefLabel?: string };
+
+/**
+ * btoa() throws on anything outside Latin1, which took the whole page down when
+ * a placeholder ellipsis reached it during hydration. Encode to UTF-8 bytes
+ * first, and never throw: a deeplink is a convenience, not a reason to crash.
+ */
+function base64(value: string): string {
+  try {
+    return btoa(String.fromCharCode(...new TextEncoder().encode(value)));
+  } catch {
+    return "";
+  }
+}
 type Agent = {
   value: string;
   label: string;
@@ -90,9 +103,11 @@ const agents = (url: string): Agent[] => [
     install: [
       {
         do: "Click to install, then approve the prompt in Cursor.",
-        href: `cursor://anysphere.cursor-deeplink/mcp/install?name=rgc-assets&config=${
-          typeof window === "undefined" ? "" : btoa(JSON.stringify({ url }))
-        }`,
+        href: url
+          ? `cursor://anysphere.cursor-deeplink/mcp/install?name=rgc-assets&config=${base64(
+              JSON.stringify({ url }),
+            )}`
+          : undefined,
         hrefLabel: "Add to Cursor",
       },
     ],
@@ -111,9 +126,11 @@ const agents = (url: string): Agent[] => [
     install: [
       {
         do: "Click to install, then confirm in VS Code.",
-        href: `vscode:mcp/install?${encodeURIComponent(
-          JSON.stringify({ name: "rgc-assets", type: "http", url }),
-        )}`,
+        href: url
+          ? `vscode:mcp/install?${encodeURIComponent(
+              JSON.stringify({ name: "rgc-assets", type: "http", url }),
+            )}`
+          : undefined,
         hrefLabel: "Add to VS Code",
       },
       {
@@ -190,6 +207,13 @@ const TOOLS: [string, string][] = [
 ];
 
 function Code({ value }: { value: string }) {
+  if (!value) {
+    return (
+      <div className="rounded-(--radius-control) bg-surface-2 p-(--rgc-space-3) font-mono text-(length:--rgc-text-micro) text-fg-subtle">
+        resolving endpoint…
+      </div>
+    );
+  }
   return (
     <div className="flex items-start gap-(--rgc-space-2)">
       <pre className="min-w-0 flex-1 overflow-x-auto rounded-(--radius-control) bg-surface-2 p-(--rgc-space-3) font-mono text-(length:--rgc-text-micro) text-fg">
@@ -210,7 +234,7 @@ function Actions({ actions, numbered = true }: { actions: Action[]; numbered?: b
             {a.do}
           </span>
           {a.code ? <Code value={a.code} /> : null}
-          {a.href ? (
+          {a.href && a.href.length > 0 ? (
             <span>
               <Button variant="primary" size="sm" render={<a href={a.href} />}>
                 {a.hrefLabel ?? "Open"}
@@ -303,7 +327,7 @@ function InstallStep({ agent, url }: { agent: Agent; url: string }) {
         <div className="p-(--rgc-space-3)">
           <Disclosure label="The endpoint">
             <div className="pt-(--rgc-space-2)">
-              <Code value={url || "…"} />
+              <Code value={url} />
             </div>
           </Disclosure>
         </div>
@@ -434,7 +458,7 @@ export function ConnectDialog() {
   // Follows wherever this is deployed, so instructions stay correct on any url.
   useEffect(() => setUrl(`${window.location.origin}/mcp`), []);
 
-  const all = agents(url || "…");
+  const all = agents(url);
   const active = all.find((a) => a.value === agent) ?? all[0];
   const index = STEPS.findIndex((s) => s.id === step);
 
