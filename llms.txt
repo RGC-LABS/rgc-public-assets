@@ -13,11 +13,11 @@
 **Every url you emit must contain a 40-character commit SHA. Never `main`.**
 
 ```
-NO   https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@main/logos/rgc-mark.png
-NO   https://raw.githubusercontent.com/RGC-LABS/rgc-public-assets/main/logos/rgc-mark.png
-NO   https://github.com/RGC-LABS/rgc-public-assets/blob/main/logos/rgc-mark.png
+NO   https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@main/public/assets/logos/rgc-mark.png
+NO   https://raw.githubusercontent.com/RGC-LABS/rgc-public-assets/main/public/assets/logos/rgc-mark.png
+NO   https://github.com/RGC-LABS/rgc-public-assets/blob/main/public/assets/logos/rgc-mark.png
 
-YES  https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@ddca2140c761325059910102672b5b3c2f778661/logos/rgc-mark.png
+YES  https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@1c9a2e8cee2da5902d03c26231e8931a080b3139/public/assets/logos/rgc-mark.png
 ```
 
 `main` is a moving pointer. A deck, a landing page or a generated document that
@@ -50,7 +50,7 @@ An entry looks like this:
   "bytes": 24321,
   "dimensions": "711x306",
   "content_id": "54aa97ec3d3368cab2def51411053af531d8a16e",
-  "commit": "ddca2140c761325059910102672b5b3c2f778661",
+  "commit": "1c9a2e8cee2da5902d03c26231e8931a080b3139",
   "modified": "2026-08-26T16:33:51+03:00",
   "author": "Criss Moldovan",
   "url": "https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@ddca21.../logos/rgc-logo.svg",
@@ -66,6 +66,10 @@ An entry looks like this:
   keeps one stable url (and one warm CDN entry) across every release.
 - `content_id` — the git blob SHA. Identical bytes produce an identical
   `content_id`, so you can tell a genuine re-export from a no-op touch.
+- `thumb_url` — a 400px webp for grids and pickers, pinned to its own commit.
+  Raster assets only; for an SVG this is the original, which is already small.
+- `repo_path` — where the file sits in the repo. `path` is the clean, stable
+  identifier (`logos/rgc-logo.svg`); `repo_path` is what the urls are built from.
 - `modified` / `author` — provenance, straight from git history.
 
 ## Checking whether your pins are stale
@@ -88,6 +92,10 @@ the new version, then update the pin deliberately. Never auto-follow.
 | `screens/` | The 10 built product screens. |
 | `boards/` | One PNG per Figma branding board. |
 | `site/` | Site imagery: site-assets, article headers, LinkedIn sizes. |
+
+Assets live under `public/assets/` in the repo; `path` in the manifest is
+relative to that, so it stays stable regardless of repo layout. Thumbnails
+mirror the same tree under `public/thumbs/`.
 
 Human-readable catalogue with dimensions and sizes: `ASSET-INDEX.md`.
 
