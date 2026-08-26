@@ -9,14 +9,22 @@ import {
   Dialog,
   Panel,
   PanelHeader,
+  SegmentedControl,
   Select,
   Separator,
+  Stepper,
 } from "@rgc-labs/ui";
 import { Plug } from "lucide-react";
+
+const SKILL_REPO = "RGC-LABS/public-assets";
+const SKILL_NAME = "rgc-public-assets";
+const SKILL_RAW = `https://raw.githubusercontent.com/${SKILL_REPO}/main/skills/${SKILL_NAME}/SKILL.md`;
+const SKILL_ZIP = `https://github.com/${SKILL_REPO}/archive/refs/heads/main.zip`;
 
 type Step = { text: string; code?: string };
 type Client = { value: string; label: string; steps: Step[]; note?: string };
 
+/** Per-client MCP setup. Transport differs per tool — Gemini needs httpUrl, not url. */
 const clients = (url: string): Client[] => [
   {
     value: "claude-code",
@@ -32,19 +40,31 @@ const clients = (url: string): Client[] => [
     steps: [
       { text: "Settings → Connectors → Add custom connector." },
       { text: "Paste this as the server URL:", code: url },
-      { text: "Save, then enable the connector in a new chat." },
+      { text: "Save, then enable it in a new chat." },
     ],
     note: "Custom connectors need a Pro, Max, Team or Enterprise plan.",
+  },
+  {
+    value: "codex",
+    label: "Codex CLI",
+    steps: [
+      {
+        text: "codex mcp add only handles stdio servers, so add the HTTP server to ~/.codex/config.toml:",
+        code: `[mcp_servers.rgc-assets]\nurl = "${url}"`,
+      },
+      { text: "Verify it registered:", code: "codex mcp list" },
+    ],
+    note: "A url key (rather than command) is what makes Codex pick the HTTP transport.",
   },
   {
     value: "cursor",
     label: "Cursor",
     steps: [
       {
-        text: "Add to ~/.cursor/mcp.json (all projects) or .cursor/mcp.json (this project):",
+        text: "Add to ~/.cursor/mcp.json for every project, or .cursor/mcp.json for just this one:",
         code: JSON.stringify({ mcpServers: { "rgc-assets": { url } } }, null, 2),
       },
-      { text: "Settings → MCP, and confirm rgc-assets is enabled." },
+      { text: "Settings → MCP, and check rgc-assets is enabled." },
     ],
   },
   {
@@ -55,8 +75,20 @@ const clients = (url: string): Client[] => [
         text: "Add to .vscode/mcp.json in your workspace:",
         code: JSON.stringify({ servers: { "rgc-assets": { type: "http", url } } }, null, 2),
       },
-      { text: "Open Chat in Agent mode and pick the tools from the toolbar." },
+      { text: "Open Chat in Agent mode, then pick the tools from the toolbar." },
     ],
+  },
+  {
+    value: "gemini",
+    label: "Gemini CLI",
+    steps: [
+      {
+        text: "Add to ~/.gemini/settings.json:",
+        code: JSON.stringify({ mcpServers: { "rgc-assets": { httpUrl: url } } }, null, 2),
+      },
+      { text: "Check it loaded:", code: "/mcp" },
+    ],
+    note: "httpUrl selects streamable HTTP. A plain url key would mean SSE and will not work here.",
   },
   {
     value: "windsurf",
@@ -73,7 +105,7 @@ const clients = (url: string): Client[] => [
     value: "chatgpt",
     label: "ChatGPT",
     steps: [
-      { text: "Settings → Connectors → Advanced → enable Developer mode." },
+      { text: "Settings → Connectors → Advanced → turn on Developer mode." },
       { text: "Create a connector with this MCP server URL:", code: url },
     ],
     note: "Developer mode availability depends on your ChatGPT plan.",
@@ -88,15 +120,11 @@ const clients = (url: string): Client[] => [
   },
 ];
 
-const PROMPT = `You have access to the RGC brand asset library through the rgc-assets MCP server.
+const INSTALL_PROMPT = `Install the RGC public assets agent skill.
 
-Use search_assets to find artwork, get_asset to fetch one file by path, and list_categories to see what exists.
+Run: npx skills add ${SKILL_REPO} --skill ${SKILL_NAME}
 
-Every url these tools return is pinned to a commit and is safe to embed permanently. Copy urls verbatim — never replace the commit SHA with "main". A branch ref is mutable, so anything built against one renders correctly today and silently breaks the next time that asset is re-exported.
-
-When you embed an asset, record its content_id alongside the url. To check later whether the pin is stale, call check_pin with that content_id rather than re-resolving: unchanged means the file is byte-identical and the existing url must be left alone.
-
-Logos are placed, never redrawn or recoloured. Every figure in deck and screen artwork is illustrative — never cite those numbers as real data.`;
+If the skills CLI is unavailable, fetch ${SKILL_RAW} and save it as ${SKILL_NAME}/SKILL.md inside your agent's skills directory (~/.claude/skills for Claude Code, .cursor/rules for Cursor, ~/.codex/skills for Codex), then confirm the skill is listed.`;
 
 const TOOLS: [string, string][] = [
   ["search_assets", "Find assets by filename or path, optionally inside one category."],
@@ -106,30 +134,11 @@ const TOOLS: [string, string][] = [
 ];
 
 const EXAMPLES: [string, string][] = [
-  [
-    "Which logo files are in the library? Give me the pinned url for the vector one.",
-    "search_assets",
-  ],
-  [
-    "Add the RGC wordmark to the header of index.html, using a pinned url.",
-    "search_assets, then embed",
-  ],
-  [
-    "What product screens exist, and what resolution is each one?",
-    "search_assets, metadata",
-  ],
-  [
-    "Find a 3D motif that works on a dark hero section and give me the markdown for it.",
-    "search_assets",
-  ],
-  [
-    "How many files are in each category?",
-    "list_categories",
-  ],
-  [
-    "I embedded screens/roas-screen.png a while back — here is the content_id I stored. Is my url still current?",
-    "check_pin",
-  ],
+  ["Which logo files are in the library? Give me the pinned url for the vector one.", "search_assets"],
+  ["Add the RGC wordmark to the header of index.html, using a pinned url.", "search_assets, then embed"],
+  ["What product screens exist, and what resolution is each one?", "search_assets, metadata"],
+  ["Find a 3D motif that works on a dark hero section and give me the markdown for it.", "search_assets"],
+  ["I embedded screens/roas-screen.png a while back — here is the content_id I stored. Is my url still current?", "check_pin"],
 ];
 
 function Code({ value }: { value: string }) {
@@ -143,16 +152,203 @@ function Code({ value }: { value: string }) {
   );
 }
 
-export function ConnectDialog() {
-  const [url, setUrl] = useState("");
+function Steps({ steps }: { steps: Step[] }) {
+  return (
+    <ol className="flex flex-col gap-(--rgc-space-3) p-(--rgc-space-3)">
+      {steps.map((s, i) => (
+        <li key={i} className="flex flex-col gap-(--rgc-space-2)">
+          <span className="text-(length:--rgc-text-ui) text-fg">
+            <span className="text-fg-subtle tabular-nums">{i + 1}. </span>
+            {s.text}
+          </span>
+          {s.code ? <Code value={s.code} /> : null}
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+function Note({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <Separator />
+      <p className="p-(--rgc-space-3) text-(length:--rgc-text-micro) text-fg-subtle">{children}</p>
+    </>
+  );
+}
+
+function ConnectStep({ url }: { url: string }) {
   const [client, setClient] = useState("claude-code");
-
-  // The endpoint follows wherever this is deployed, so the instructions stay
-  // correct on a preview url and on the custom domain alike.
-  useEffect(() => setUrl(`${window.location.origin}/mcp`), []);
-
   const all = clients(url || "…");
   const active = all.find((c) => c.value === client) ?? all[0];
+
+  return (
+    <>
+      <Panel>
+        <PanelHeader title="Endpoint" actions={<Chip tone="ok">no auth</Chip>} />
+        <div className="p-(--rgc-space-3)">
+          <Code value={url || "…"} />
+        </div>
+      </Panel>
+
+      <Panel>
+        <PanelHeader
+          title="Your coding tool"
+          actions={
+            <Select
+              items={all.map((c) => ({ value: c.value, label: c.label }))}
+              value={client}
+              onValueChange={(v) => setClient(v ?? "claude-code")}
+              aria-label="Choose your coding tool"
+              size="sm"
+            />
+          }
+        />
+        <Steps steps={active.steps} />
+        {active.note ? <Note>{active.note}</Note> : null}
+      </Panel>
+
+      <Panel>
+        <PanelHeader title="What the agent gets" actions={<Chip tone="neutral">{TOOLS.length} tools</Chip>} />
+        <DescriptionList.Root>
+          {TOOLS.map(([name, what]) => (
+            <Fragment key={name}>
+              <DescriptionList.Term>
+                <span className="font-mono text-(length:--rgc-text-micro) text-accent">{name}</span>
+              </DescriptionList.Term>
+              <DescriptionList.Detail>
+                <span className="text-(length:--rgc-text-micro) text-fg-muted">{what}</span>
+              </DescriptionList.Detail>
+            </Fragment>
+          ))}
+        </DescriptionList.Root>
+      </Panel>
+    </>
+  );
+}
+
+function SkillStep() {
+  const [how, setHow] = useState("cli");
+
+  return (
+    <>
+      <Panel>
+        <PanelHeader title="Why install the skill too" />
+        <div className="flex flex-col gap-(--rgc-space-2) p-(--rgc-space-3)">
+          <p className="text-(length:--rgc-text-ui) text-fg-muted">
+            The MCP server hands the agent the tools. The skill teaches it the rules:
+            copy pinned urls verbatim, never rewrite one to point at a branch, and check
+            <span className="font-mono"> content_id</span> before changing a url it already
+            shipped. Without it an agent will happily &ldquo;tidy&rdquo; a long url into one
+            that breaks at the next re-export.
+          </p>
+        </div>
+      </Panel>
+
+      <Panel>
+        <PanelHeader
+          title="Install it"
+          actions={
+            <SegmentedControl
+              items={[
+                { value: "cli", label: "CLI" },
+                { value: "prompt", label: "Prompt" },
+                { value: "zip", label: "Zip" },
+              ]}
+              value={how}
+              onValueChange={setHow}
+              aria-label="Choose an install method"
+              size="sm"
+            />
+          }
+        />
+        {how === "cli" ? (
+          <>
+            <Steps
+              steps={[
+                { text: "Install into whichever agents you use:", code: `npx skills add ${SKILL_REPO}` },
+                { text: "Confirm it landed:", code: "npx skills list" },
+              ]}
+            />
+            <Note>
+              Works with Claude Code, Claude Desktop, Cursor, VS Code, Codex, Gemini,
+              Windsurf and Zed. Add <span className="font-mono">-g</span> to install
+              globally rather than into the current project.
+            </Note>
+          </>
+        ) : null}
+        {how === "prompt" ? (
+          <>
+            <div className="p-(--rgc-space-3)">
+              <p className="pb-(--rgc-space-2) text-(length:--rgc-text-micro) text-fg-subtle">
+                Paste this to any connected agent and it will install the skill itself.
+              </p>
+              <Code value={INSTALL_PROMPT} />
+            </div>
+          </>
+        ) : null}
+        {how === "zip" ? (
+          <>
+            <Steps
+              steps={[
+                { text: "Download the skill:" },
+                {
+                  text: "Unzip it and copy the skill folder into your agent's skills directory:",
+                  code: `unzip public-assets-main.zip\ncp -R public-assets-main/skills/${SKILL_NAME} ~/.claude/skills/`,
+                },
+                { text: "Restart the agent, and confirm the skill is listed." },
+              ]}
+            />
+            <div className="px-(--rgc-space-3) pb-(--rgc-space-3)">
+              <Button
+                variant="secondary"
+                size="sm"
+                render={<a href={SKILL_ZIP} download />}
+              >
+                Download zip
+              </Button>
+            </div>
+            <Note>
+              Paths differ per agent: <span className="font-mono">~/.claude/skills</span> for
+              Claude Code, <span className="font-mono">~/.codex/skills</span> for Codex,
+              <span className="font-mono"> .cursor</span> for Cursor.
+            </Note>
+          </>
+        ) : null}
+      </Panel>
+
+      <Panel>
+        <PanelHeader title="Then try asking" />
+        <div className="flex flex-col gap-(--rgc-space-2) p-(--rgc-space-3)">
+          {EXAMPLES.map(([ask, shows]) => (
+            <div
+              key={ask}
+              className="flex items-start gap-(--rgc-space-2) rounded-(--radius-control) bg-surface-2 p-(--rgc-space-3)"
+            >
+              <div className="flex min-w-0 flex-1 flex-col gap-(--rgc-space-1)">
+                <span className="text-(length:--rgc-text-ui) text-fg">&ldquo;{ask}&rdquo;</span>
+                <span className="font-mono text-(length:--rgc-text-micro) text-fg-subtle">{shows}</span>
+              </div>
+              <CopyButton value={ask}>Copy</CopyButton>
+            </div>
+          ))}
+        </div>
+      </Panel>
+    </>
+  );
+}
+
+const STEPS = [
+  { id: "mcp", label: "Connect MCP" },
+  { id: "skill", label: "Install skill" },
+];
+
+export function ConnectDialog() {
+  const [url, setUrl] = useState("");
+  const [step, setStep] = useState("mcp");
+
+  // Follows wherever this is deployed, so instructions stay correct on any url.
+  useEffect(() => setUrl(`${window.location.origin}/mcp`), []);
 
   return (
     <Dialog.Root>
@@ -162,105 +358,29 @@ export function ConnectDialog() {
       <Dialog.Content width="lg">
         <Dialog.Title>Connect an agent</Dialog.Title>
         <Dialog.Description>
-          This library is an MCP server. Point an agent at it and it can search the
-          assets and hand back commit-pinned urls that will not break.
+          Two steps: connect the MCP server so the agent can search the library, then
+          install the skill so it uses the urls correctly.
         </Dialog.Description>
 
-        <div className="flex max-h-[60vh] flex-col gap-(--rgc-space-4) overflow-y-auto">
-          <Panel>
-            <PanelHeader
-              title="Endpoint"
-              actions={<Chip tone="ok">no auth</Chip>}
-            />
-            <div className="p-(--rgc-space-3)">
-              <Code value={url || "…"} />
-            </div>
-          </Panel>
+        <Stepper steps={STEPS} current={step} onStepChange={setStep} label="Setup" />
 
-          <Panel>
-            <PanelHeader
-              title="Set up your client"
-              actions={
-                <Select
-                  items={all.map((c) => ({ value: c.value, label: c.label }))}
-                  value={client}
-                  onValueChange={(v) => setClient(v ?? "claude-code")}
-                  aria-label="Choose your MCP client"
-                  size="sm"
-                />
-              }
-            />
-            <ol className="flex flex-col gap-(--rgc-space-3) p-(--rgc-space-3)">
-              {active.steps.map((s, i) => (
-                <li key={i} className="flex flex-col gap-(--rgc-space-2)">
-                  <span className="text-(length:--rgc-text-ui) text-fg">
-                    <span className="text-fg-subtle tabular-nums">{i + 1}. </span>
-                    {s.text}
-                  </span>
-                  {s.code ? <Code value={s.code} /> : null}
-                </li>
-              ))}
-            </ol>
-            {active.note ? (
-              <>
-                <Separator />
-                <p className="p-(--rgc-space-3) text-(length:--rgc-text-micro) text-fg-subtle">
-                  {active.note}
-                </p>
-              </>
-            ) : null}
-          </Panel>
-
-          <Panel>
-            <PanelHeader title="Then tell your agent this" />
-            <div className="p-(--rgc-space-3)">
-              <p className="pb-(--rgc-space-2) text-(length:--rgc-text-micro) text-fg-subtle">
-                Paste this once so it knows the rules. The server also sends them on
-                connect, but a client that ignores instructions still gets them here.
-              </p>
-              <Code value={PROMPT} />
-            </div>
-          </Panel>
-
-          <Panel>
-            <PanelHeader
-              title="Try asking"
-              actions={<Chip tone="neutral">{TOOLS.length} tools</Chip>}
-            />
-            <div className="flex flex-col gap-(--rgc-space-2) p-(--rgc-space-3)">
-              {EXAMPLES.map(([ask, shows]) => (
-                <div
-                  key={ask}
-                  className="flex items-start gap-(--rgc-space-2) rounded-(--radius-control) bg-surface-2 p-(--rgc-space-3)"
-                >
-                  <div className="flex min-w-0 flex-1 flex-col gap-(--rgc-space-1)">
-                    <span className="text-(length:--rgc-text-ui) text-fg">&ldquo;{ask}&rdquo;</span>
-                    <span className="font-mono text-(length:--rgc-text-micro) text-fg-subtle">
-                      {shows}
-                    </span>
-                  </div>
-                  <CopyButton value={ask}>Copy</CopyButton>
-                </div>
-              ))}
-            </div>
-            <Separator />
-            <DescriptionList.Root>
-              {TOOLS.map(([name, what]) => (
-                <Fragment key={name}>
-                  <DescriptionList.Term>
-                    <span className="font-mono text-(length:--rgc-text-micro) text-accent">{name}</span>
-                  </DescriptionList.Term>
-                  <DescriptionList.Detail>
-                    <span className="text-(length:--rgc-text-micro) text-fg-muted">{what}</span>
-                  </DescriptionList.Detail>
-                </Fragment>
-              ))}
-            </DescriptionList.Root>
-          </Panel>
+        <div className="flex max-h-[55vh] flex-col gap-(--rgc-space-4) overflow-y-auto">
+          {step === "mcp" ? <ConnectStep url={url} /> : <SkillStep />}
         </div>
 
         <Dialog.Footer>
-          <Dialog.Close render={<Button variant="ghost">Done</Button>} />
+          {step === "mcp" ? (
+            <Button variant="primary" onClick={() => setStep("skill")}>
+              Next: install the skill
+            </Button>
+          ) : (
+            <>
+              <Button variant="ghost" onClick={() => setStep("mcp")}>
+                Back
+              </Button>
+              <Dialog.Close render={<Button variant="primary">Done</Button>} />
+            </>
+          )}
         </Dialog.Footer>
       </Dialog.Content>
     </Dialog.Root>
