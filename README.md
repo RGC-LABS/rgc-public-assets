@@ -45,17 +45,15 @@ and does not intend for production traffic — fallback only.
 Teach an agent the rules above once, instead of restating them every session:
 
 ```bash
-npx skills add RGC-LABS/rgc-public-assets
+npx skills add RGC-LABS/public-assets
 ```
 
-| Skill | Description | |
-|---|---|---|
-| `rgc-public-assets` | Use when placing RGC brand artwork — logos, icons, motifs, 3D brand objects, product screens, deck or site imagery — into a page, deck, document or design; when an embedded RGC asset url 404s or renders the wrong image; or when asked what RGC brand assets exist. | [Skill](skills/rgc-public-assets/SKILL.md) |
+Source: [RGC-LABS/public-assets](https://github.com/RGC-LABS/public-assets). It
+lives in its own repository because the `skills` CLI clones the whole repo to
+install a skill, and this one is ~620MB.
 
-It installs into Claude Code, Claude Desktop, Cursor, VS Code, Codex, Gemini,
-Windsurf, Zed and the other agents the `skills` CLI targets. Pair it with the
-MCP server at `https://assets.public.rgclabs.dev/mcp`, which gives the agent
-`search_assets`, `get_asset`, `list_categories` and `check_pin`.
+Pair it with the MCP server at `https://assets.public.rgclabs.dev/mcp`, which
+gives the agent `search_assets`, `get_asset`, `list_categories` and `check_pin`.
 
 ## Layout
 
