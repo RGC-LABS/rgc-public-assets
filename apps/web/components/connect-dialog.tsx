@@ -7,116 +7,158 @@ import {
   CopyButton,
   DescriptionList,
   Dialog,
+  Disclosure,
   Panel,
   PanelHeader,
-  SegmentedControl,
-  Select,
   Separator,
   Stepper,
 } from "@rgc-labs/ui";
-import { Plug } from "lucide-react";
+import { Check, Download, Plug, Terminal } from "lucide-react";
 
 const SKILL_REPO = "RGC-LABS/public-assets";
 const SKILL_NAME = "rgc-public-assets";
 const SKILL_RAW = `https://raw.githubusercontent.com/${SKILL_REPO}/main/skills/${SKILL_NAME}/SKILL.md`;
 const SKILL_ZIP = `https://github.com/${SKILL_REPO}/archive/refs/heads/main.zip`;
 
-type Step = { text: string; code?: string };
-type Client = { value: string; label: string; steps: Step[]; note?: string };
+type Action = { do: string; code?: string; href?: string; hrefLabel?: string };
+type Agent = {
+  value: string;
+  label: string;
+  hint: string;
+  install: Action[];
+  manual: Action[];
+};
 
-/** Per-client MCP setup. Transport differs per tool — Gemini needs httpUrl, not url. */
-const clients = (url: string): Client[] => [
+/**
+ * Transports genuinely differ per agent, so these are not interchangeable:
+ * `codex mcp add` handles stdio only, and Gemini reads `httpUrl` — a plain
+ * `url` there means SSE and will not connect.
+ */
+const agents = (url: string): Agent[] => [
   {
     value: "claude-code",
     label: "Claude Code",
-    steps: [
-      { text: "Run this in your terminal:", code: `claude mcp add --transport http rgc-assets ${url}` },
-      { text: "Confirm it connected:", code: "/mcp" },
+    hint: "terminal",
+    install: [
+      { do: "Run this, then restart Claude Code.", code: `claude mcp add --transport http rgc-assets ${url}` },
+    ],
+    manual: [
+      {
+        do: "Or add it to .mcp.json in your project root:",
+        code: JSON.stringify({ mcpServers: { "rgc-assets": { type: "http", url } } }, null, 2),
+      },
+      { do: "Check it connected with /mcp inside Claude Code." },
     ],
   },
   {
     value: "claude-desktop",
     label: "Claude Desktop",
-    steps: [
-      { text: "Settings → Connectors → Add custom connector." },
-      { text: "Paste this as the server URL:", code: url },
-      { text: "Save, then enable it in a new chat." },
+    hint: "app settings",
+    install: [
+      { do: "Settings → Connectors → Add custom connector." },
+      { do: "Paste this as the server URL, then save.", code: url },
     ],
-    note: "Custom connectors need a Pro, Max, Team or Enterprise plan.",
+    manual: [
+      { do: "The connector appears in the tools menu of a new chat — enable it there." },
+      { do: "Custom connectors need a Pro, Max, Team or Enterprise plan." },
+    ],
   },
   {
     value: "codex",
     label: "Codex CLI",
-    steps: [
-      {
-        text: "codex mcp add only handles stdio servers, so add the HTTP server to ~/.codex/config.toml:",
-        code: `[mcp_servers.rgc-assets]\nurl = "${url}"`,
-      },
-      { text: "Verify it registered:", code: "codex mcp list" },
+    hint: "config file",
+    install: [
+      { do: "Add this to ~/.codex/config.toml.", code: `[mcp_servers.rgc-assets]\nurl = "${url}"` },
+      { do: "Confirm it registered.", code: "codex mcp list" },
     ],
-    note: "A url key (rather than command) is what makes Codex pick the HTTP transport.",
+    manual: [
+      { do: "There is no CLI shortcut here: codex mcp add only takes stdio servers, so an HTTP server has to go in the file." },
+      { do: "A url key rather than a command is what makes Codex choose the HTTP transport." },
+    ],
   },
   {
     value: "cursor",
     label: "Cursor",
-    steps: [
+    hint: "one click",
+    install: [
       {
-        text: "Add to ~/.cursor/mcp.json for every project, or .cursor/mcp.json for just this one:",
+        do: "Click to install, then approve the prompt in Cursor.",
+        href: `cursor://anysphere.cursor-deeplink/mcp/install?name=rgc-assets&config=${
+          typeof window === "undefined" ? "" : btoa(JSON.stringify({ url }))
+        }`,
+        hrefLabel: "Add to Cursor",
+      },
+    ],
+    manual: [
+      {
+        do: "If the link does nothing, add it to ~/.cursor/mcp.json for every project, or .cursor/mcp.json for just this one:",
         code: JSON.stringify({ mcpServers: { "rgc-assets": { url } } }, null, 2),
       },
-      { text: "Settings → MCP, and check rgc-assets is enabled." },
+      { do: "Then check Settings → MCP shows rgc-assets enabled." },
     ],
   },
   {
     value: "vscode",
-    label: "VS Code (Copilot)",
-    steps: [
+    label: "VS Code",
+    hint: "terminal",
+    install: [
       {
-        text: "Add to .vscode/mcp.json in your workspace:",
+        do: "Run this, then reload the window.",
+        code: `code --add-mcp '{"name":"rgc-assets","type":"http","url":"${url}"}'`,
+      },
+    ],
+    manual: [
+      {
+        do: "Or create .vscode/mcp.json in your workspace:",
         code: JSON.stringify({ servers: { "rgc-assets": { type: "http", url } } }, null, 2),
       },
-      { text: "Open Chat in Agent mode, then pick the tools from the toolbar." },
+      { do: "Open Chat in Agent mode, then pick the tools from the toolbar." },
     ],
   },
   {
     value: "gemini",
     label: "Gemini CLI",
-    steps: [
+    hint: "terminal",
+    install: [
+      { do: "Run this, then restart the CLI.", code: `gemini mcp add --transport http rgc-assets ${url}` },
+    ],
+    manual: [
       {
-        text: "Add to ~/.gemini/settings.json:",
+        do: "Or add it to ~/.gemini/settings.json:",
         code: JSON.stringify({ mcpServers: { "rgc-assets": { httpUrl: url } } }, null, 2),
       },
-      { text: "Check it loaded:", code: "/mcp" },
+      { do: "It must be httpUrl. A plain url key means SSE here and will not connect." },
     ],
-    note: "httpUrl selects streamable HTTP. A plain url key would mean SSE and will not work here.",
   },
   {
     value: "windsurf",
     label: "Windsurf",
-    steps: [
+    hint: "config file",
+    install: [
       {
-        text: "Add to ~/.codeium/windsurf/mcp_config.json:",
+        do: "Add this to ~/.codeium/windsurf/mcp_config.json.",
         code: JSON.stringify({ mcpServers: { "rgc-assets": { serverUrl: url } } }, null, 2),
       },
-      { text: "Cascade → MCP panel → Refresh." },
+      { do: "Then open Cascade → MCP panel → Refresh." },
     ],
+    manual: [{ do: "Windsurf uses serverUrl rather than url for remote servers." }],
   },
   {
     value: "chatgpt",
     label: "ChatGPT",
-    steps: [
-      { text: "Settings → Connectors → Advanced → turn on Developer mode." },
-      { text: "Create a connector with this MCP server URL:", code: url },
+    hint: "app settings",
+    install: [
+      { do: "Settings → Connectors → Advanced → turn on Developer mode." },
+      { do: "Create a connector with this MCP server URL.", code: url },
     ],
-    note: "Developer mode availability depends on your ChatGPT plan.",
+    manual: [{ do: "Developer mode availability depends on your ChatGPT plan." }],
   },
   {
     value: "other",
-    label: "Anything else",
-    steps: [
-      { text: "Point any MCP client at this endpoint over streamable HTTP:", code: url },
-      { text: "No authentication — the asset library is public." },
-    ],
+    label: "Something else",
+    hint: "any MCP client",
+    install: [{ do: "Point your client at this endpoint over streamable HTTP.", code: url }],
+    manual: [{ do: "No authentication and no headers required — the asset library is public." }],
   },
 ];
 
@@ -124,21 +166,13 @@ const INSTALL_PROMPT = `Install the RGC public assets agent skill.
 
 Run: npx skills add ${SKILL_REPO} --skill ${SKILL_NAME}
 
-If the skills CLI is unavailable, fetch ${SKILL_RAW} and save it as ${SKILL_NAME}/SKILL.md inside your agent's skills directory (~/.claude/skills for Claude Code, .cursor/rules for Cursor, ~/.codex/skills for Codex), then confirm the skill is listed.`;
+If the skills CLI is unavailable, fetch ${SKILL_RAW} and save it as ${SKILL_NAME}/SKILL.md inside your agent's skills directory, then confirm the skill is listed.`;
 
 const TOOLS: [string, string][] = [
   ["search_assets", "Find assets by filename or path, optionally inside one category."],
   ["get_asset", "One asset by exact path, with dimensions, provenance and pinned urls."],
   ["list_categories", "What categories exist and how many files each holds."],
   ["check_pin", "Whether a url you embedded earlier has gone stale."],
-];
-
-const EXAMPLES: [string, string][] = [
-  ["Which logo files are in the library? Give me the pinned url for the vector one.", "search_assets"],
-  ["Add the RGC wordmark to the header of index.html, using a pinned url.", "search_assets, then embed"],
-  ["What product screens exist, and what resolution is each one?", "search_assets, metadata"],
-  ["Find a 3D motif that works on a dark hero section and give me the markdown for it.", "search_assets"],
-  ["I embedded screens/roas-screen.png a while back — here is the content_id I stored. Is my url still current?", "check_pin"],
 ];
 
 function Code({ value }: { value: string }) {
@@ -152,64 +186,93 @@ function Code({ value }: { value: string }) {
   );
 }
 
-function Steps({ steps }: { steps: Step[] }) {
+function Actions({ actions, numbered = true }: { actions: Action[]; numbered?: boolean }) {
   return (
-    <ol className="flex flex-col gap-(--rgc-space-3) p-(--rgc-space-3)">
-      {steps.map((s, i) => (
+    <ol className="flex flex-col gap-(--rgc-space-3)">
+      {actions.map((a, i) => (
         <li key={i} className="flex flex-col gap-(--rgc-space-2)">
           <span className="text-(length:--rgc-text-ui) text-fg">
-            <span className="text-fg-subtle tabular-nums">{i + 1}. </span>
-            {s.text}
+            {numbered ? <span className="text-fg-subtle tabular-nums">{i + 1}. </span> : null}
+            {a.do}
           </span>
-          {s.code ? <Code value={s.code} /> : null}
+          {a.code ? <Code value={a.code} /> : null}
+          {a.href ? (
+            <span>
+              <Button variant="primary" size="sm" render={<a href={a.href} />}>
+                {a.hrefLabel ?? "Open"}
+              </Button>
+            </span>
+          ) : null}
         </li>
       ))}
     </ol>
   );
 }
 
-function Note({ children }: { children: React.ReactNode }) {
+function ChooseStep({
+  all,
+  agent,
+  onPick,
+}: {
+  all: Agent[];
+  agent: string;
+  onPick: (v: string) => void;
+}) {
   return (
-    <>
-      <Separator />
-      <p className="p-(--rgc-space-3) text-(length:--rgc-text-micro) text-fg-subtle">{children}</p>
-    </>
+    <Panel>
+      <PanelHeader title="Which agent are you using?" />
+      <div className="grid grid-cols-2 gap-(--rgc-space-2) p-(--rgc-space-3) sm:grid-cols-3">
+        {all.map((a) => {
+          const selected = a.value === agent;
+          return (
+            <button
+              key={a.value}
+              type="button"
+              onClick={() => onPick(a.value)}
+              aria-pressed={selected}
+              className="flex flex-col items-start gap-(--rgc-space-1) rounded-(--radius-control) border border-border bg-surface-1 p-(--rgc-space-3) text-left transition-colors hover:bg-surface-2 focus-visible:outline-2 focus-visible:outline-accent aria-pressed:border-accent aria-pressed:bg-surface-2"
+            >
+              <span className="flex w-full items-center gap-(--rgc-space-2)">
+                <span className="min-w-0 flex-1 truncate text-(length:--rgc-text-ui) text-fg">
+                  {a.label}
+                </span>
+                {selected ? <Check className="size-icon-sm shrink-0 text-accent" aria-hidden /> : null}
+              </span>
+              <span className="text-(length:--rgc-text-micro) text-fg-subtle">{a.hint}</span>
+            </button>
+          );
+        })}
+      </div>
+    </Panel>
   );
 }
 
-function ConnectStep({ url }: { url: string }) {
-  const [client, setClient] = useState("claude-code");
-  const all = clients(url || "…");
-  const active = all.find((c) => c.value === client) ?? all[0];
-
+function InstallStep({ agent, url }: { agent: Agent; url: string }) {
   return (
     <>
       <Panel>
-        <PanelHeader title="Endpoint" actions={<Chip tone="ok">no auth</Chip>} />
+        <PanelHeader
+          title={`Connect the server to ${agent.label}`}
+          actions={<Chip tone="ok">no auth</Chip>}
+        />
         <div className="p-(--rgc-space-3)">
-          <Code value={url || "…"} />
+          <Actions actions={agent.install} />
+        </div>
+        <Separator />
+        <div className="p-(--rgc-space-3)">
+          <Disclosure label="Manual install">
+            <div className="pt-(--rgc-space-2)">
+              <Actions actions={agent.manual} numbered={false} />
+            </div>
+          </Disclosure>
         </div>
       </Panel>
 
       <Panel>
         <PanelHeader
-          title="Your coding tool"
-          actions={
-            <Select
-              items={all.map((c) => ({ value: c.value, label: c.label }))}
-              value={client}
-              onValueChange={(v) => setClient(v ?? "claude-code")}
-              aria-label="Choose your coding tool"
-              size="sm"
-            />
-          }
+          title="What this gives the agent"
+          actions={<Chip tone="neutral">{TOOLS.length} tools</Chip>}
         />
-        <Steps steps={active.steps} />
-        {active.note ? <Note>{active.note}</Note> : null}
-      </Panel>
-
-      <Panel>
-        <PanelHeader title="What the agent gets" actions={<Chip tone="neutral">{TOOLS.length} tools</Chip>} />
         <DescriptionList.Root>
           {TOOLS.map(([name, what]) => (
             <Fragment key={name}>
@@ -222,116 +285,80 @@ function ConnectStep({ url }: { url: string }) {
             </Fragment>
           ))}
         </DescriptionList.Root>
+        <Separator />
+        <div className="p-(--rgc-space-3)">
+          <Disclosure label="The endpoint">
+            <div className="pt-(--rgc-space-2)">
+              <Code value={url || "…"} />
+            </div>
+          </Disclosure>
+        </div>
       </Panel>
     </>
   );
 }
 
 function SkillStep() {
-  const [how, setHow] = useState("cli");
-
   return (
     <>
       <Panel>
-        <PanelHeader title="Why install the skill too" />
-        <div className="flex flex-col gap-(--rgc-space-2) p-(--rgc-space-3)">
-          <p className="text-(length:--rgc-text-ui) text-fg-muted">
-            The MCP server hands the agent the tools. The skill teaches it the rules:
-            copy pinned urls verbatim, never rewrite one to point at a branch, and check
-            <span className="font-mono"> content_id</span> before changing a url it already
-            shipped. Without it an agent will happily &ldquo;tidy&rdquo; a long url into one
-            that breaks at the next re-export.
-          </p>
+        <PanelHeader title="Install the skill" actions={<Chip tone="accent">one command</Chip>} />
+        <div className="p-(--rgc-space-3)">
+          <Actions
+            actions={[
+              { do: "Run this and pick your agent when prompted.", code: `npx skills add ${SKILL_REPO}` },
+            ]}
+            numbered={false}
+          />
+        </div>
+        <Separator />
+        <div className="flex flex-col gap-(--rgc-space-3) p-(--rgc-space-3)">
+          <Disclosure label="More details">
+            <div className="flex flex-col gap-(--rgc-space-4) pt-(--rgc-space-2)">
+              <div className="flex flex-col gap-(--rgc-space-2)">
+                <span className="text-(length:--rgc-text-label) text-fg">Ask your agent to do it</span>
+                <Code value={INSTALL_PROMPT} />
+              </div>
+
+              <div className="flex flex-col gap-(--rgc-space-2)">
+                <span className="text-(length:--rgc-text-label) text-fg">Install by hand</span>
+                <span className="text-(length:--rgc-text-micro) text-fg-subtle">
+                  Download the zip, then copy the skill folder into your agent&rsquo;s skills
+                  directory — <span className="font-mono">~/.claude/skills</span> for Claude Code,
+                  <span className="font-mono"> ~/.codex/skills</span> for Codex.
+                </span>
+                <Code value={`unzip public-assets-main.zip\ncp -R public-assets-main/skills/${SKILL_NAME} ~/.claude/skills/`} />
+                <span>
+                  <Button
+                    variant="secondary"
+                    size="sm"
+                    icon={Download}
+                    render={<a href={SKILL_ZIP} download />}
+                  >
+                    Download zip
+                  </Button>
+                </span>
+              </div>
+
+              <div className="flex flex-col gap-(--rgc-space-2)">
+                <span className="text-(length:--rgc-text-label) text-fg">Global rather than per-project</span>
+                <Code value={`npx skills add ${SKILL_REPO} -g`} />
+              </div>
+            </div>
+          </Disclosure>
         </div>
       </Panel>
 
       <Panel>
-        <PanelHeader
-          title="Install it"
-          actions={
-            <SegmentedControl
-              items={[
-                { value: "cli", label: "CLI" },
-                { value: "prompt", label: "Prompt" },
-                { value: "zip", label: "Zip" },
-              ]}
-              value={how}
-              onValueChange={setHow}
-              aria-label="Choose an install method"
-              size="sm"
-            />
-          }
-        />
-        {how === "cli" ? (
-          <>
-            <Steps
-              steps={[
-                { text: "Install into whichever agents you use:", code: `npx skills add ${SKILL_REPO}` },
-                { text: "Confirm it landed:", code: "npx skills list" },
-              ]}
-            />
-            <Note>
-              Works with Claude Code, Claude Desktop, Cursor, VS Code, Codex, Gemini,
-              Windsurf and Zed. Add <span className="font-mono">-g</span> to install
-              globally rather than into the current project.
-            </Note>
-          </>
-        ) : null}
-        {how === "prompt" ? (
-          <>
-            <div className="p-(--rgc-space-3)">
-              <p className="pb-(--rgc-space-2) text-(length:--rgc-text-micro) text-fg-subtle">
-                Paste this to any connected agent and it will install the skill itself.
-              </p>
-              <Code value={INSTALL_PROMPT} />
-            </div>
-          </>
-        ) : null}
-        {how === "zip" ? (
-          <>
-            <Steps
-              steps={[
-                { text: "Download the skill:" },
-                {
-                  text: "Unzip it and copy the skill folder into your agent's skills directory:",
-                  code: `unzip public-assets-main.zip\ncp -R public-assets-main/skills/${SKILL_NAME} ~/.claude/skills/`,
-                },
-                { text: "Restart the agent, and confirm the skill is listed." },
-              ]}
-            />
-            <div className="px-(--rgc-space-3) pb-(--rgc-space-3)">
-              <Button
-                variant="secondary"
-                size="sm"
-                render={<a href={SKILL_ZIP} download />}
-              >
-                Download zip
-              </Button>
-            </div>
-            <Note>
-              Paths differ per agent: <span className="font-mono">~/.claude/skills</span> for
-              Claude Code, <span className="font-mono">~/.codex/skills</span> for Codex,
-              <span className="font-mono"> .cursor</span> for Cursor.
-            </Note>
-          </>
-        ) : null}
-      </Panel>
-
-      <Panel>
-        <PanelHeader title="Then try asking" />
-        <div className="flex flex-col gap-(--rgc-space-2) p-(--rgc-space-3)">
-          {EXAMPLES.map(([ask, shows]) => (
-            <div
-              key={ask}
-              className="flex items-start gap-(--rgc-space-2) rounded-(--radius-control) bg-surface-2 p-(--rgc-space-3)"
-            >
-              <div className="flex min-w-0 flex-1 flex-col gap-(--rgc-space-1)">
-                <span className="text-(length:--rgc-text-ui) text-fg">&ldquo;{ask}&rdquo;</span>
-                <span className="font-mono text-(length:--rgc-text-micro) text-fg-subtle">{shows}</span>
-              </div>
-              <CopyButton value={ask}>Copy</CopyButton>
-            </div>
-          ))}
+        <PanelHeader title="Why the skill as well as the server" />
+        <div className="p-(--rgc-space-3)">
+          <p className="text-(length:--rgc-text-ui) text-fg-muted">
+            The server gives the agent the tools. The skill teaches it the rules: copy pinned
+            urls verbatim, never rewrite one to point at a branch, and check{" "}
+            <span className="font-mono">content_id</span> before changing a url it already
+            shipped. Without it an agent will happily &ldquo;tidy&rdquo; a long url into one
+            that breaks at the next re-export.
+          </p>
         </div>
       </Panel>
     </>
@@ -339,16 +366,22 @@ function SkillStep() {
 }
 
 const STEPS = [
-  { id: "mcp", label: "Connect MCP" },
-  { id: "skill", label: "Install skill" },
+  { id: "agent", label: "Choose agent" },
+  { id: "install", label: "Install" },
+  { id: "skill", label: "Add skill" },
 ];
 
 export function ConnectDialog() {
   const [url, setUrl] = useState("");
-  const [step, setStep] = useState("mcp");
+  const [step, setStep] = useState("agent");
+  const [agent, setAgent] = useState("claude-code");
 
   // Follows wherever this is deployed, so instructions stay correct on any url.
   useEffect(() => setUrl(`${window.location.origin}/mcp`), []);
+
+  const all = agents(url || "…");
+  const active = all.find((a) => a.value === agent) ?? all[0];
+  const index = STEPS.findIndex((s) => s.id === step);
 
   return (
     <Dialog.Root>
@@ -358,29 +391,45 @@ export function ConnectDialog() {
       <Dialog.Content width="lg">
         <Dialog.Title>Connect an agent</Dialog.Title>
         <Dialog.Description>
-          Two steps: connect the MCP server so the agent can search the library, then
-          install the skill so it uses the urls correctly.
+          Three steps: pick your agent, connect the server, add the skill.
         </Dialog.Description>
 
         <Stepper steps={STEPS} current={step} onStepChange={setStep} label="Setup" />
 
         <div className="flex max-h-[55vh] flex-col gap-(--rgc-space-4) overflow-y-auto">
-          {step === "mcp" ? <ConnectStep url={url} /> : <SkillStep />}
+          {step === "agent" ? (
+            <ChooseStep
+              all={all}
+              agent={agent}
+              onPick={(v) => {
+                setAgent(v);
+                setStep("install");
+              }}
+            />
+          ) : null}
+          {step === "install" ? <InstallStep agent={active} url={url} /> : null}
+          {step === "skill" ? <SkillStep /> : null}
         </div>
 
         <Dialog.Footer>
-          {step === "mcp" ? (
-            <Button variant="primary" onClick={() => setStep("skill")}>
-              Next: install the skill
+          {index > 0 ? (
+            <Button variant="ghost" onClick={() => setStep(STEPS[index - 1].id)}>
+              Back
             </Button>
-          ) : (
-            <>
-              <Button variant="ghost" onClick={() => setStep("mcp")}>
-                Back
-              </Button>
-              <Dialog.Close render={<Button variant="primary">Done</Button>} />
-            </>
-          )}
+          ) : null}
+          {step === "agent" ? (
+            <Button variant="primary" icon={Terminal} onClick={() => setStep("install")}>
+              Continue with {active.label}
+            </Button>
+          ) : null}
+          {step === "install" ? (
+            <Button variant="primary" onClick={() => setStep("skill")}>
+              Done — add the skill
+            </Button>
+          ) : null}
+          {step === "skill" ? (
+            <Dialog.Close render={<Button variant="primary">Finish</Button>} />
+          ) : null}
         </Dialog.Footer>
       </Dialog.Content>
     </Dialog.Root>

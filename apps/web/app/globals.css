@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @import "@rgc-labs/ui/styles.css";
+
+/* Bind the self-hosted faces to the seams the geist pairing reads. Without
+   these the pairing falls back to a bare `Geist` family name, which only
+   resolves if the viewer happens to have it installed locally. */
+:root {
+  --rgc-face-geist: var(--font-geist);
+  --rgc-face-jetbrains-mono: var(--font-jetbrains-mono);
+}
