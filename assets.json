@@ -1,6 +1,6 @@
 {
  "repo": "RGC-LABS/rgc-public-assets",
- "head": "9d4971d18e091aa14cf38be7247101556d3e1632",
+ "head": "1d7c91d416a357f681b72ea5c968e365d89613e0",
  "count": 936,
  "pinning": {
   "rule": "Never request an asset by branch. Every url below is pinned to the commit that last modified that file and is safe to embed permanently.",

@@ -1,0 +1,123 @@
+# RGC Public Assets
+
+> The Really Good Culture brand asset library: logos, icons, motifs, 3D brand
+> objects, deck artwork, product screens and site imagery. 936 files, exported
+> from the master Figma file and served over a CDN.
+>
+> Repository: https://github.com/RGC-LABS/rgc-public-assets
+
+---
+
+## The one rule: never link to a branch
+
+**Every url you emit must contain a 40-character commit SHA. Never `main`.**
+
+```
+NO   https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@main/public/assets/logos/rgc-mark.png
+NO   https://raw.githubusercontent.com/RGC-LABS/rgc-public-assets/main/public/assets/logos/rgc-mark.png
+NO   https://github.com/RGC-LABS/rgc-public-assets/blob/main/public/assets/logos/rgc-mark.png
+
+YES  https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@1c9a2e8cee2da5902d03c26231e8931a080b3139/public/assets/logos/rgc-mark.png
+```
+
+`main` is a moving pointer. A deck, a landing page or a generated document that
+links to `main` renders correctly today and silently breaks — wrong crop, wrong
+logo lockup, or a 404 — the first time someone re-exports that asset. A commit
+SHA is immutable: the bytes behind it can never change. Pin once, and the thing
+you shipped keeps looking the way you shipped it, forever.
+
+This is not a style preference. Rewriting a pinned url to point at a branch is a
+defect. If you are tempted to "clean up" a long url by shortening it to `main`,
+don't.
+
+## How to resolve an asset
+
+1. Fetch the manifest:
+   `https://raw.githubusercontent.com/RGC-LABS/rgc-public-assets/main/assets.json`
+2. Find the entry whose `path` you want.
+3. Use its `url` **verbatim**. It is already pinned.
+
+The manifest is the *only* thing you fetch from `main` — it is the mutable entry
+point, deliberately, so you always discover the current set of assets. Every url
+it hands back is immutable. Resolve fresh, embed pinned.
+
+An entry looks like this:
+
+```json
+{
+  "path": "logos/rgc-logo.svg",
+  "category": "logos",
+  "bytes": 24321,
+  "dimensions": "711x306",
+  "content_id": "54aa97ec3d3368cab2def51411053af531d8a16e",
+  "commit": "1c9a2e8cee2da5902d03c26231e8931a080b3139",
+  "modified": "2026-08-26T16:33:51+03:00",
+  "author": "Criss Moldovan",
+  "url": "https://cdn.jsdelivr.net/gh/RGC-LABS/rgc-public-assets@ddca21.../logos/rgc-logo.svg",
+  "url_raw": "https://raw.githubusercontent.com/RGC-LABS/rgc-public-assets/ddca21.../logos/rgc-logo.svg"
+}
+```
+
+- `url` — jsDelivr. Use this. Served `cache-control: max-age=31536000, immutable`.
+- `url_raw` — same commit via raw.githubusercontent. Fallback only: it is served
+  `max-age=300` and is not intended to carry production traffic.
+- `commit` — the commit that last modified *this file*, not the repo HEAD. So an
+  asset's url only changes when the asset itself changes, and an unchanged file
+  keeps one stable url (and one warm CDN entry) across every release.
+- `content_id` — the git blob SHA. Identical bytes produce an identical
+  `content_id`, so you can tell a genuine re-export from a no-op touch.
+- `thumb_url` — a 400px webp for grids and pickers, pinned to its own commit.
+  Raster assets only; for an SVG this is the original, which is already small.
+- `repo_path` — where the file sits in the repo. `path` is the clean, stable
+  identifier (`logos/rgc-logo.svg`); `repo_path` is what the urls are built from.
+- `modified` / `author` — provenance, straight from git history.
+
+## Checking whether your pins are stale
+
+Re-fetch the manifest and compare `content_id` against what you stored. If it is
+unchanged, the asset is byte-identical and your existing pinned url is still
+correct — do nothing. If it changed, the asset was genuinely re-exported: review
+the new version, then update the pin deliberately. Never auto-follow.
+
+## Categories
+
+| Folder | What it holds |
+|---|---|
+| `logos/` | RGC marks and product marks. `rgc-logo.svg` is the only vector logo. |
+| `icons/` | report-icons (156, dark/light pairs), mono (78, `currentColor`), the seven dimension modules, 10 shopper archetypes. |
+| `motifs/` | 3D brand objects for dark panels, plus the three 3D product marks. |
+| `image-fills/` | Source bitmaps embedded in the Figma file, original resolution. |
+| `backgrounds-extras/` | Backgrounds and unmapped layer renders kept from Figma. |
+| `deck/` | The 45-section master pitch, 34 blank slide templates, brand-pitch examples. |
+| `screens/` | The 10 built product screens. |
+| `boards/` | One PNG per Figma branding board. |
+| `site/` | Site imagery: site-assets, article headers, LinkedIn sizes. |
+
+Assets live under `public/assets/` in the repo; `path` in the manifest is
+relative to that, so it stays stable regardless of repo layout. Thumbnails
+mirror the same tree under `public/thumbs/`.
+
+Human-readable catalogue with dimensions and sizes: `ASSET-INDEX.md`.
+
+## Brand rules
+
+- **Logos are placed, never redrawn.** Do not recreate a mark in CSS, SVG paths
+  or ASCII, do not recolour it, do not rebuild a lockup from parts. Reference the
+  file.
+- **Every figure in example artwork is illustrative.** Numbers, charts and
+  personas inside deck and screen images are examples, not data. Never cite them
+  as fact or present them as real results.
+- `mono/` icons inherit `currentColor`; report-icons ship as explicit dark/light
+  pairs — pick the pair that matches the surface, do not filter one into the other.
+
+## Regenerating
+
+`ASSET-INDEX.md` and `assets.json` are generated. After adding or re-exporting
+any asset, commit it first (pinning reads git history), then:
+
+```
+python3 tools/build-asset-index.py .
+```
+
+The script refuses to emit an unpinned url, and warns about any file not yet
+committed.

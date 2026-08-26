@@ -33,6 +33,8 @@ import {
   Shapes,
   Stamp,
 } from "lucide-react";
+import { ConnectDialog } from "./connect-dialog";
+import { ResizeHandle, usePanelWidth } from "./resize-handle";
 import {
   type Asset,
   humanBytes,
@@ -63,6 +65,8 @@ type Props = {
 };
 
 export function Browser({ assets, categories, repo, head, totalBytes }: Props) {
+  const sidebar = usePanelWidth("rgc-assets.sidebar-width", 224, 160, 420);
+  const aside = usePanelWidth("rgc-assets.aside-width", 360, 280, 640);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<string | null>(null);
   const [selected, setSelected] = useState<Asset | null>(null);
@@ -80,14 +84,23 @@ export function Browser({ assets, categories, repo, head, totalBytes }: Props) {
     <AppShell.Root>
       <TitleBar
         center="Asset Library"
-        actions={<Chip tone="ok">{assets.length} files</Chip>}
+        actions={
+          <span className="flex items-center gap-(--rgc-space-2)">
+            <Chip tone="ok">{assets.length} files</Chip>
+            <ConnectDialog />
+          </span>
+        }
       >
         <AppShell.NavTrigger />
         <Eyebrow>RGC LABS</Eyebrow>
       </TitleBar>
 
       <AppShell.Body>
-        <AppShell.Sidebar aria-label="Categories" drawerTitle="Categories">
+        <AppShell.Sidebar
+          aria-label="Categories"
+          drawerTitle="Categories"
+          width={`${sidebar.width}px`}
+        >
           <Sidebar.Section label="Library">
             <Sidebar.Item
               icon={Library}
@@ -112,6 +125,17 @@ export function Browser({ assets, categories, repo, head, totalBytes }: Props) {
             ))}
           </Sidebar.Section>
         </AppShell.Sidebar>
+
+        <ResizeHandle
+          label="Resize categories"
+          edge="start"
+          width={sidebar.width}
+          min={sidebar.min}
+          max={sidebar.max}
+          onResize={sidebar.resize}
+          onReset={sidebar.reset}
+          className="hidden md:block"
+        />
 
         <AppShell.Content>
           <div className="flex items-center gap-(--rgc-space-3) border-b border-border px-(--rgc-space-4) py-(--rgc-space-2)">
@@ -156,9 +180,20 @@ export function Browser({ assets, categories, repo, head, totalBytes }: Props) {
         </AppShell.Content>
 
         {selected ? (
-          <AppShell.Aside aria-label="Asset details">
-            <Detail asset={selected} onClose={() => setSelected(null)} />
-          </AppShell.Aside>
+          <>
+            <ResizeHandle
+              label="Resize asset details"
+              edge="end"
+              width={aside.width}
+              min={aside.min}
+              max={aside.max}
+              onResize={aside.resize}
+              onReset={aside.reset}
+            />
+            <AppShell.Aside aria-label="Asset details" width={`${aside.width}px`}>
+              <Detail asset={selected} onClose={() => setSelected(null)} />
+            </AppShell.Aside>
+          </>
         ) : null}
       </AppShell.Body>
 

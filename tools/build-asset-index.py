@@ -240,6 +240,16 @@ def main():
                        "assets": rows}, f, separators=(",", ":"))
         print(f"wrote apps/web/data/manifest.json ({len(rows)} rows)")
 
+        # llms.txt is agent-facing docs, so the deployed site must serve it too.
+        # The app's static root is apps/web/public, not the repo root.
+        src = os.path.join(root, "llms.txt")
+        if os.path.exists(src):
+            static = os.path.join(root, "apps", "web", "public")
+            os.makedirs(static, exist_ok=True)
+            with open(src) as a, open(os.path.join(static, "llms.txt"), "w") as b:
+                b.write(a.read())
+            print("copied llms.txt -> apps/web/public/llms.txt")
+
     print(f"indexed {len(entries)} files ({measured} re-measured) -> ASSET-INDEX.md, assets.json")
     if slug: print(f"pinned against {slug}, head {head[:7] if head else '?'}")
     if unpinned:
