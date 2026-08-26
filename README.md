@@ -40,6 +40,23 @@ Unchanged means byte-identical — leave your url alone.
 is the same commit via raw.githubusercontent, which GitHub serves `max-age=300`
 and does not intend for production traffic — fallback only.
 
+## Agent skill
+
+Teach an agent the rules above once, instead of restating them every session:
+
+```bash
+npx skills add RGC-LABS/rgc-public-assets
+```
+
+| Skill | Description | |
+|---|---|---|
+| `rgc-public-assets` | Use when placing RGC brand artwork — logos, icons, motifs, 3D brand objects, product screens, deck or site imagery — into a page, deck, document or design; when an embedded RGC asset url 404s or renders the wrong image; or when asked what RGC brand assets exist. | [Skill](skills/rgc-public-assets/SKILL.md) |
+
+It installs into Claude Code, Claude Desktop, Cursor, VS Code, Codex, Gemini,
+Windsurf, Zed and the other agents the `skills` CLI targets. Pair it with the
+MCP server at `https://assets.public.rgclabs.dev/mcp`, which gives the agent
+`search_assets`, `get_asset`, `list_categories` and `check_pin`.
+
 ## Layout
 
 | Path | |
