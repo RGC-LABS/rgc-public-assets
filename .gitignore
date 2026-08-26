@@ -3,3 +3,10 @@
 Thumbs.db
 __pycache__/
 *.pyc
+
+# app
+node_modules/
+.next/
+.vercel/
+next-env.d.ts
+*.tsbuildinfo

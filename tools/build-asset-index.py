@@ -224,6 +224,22 @@ def main():
     with open(os.path.join(root, "ASSET-INDEX.md"), "w") as f:
         f.write("\n".join(lines))
 
+    # compact manifest for the browser app: same data, array rows, ~3x smaller
+    web = os.path.join(root, "apps", "web", "data")
+    if os.path.isdir(os.path.dirname(web)):
+        os.makedirs(web, exist_ok=True)
+        cat_counts = {c: len(v) for c, v in sorted(cats.items())}
+        rows = [[e["path"], e["category"], e["bytes"], e["dimensions"], e["commit"],
+                 (e.get("thumb_url") or "").split("@")[-1].split("/")[0] if e.get("thumb_url") else None,
+                 (e["modified"] or "")[:10], e["author"], e["content_id"]] for e in entries]
+        with open(os.path.join(web, "manifest.json"), "w") as f:
+            json.dump({"repo": slug, "head": head, "assets_dir": ASSETS_DIR, "thumbs_dir": THUMBS_DIR,
+                       "cdn": CDN, "raw": RAW, "count": len(entries), "categories": cat_counts,
+                       "fields": ["path", "category", "bytes", "dimensions", "commit",
+                                  "thumb_commit", "modified", "author", "content_id"],
+                       "assets": rows}, f, separators=(",", ":"))
+        print(f"wrote apps/web/data/manifest.json ({len(rows)} rows)")
+
     print(f"indexed {len(entries)} files ({measured} re-measured) -> ASSET-INDEX.md, assets.json")
     if slug: print(f"pinned against {slug}, head {head[:7] if head else '?'}")
     if unpinned:
