@@ -1,0 +1,182 @@
+{
+  "source": {
+    "fileKey": "tK4jzuqvjdhLKK5KRSpk8k",
+    "figmaBoard": "all Branding page boards"
+  },
+  "via": "Figma UI export, imported with sync/import-ui-export.mjs",
+  "importedAt": "2026-08-17",
+  "count": 34,
+  "expected": 34,
+  "assets": [
+    {
+      "file": "backgrounds.png",
+      "figmaName": "Backgrounds",
+      "nodeId": "74:1437"
+    },
+    {
+      "file": "backgrounds-2.png",
+      "figmaName": "Backgrounds",
+      "nodeId": "146:3408"
+    },
+    {
+      "file": "colours.png",
+      "figmaName": "Colours",
+      "nodeId": "74:1468"
+    },
+    {
+      "file": "colours-2.png",
+      "figmaName": "Colours",
+      "nodeId": "165:7860"
+    },
+    {
+      "file": "buttons-and-ui.png",
+      "figmaName": "Buttons & UI",
+      "nodeId": "74:1545"
+    },
+    {
+      "file": "article-header-style.png",
+      "figmaName": "Article Header Style",
+      "nodeId": "162:18"
+    },
+    {
+      "file": "graphs.png",
+      "figmaName": "Graphs",
+      "nodeId": "164:3524"
+    },
+    {
+      "file": "social-posts.png",
+      "figmaName": "Social Posts",
+      "nodeId": "173:69"
+    },
+    {
+      "file": "linkedin.png",
+      "figmaName": "Linkedin",
+      "nodeId": "168:7952"
+    },
+    {
+      "file": "dashboard.png",
+      "figmaName": "Dashboard",
+      "nodeId": "74:1559"
+    },
+    {
+      "file": "dashboard-2.png",
+      "figmaName": "Dashboard",
+      "nodeId": "145:14674"
+    },
+    {
+      "file": "data-visualisations.png",
+      "figmaName": "Data Visualisations",
+      "nodeId": "192:135"
+    },
+    {
+      "file": "dashboard-3.png",
+      "figmaName": "Dashboard",
+      "nodeId": "145:16086"
+    },
+    {
+      "file": "dashboard-4.png",
+      "figmaName": "Dashboard",
+      "nodeId": "145:19118"
+    },
+    {
+      "file": "dashboard-5.png",
+      "figmaName": "Dashboard",
+      "nodeId": "145:22871"
+    },
+    {
+      "file": "motif.png",
+      "figmaName": "Motif",
+      "nodeId": "74:1573"
+    },
+    {
+      "file": "motif-2.png",
+      "figmaName": "Motif",
+      "nodeId": "146:6824"
+    },
+    {
+      "file": "motif-3.png",
+      "figmaName": "Motif",
+      "nodeId": "98:102"
+    },
+    {
+      "file": "motif-4.png",
+      "figmaName": "Motif",
+      "nodeId": "145:23715"
+    },
+    {
+      "file": "motif-5.png",
+      "figmaName": "Motif",
+      "nodeId": "145:23755"
+    },
+    {
+      "file": "how-to-use-this.png",
+      "figmaName": "How To Use This",
+      "nodeId": "74:1626"
+    },
+    {
+      "file": "logos.png",
+      "figmaName": "Logos",
+      "nodeId": "165:7838"
+    },
+    {
+      "file": "logos-2.png",
+      "figmaName": "Logos",
+      "nodeId": "145:23640"
+    },
+    {
+      "file": "logos-3.png",
+      "figmaName": "Logos",
+      "nodeId": "151:7832"
+    },
+    {
+      "file": "type.png",
+      "figmaName": "Type",
+      "nodeId": "74:1683"
+    },
+    {
+      "file": "type-2.png",
+      "figmaName": "Type",
+      "nodeId": "145:23593"
+    },
+    {
+      "file": "product-and-retail-graph.png",
+      "figmaName": "Product & Retail Graph",
+      "nodeId": "74:1708"
+    },
+    {
+      "file": "culture-and-trend.png",
+      "figmaName": "Culture & Trend",
+      "nodeId": "74:1714"
+    },
+    {
+      "file": "brand-and-performance.png",
+      "figmaName": "Brand & Performance",
+      "nodeId": "74:1720"
+    },
+    {
+      "file": "market-and-macro.png",
+      "figmaName": "Market & Macro",
+      "nodeId": "74:1726"
+    },
+    {
+      "file": "behavioural.png",
+      "figmaName": "Behavioural",
+      "nodeId": "74:1732"
+    },
+    {
+      "file": "biometric.png",
+      "figmaName": "Biometric",
+      "nodeId": "74:1738"
+    },
+    {
+      "file": "synthetic.png",
+      "figmaName": "Synthetic",
+      "nodeId": "74:1744"
+    },
+    {
+      "file": "report-icons.png",
+      "figmaName": "Report Icons",
+      "nodeId": "145:23730"
+    }
+  ]
+}

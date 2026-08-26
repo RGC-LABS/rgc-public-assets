@@ -1,0 +1,795 @@
+{
+  "source": {
+    "fileKey": "tK4jzuqvjdhLKK5KRSpk8k",
+    "figmaBoard": "Report Icons",
+    "node": "145:23730"
+  },
+  "format": "svg",
+  "scale": 1,
+  "exportedAt": "2026-08-17",
+  "count": 156,
+  "failed": [],
+  "assets": [
+    {
+      "file": "budget-dark.svg",
+      "figmaName": "Budget - Dark",
+      "nodeId": "144:231"
+    },
+    {
+      "file": "range-effectiveness-dark.svg",
+      "figmaName": "Range Effectiveness - Dark",
+      "nodeId": "144:232"
+    },
+    {
+      "file": "pricing-dark.svg",
+      "figmaName": "Pricing - Dark",
+      "nodeId": "144:233"
+    },
+    {
+      "file": "growth-dark.svg",
+      "figmaName": "Growth - Dark",
+      "nodeId": "144:234"
+    },
+    {
+      "file": "marketing-plans-dark.svg",
+      "figmaName": "Marketing Plans - Dark",
+      "nodeId": "144:235"
+    },
+    {
+      "file": "supplier-negotiations-dark.svg",
+      "figmaName": "Supplier Negotiations - Dark",
+      "nodeId": "144:236"
+    },
+    {
+      "file": "high-roas-dark.svg",
+      "figmaName": "High ROAS - Dark",
+      "nodeId": "144:237"
+    },
+    {
+      "file": "internal-storage-dark.svg",
+      "figmaName": "Internal Storage - Dark",
+      "nodeId": "144:238"
+    },
+    {
+      "file": "media-dark.svg",
+      "figmaName": "Media - Dark",
+      "nodeId": "144:239"
+    },
+    {
+      "file": "locked-dark.svg",
+      "figmaName": "Locked - Dark",
+      "nodeId": "144:240"
+    },
+    {
+      "file": "query-agent-dark.svg",
+      "figmaName": "Query Agent - Dark",
+      "nodeId": "144:241"
+    },
+    {
+      "file": "proprietary-data-dark.svg",
+      "figmaName": "Proprietary Data - Dark",
+      "nodeId": "144:242"
+    },
+    {
+      "file": "offline-storage-dark.svg",
+      "figmaName": "Offline Storage - Dark",
+      "nodeId": "144:243"
+    },
+    {
+      "file": "files-dark.svg",
+      "figmaName": "Files - Dark",
+      "nodeId": "144:244"
+    },
+    {
+      "file": "document-dark.svg",
+      "figmaName": "Document - Dark",
+      "nodeId": "144:245"
+    },
+    {
+      "file": "tools-dark.svg",
+      "figmaName": "Tools - Dark",
+      "nodeId": "144:246"
+    },
+    {
+      "file": "chat-dark.svg",
+      "figmaName": "Chat - Dark",
+      "nodeId": "144:247"
+    },
+    {
+      "file": "ask-us-dark.svg",
+      "figmaName": "Ask Us - Dark",
+      "nodeId": "144:248"
+    },
+    {
+      "file": "trend-dark.svg",
+      "figmaName": "Trend - Dark",
+      "nodeId": "144:249"
+    },
+    {
+      "file": "behaviour-dark.svg",
+      "figmaName": "Behaviour - Dark",
+      "nodeId": "144:250"
+    },
+    {
+      "file": "scientific-dark.svg",
+      "figmaName": "Scientific - Dark",
+      "nodeId": "144:251"
+    },
+    {
+      "file": "attention-v1-dark.svg",
+      "figmaName": "Attention V1 - Dark",
+      "nodeId": "144:252"
+    },
+    {
+      "file": "attention-v2-dark.svg",
+      "figmaName": "Attention V2 - Dark",
+      "nodeId": "144:253"
+    },
+    {
+      "file": "download-dark.svg",
+      "figmaName": "Download - Dark",
+      "nodeId": "144:254"
+    },
+    {
+      "file": "world-dark.svg",
+      "figmaName": "World - Dark",
+      "nodeId": "144:255"
+    },
+    {
+      "file": "human-input-dark.svg",
+      "figmaName": "Human Input - Dark",
+      "nodeId": "144:256"
+    },
+    {
+      "file": "automated-decisioning-dark.svg",
+      "figmaName": "Automated Decisioning - Dark",
+      "nodeId": "144:257"
+    },
+    {
+      "file": "info-dark.svg",
+      "figmaName": "Info - Dark",
+      "nodeId": "144:258"
+    },
+    {
+      "file": "unlock-dark.svg",
+      "figmaName": "Unlock - Dark",
+      "nodeId": "144:259"
+    },
+    {
+      "file": "ring-fenced-dark.svg",
+      "figmaName": "Ring Fenced - Dark",
+      "nodeId": "144:260"
+    },
+    {
+      "file": "secure-dark.svg",
+      "figmaName": "Secure - Dark",
+      "nodeId": "144:261"
+    },
+    {
+      "file": "jbp-evidence-dark.svg",
+      "figmaName": "JBP Evidence - Dark",
+      "nodeId": "144:262"
+    },
+    {
+      "file": "graphing-dark.svg",
+      "figmaName": "Graphing - Dark",
+      "nodeId": "144:263"
+    },
+    {
+      "file": "human-woman-dark.svg",
+      "figmaName": "Human Woman - Dark",
+      "nodeId": "144:264"
+    },
+    {
+      "file": "human-man-dark.svg",
+      "figmaName": "Human Man - Dark",
+      "nodeId": "144:265"
+    },
+    {
+      "file": "customisable-dark.svg",
+      "figmaName": "Customisable - Dark",
+      "nodeId": "144:266"
+    },
+    {
+      "file": "always-on-dark.svg",
+      "figmaName": "Always On - Dark",
+      "nodeId": "144:267"
+    },
+    {
+      "file": "connected-dark.svg",
+      "figmaName": "Connected - Dark",
+      "nodeId": "144:268"
+    },
+    {
+      "file": "highest-score-dark.svg",
+      "figmaName": "Highest Score - Dark",
+      "nodeId": "144:269"
+    },
+    {
+      "file": "audio-dark.svg",
+      "figmaName": "Audio - Dark",
+      "nodeId": "144:270"
+    },
+    {
+      "file": "human-signal-dark.svg",
+      "figmaName": "Human Signal - Dark",
+      "nodeId": "144:271"
+    },
+    {
+      "file": "private-label-npd-dark.svg",
+      "figmaName": "Private Label NPD - Dark",
+      "nodeId": "144:272"
+    },
+    {
+      "file": "global-dark.svg",
+      "figmaName": "Global - Dark",
+      "nodeId": "144:273"
+    },
+    {
+      "file": "directional-dark.svg",
+      "figmaName": "Directional - Dark",
+      "nodeId": "144:274"
+    },
+    {
+      "file": "location-dark.svg",
+      "figmaName": "Location - Dark",
+      "nodeId": "144:275"
+    },
+    {
+      "file": "value-dark.svg",
+      "figmaName": "Value - Dark",
+      "nodeId": "144:276"
+    },
+    {
+      "file": "cost-dark.svg",
+      "figmaName": "Cost - Dark",
+      "nodeId": "144:277"
+    },
+    {
+      "file": "wider-market-dark.svg",
+      "figmaName": "Wider Market - Dark",
+      "nodeId": "144:278"
+    },
+    {
+      "file": "in-store-dark.svg",
+      "figmaName": "In-Store - Dark",
+      "nodeId": "144:279"
+    },
+    {
+      "file": "audience-dark.svg",
+      "figmaName": "Audience - Dark",
+      "nodeId": "144:280"
+    },
+    {
+      "file": "office-dark.svg",
+      "figmaName": "Office - Dark",
+      "nodeId": "144:281"
+    },
+    {
+      "file": "business-dark.svg",
+      "figmaName": "Business - Dark",
+      "nodeId": "144:282"
+    },
+    {
+      "file": "factory-dark.svg",
+      "figmaName": "Factory - Dark",
+      "nodeId": "144:283"
+    },
+    {
+      "file": "network-dark.svg",
+      "figmaName": "Network - Dark",
+      "nodeId": "144:284"
+    },
+    {
+      "file": "biometric-dark.svg",
+      "figmaName": "Biometric - Dark",
+      "nodeId": "144:285"
+    },
+    {
+      "file": "research-dark.svg",
+      "figmaName": "Research - Dark",
+      "nodeId": "144:286"
+    },
+    {
+      "file": "product-and-retail-dark.svg",
+      "figmaName": "Product & Retail - Dark",
+      "nodeId": "144:287"
+    },
+    {
+      "file": "groceries-dark.svg",
+      "figmaName": "Groceries - Dark",
+      "nodeId": "144:288"
+    },
+    {
+      "file": "barcode-dark.svg",
+      "figmaName": "Barcode - Dark",
+      "nodeId": "144:289"
+    },
+    {
+      "file": "discount-dark.svg",
+      "figmaName": "Discount - Dark",
+      "nodeId": "144:290"
+    },
+    {
+      "file": "receipt-dark.svg",
+      "figmaName": "Receipt - Dark",
+      "nodeId": "144:291"
+    },
+    {
+      "file": "winning-listings-dark.svg",
+      "figmaName": "Winning Listings - Dark",
+      "nodeId": "144:292"
+    },
+    {
+      "file": "complete-dark.svg",
+      "figmaName": "Complete - Dark",
+      "nodeId": "144:293"
+    },
+    {
+      "file": "flagged-dark.svg",
+      "figmaName": "Flagged - Dark",
+      "nodeId": "144:294"
+    },
+    {
+      "file": "synthetic-shopper-dark.svg",
+      "figmaName": "Synthetic Shopper - Dark",
+      "nodeId": "144:295"
+    },
+    {
+      "file": "synthetic-buyer-dark.svg",
+      "figmaName": "Synthetic Buyer - Dark",
+      "nodeId": "144:296"
+    },
+    {
+      "file": "mastering-dark.svg",
+      "figmaName": "Mastering - Dark",
+      "nodeId": "144:297"
+    },
+    {
+      "file": "macro-dark.svg",
+      "figmaName": "Macro - Dark",
+      "nodeId": "144:298"
+    },
+    {
+      "file": "home-dark.svg",
+      "figmaName": "Home - Dark",
+      "nodeId": "144:299"
+    },
+    {
+      "file": "live-competitor-tracking-dark.svg",
+      "figmaName": "Live Competitor Tracking - Dark",
+      "nodeId": "144:300"
+    },
+    {
+      "file": "email-dark.svg",
+      "figmaName": "Email - Dark",
+      "nodeId": "144:301"
+    },
+    {
+      "file": "click-dark.svg",
+      "figmaName": "Click - Dark",
+      "nodeId": "144:302"
+    },
+    {
+      "file": "share-v2-dark.svg",
+      "figmaName": "Share V2 - Dark",
+      "nodeId": "144:303"
+    },
+    {
+      "file": "signal-dark.svg",
+      "figmaName": "Signal - Dark",
+      "nodeId": "144:304"
+    },
+    {
+      "file": "roas-dark.svg",
+      "figmaName": "ROAS - Dark",
+      "nodeId": "144:305"
+    },
+    {
+      "file": "whitespace-dark.svg",
+      "figmaName": "Whitespace - Dark",
+      "nodeId": "144:306"
+    },
+    {
+      "file": "brand-and-performance-dark.svg",
+      "figmaName": "Brand & Performance - Dark",
+      "nodeId": "144:307"
+    },
+    {
+      "file": "budget-light.svg",
+      "figmaName": "Budget - Light",
+      "nodeId": "144:153"
+    },
+    {
+      "file": "range-effectiveness-light.svg",
+      "figmaName": "Range Effectiveness - Light",
+      "nodeId": "144:154"
+    },
+    {
+      "file": "pricing-light.svg",
+      "figmaName": "Pricing - Light",
+      "nodeId": "144:155"
+    },
+    {
+      "file": "growth-light.svg",
+      "figmaName": "Growth - Light",
+      "nodeId": "144:156"
+    },
+    {
+      "file": "makreting-plans-light.svg",
+      "figmaName": "Makreting Plans - Light",
+      "nodeId": "144:157"
+    },
+    {
+      "file": "supplier-negotiations-light.svg",
+      "figmaName": "Supplier Negotiations - Light",
+      "nodeId": "144:158"
+    },
+    {
+      "file": "high-roas-light.svg",
+      "figmaName": "High ROAS - Light",
+      "nodeId": "144:159"
+    },
+    {
+      "file": "internal-storage-light.svg",
+      "figmaName": "Internal Storage - Light",
+      "nodeId": "144:160"
+    },
+    {
+      "file": "media-light.svg",
+      "figmaName": "Media - Light",
+      "nodeId": "144:161"
+    },
+    {
+      "file": "locked-light.svg",
+      "figmaName": "Locked - Light",
+      "nodeId": "144:162"
+    },
+    {
+      "file": "desktop-light.svg",
+      "figmaName": "Desktop - Light",
+      "nodeId": "144:163"
+    },
+    {
+      "file": "query-agent-light.svg",
+      "figmaName": "Query Agent - Light",
+      "nodeId": "144:164"
+    },
+    {
+      "file": "proprietary-data-light.svg",
+      "figmaName": "Proprietary Data - Light",
+      "nodeId": "144:165"
+    },
+    {
+      "file": "offline-storage-light.svg",
+      "figmaName": "Offline Storage - Light",
+      "nodeId": "144:166"
+    },
+    {
+      "file": "files-light.svg",
+      "figmaName": "Files - Light",
+      "nodeId": "144:167"
+    },
+    {
+      "file": "document-light.svg",
+      "figmaName": "Document - Light",
+      "nodeId": "144:168"
+    },
+    {
+      "file": "tools-light.svg",
+      "figmaName": "Tools - Light",
+      "nodeId": "144:169"
+    },
+    {
+      "file": "chat-light.svg",
+      "figmaName": "Chat - Light",
+      "nodeId": "144:170"
+    },
+    {
+      "file": "ask-us-light.svg",
+      "figmaName": "Ask Us - Light",
+      "nodeId": "144:171"
+    },
+    {
+      "file": "trend-light.svg",
+      "figmaName": "Trend - Light",
+      "nodeId": "144:172"
+    },
+    {
+      "file": "behaviour-light.svg",
+      "figmaName": "Behaviour - Light",
+      "nodeId": "144:173"
+    },
+    {
+      "file": "scientific-light.svg",
+      "figmaName": "Scientific - Light",
+      "nodeId": "144:174"
+    },
+    {
+      "file": "attention-v1-light.svg",
+      "figmaName": "Attention V1 - Light",
+      "nodeId": "144:175"
+    },
+    {
+      "file": "attention-v2-light.svg",
+      "figmaName": "Attention V2 - Light",
+      "nodeId": "144:176"
+    },
+    {
+      "file": "download-light.svg",
+      "figmaName": "Download - Light",
+      "nodeId": "144:177"
+    },
+    {
+      "file": "world-light.svg",
+      "figmaName": "World - Light",
+      "nodeId": "144:178"
+    },
+    {
+      "file": "human-input-light.svg",
+      "figmaName": "Human Input - Light",
+      "nodeId": "144:179"
+    },
+    {
+      "file": "automated-decisioning-light.svg",
+      "figmaName": "Automated Decisioning - Light",
+      "nodeId": "144:180"
+    },
+    {
+      "file": "info-light.svg",
+      "figmaName": "Info - Light",
+      "nodeId": "144:181"
+    },
+    {
+      "file": "unlock-light.svg",
+      "figmaName": "Unlock - Light",
+      "nodeId": "144:182"
+    },
+    {
+      "file": "ring-fenced-light.svg",
+      "figmaName": "Ring Fenced - Light",
+      "nodeId": "144:183"
+    },
+    {
+      "file": "secure-light.svg",
+      "figmaName": "Secure - Light",
+      "nodeId": "144:184"
+    },
+    {
+      "file": "jbp-evidence-light.svg",
+      "figmaName": "JBP Evidence - Light",
+      "nodeId": "144:185"
+    },
+    {
+      "file": "graphing-light.svg",
+      "figmaName": "Graphing - Light",
+      "nodeId": "144:186"
+    },
+    {
+      "file": "human-woman-light.svg",
+      "figmaName": "Human Woman - Light",
+      "nodeId": "144:187"
+    },
+    {
+      "file": "human-man-light.svg",
+      "figmaName": "Human Man - Light",
+      "nodeId": "144:188"
+    },
+    {
+      "file": "customisable-light.svg",
+      "figmaName": "Customisable - Light",
+      "nodeId": "144:189"
+    },
+    {
+      "file": "always-on-light.svg",
+      "figmaName": "Always On - Light",
+      "nodeId": "144:190"
+    },
+    {
+      "file": "connected-light.svg",
+      "figmaName": "Connected - Light",
+      "nodeId": "144:191"
+    },
+    {
+      "file": "highest-score-light.svg",
+      "figmaName": "Highest Score - Light",
+      "nodeId": "144:192"
+    },
+    {
+      "file": "audio-light.svg",
+      "figmaName": "Audio - Light",
+      "nodeId": "144:193"
+    },
+    {
+      "file": "human-signal-light.svg",
+      "figmaName": "Human Signal - Light",
+      "nodeId": "144:194"
+    },
+    {
+      "file": "private-label-npd-light.svg",
+      "figmaName": "Private Label NPD - Light",
+      "nodeId": "144:195"
+    },
+    {
+      "file": "global-light.svg",
+      "figmaName": "Global - Light",
+      "nodeId": "144:196"
+    },
+    {
+      "file": "directional-light.svg",
+      "figmaName": "Directional - Light",
+      "nodeId": "144:197"
+    },
+    {
+      "file": "location-light.svg",
+      "figmaName": "Location - Light",
+      "nodeId": "144:198"
+    },
+    {
+      "file": "value-light.svg",
+      "figmaName": "Value - Light",
+      "nodeId": "144:199"
+    },
+    {
+      "file": "cost-light.svg",
+      "figmaName": "Cost - Light",
+      "nodeId": "144:200"
+    },
+    {
+      "file": "wider-market-light.svg",
+      "figmaName": "Wider Market - Light",
+      "nodeId": "144:201"
+    },
+    {
+      "file": "in-store-light.svg",
+      "figmaName": "In-Store - Light",
+      "nodeId": "144:202"
+    },
+    {
+      "file": "audience-light.svg",
+      "figmaName": "Audience - Light",
+      "nodeId": "144:203"
+    },
+    {
+      "file": "office-light.svg",
+      "figmaName": "Office - Light",
+      "nodeId": "144:204"
+    },
+    {
+      "file": "business-light.svg",
+      "figmaName": "Business - Light",
+      "nodeId": "144:205"
+    },
+    {
+      "file": "factory-light.svg",
+      "figmaName": "Factory - Light",
+      "nodeId": "144:206"
+    },
+    {
+      "file": "network-light.svg",
+      "figmaName": "Network - Light",
+      "nodeId": "144:207"
+    },
+    {
+      "file": "biometric-light.svg",
+      "figmaName": "Biometric - Light",
+      "nodeId": "144:208"
+    },
+    {
+      "file": "research-light.svg",
+      "figmaName": "Research - Light",
+      "nodeId": "144:209"
+    },
+    {
+      "file": "product-and-retail-light.svg",
+      "figmaName": "Product & Retail - Light",
+      "nodeId": "144:210"
+    },
+    {
+      "file": "groceries-light.svg",
+      "figmaName": "Groceries - Light",
+      "nodeId": "144:211"
+    },
+    {
+      "file": "barcode-light.svg",
+      "figmaName": "Barcode - Light",
+      "nodeId": "144:212"
+    },
+    {
+      "file": "discount-light.svg",
+      "figmaName": "Discount - Light",
+      "nodeId": "144:213"
+    },
+    {
+      "file": "receipt-light.svg",
+      "figmaName": "Receipt - Light",
+      "nodeId": "144:214"
+    },
+    {
+      "file": "winning-listings-light.svg",
+      "figmaName": "Winning Listings - Light",
+      "nodeId": "144:215"
+    },
+    {
+      "file": "complete-light.svg",
+      "figmaName": "Complete - Light",
+      "nodeId": "144:216"
+    },
+    {
+      "file": "flagged-light.svg",
+      "figmaName": "Flagged - Light",
+      "nodeId": "144:217"
+    },
+    {
+      "file": "synthetic-shopper-light.svg",
+      "figmaName": "Synthetic Shopper - Light",
+      "nodeId": "144:218"
+    },
+    {
+      "file": "synthetic-buyer-light.svg",
+      "figmaName": "Synthetic Buyer - Light",
+      "nodeId": "144:219"
+    },
+    {
+      "file": "mastering-light.svg",
+      "figmaName": "Mastering - Light",
+      "nodeId": "144:220"
+    },
+    {
+      "file": "macro-light.svg",
+      "figmaName": "Macro - Light",
+      "nodeId": "144:221"
+    },
+    {
+      "file": "home-light.svg",
+      "figmaName": "Home - Light",
+      "nodeId": "144:222"
+    },
+    {
+      "file": "live-competitor-tracking-light.svg",
+      "figmaName": "Live Competitor Tracking - Light",
+      "nodeId": "144:223"
+    },
+    {
+      "file": "email-light.svg",
+      "figmaName": "Email - Light",
+      "nodeId": "144:224"
+    },
+    {
+      "file": "click-light.svg",
+      "figmaName": "Click - Light",
+      "nodeId": "144:225"
+    },
+    {
+      "file": "share-v2-light.svg",
+      "figmaName": "Share V2 - Light",
+      "nodeId": "144:226"
+    },
+    {
+      "file": "signal-light.svg",
+      "figmaName": "Signal - Light",
+      "nodeId": "144:227"
+    },
+    {
+      "file": "roas-light.svg",
+      "figmaName": "ROAS - Light",
+      "nodeId": "144:228"
+    },
+    {
+      "file": "whitespace-light.svg",
+      "figmaName": "Whitespace - Light",
+      "nodeId": "144:229"
+    },
+    {
+      "file": "brand-and-performance-light.svg",
+      "figmaName": "Brand & Performance - Light",
+      "nodeId": "144:230"
+    },
+    {
+      "file": "desktop-dark.svg",
+      "figmaName": "Desktop - Dark",
+      "nodeId": "207:3339",
+      "via": "Figma UI export, 2026-08-17"
+    }
+  ]
+}

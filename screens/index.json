@@ -1,0 +1,62 @@
+{
+  "source": {
+    "fileKey": "tK4jzuqvjdhLKK5KRSpk8k",
+    "figmaBoard": "dashboard screens nested in Dashboard boards"
+  },
+  "via": "Figma UI export, imported with sync/import-ui-export.mjs",
+  "importedAt": "2026-08-17",
+  "count": 10,
+  "expected": 10,
+  "assets": [
+    {
+      "file": "prodretail-screen.png",
+      "figmaName": "prodretail-screen",
+      "nodeId": "145:13976"
+    },
+    {
+      "file": "brandperform-screen.png",
+      "figmaName": "brandperform-screen",
+      "nodeId": "145:13276"
+    },
+    {
+      "file": "culturetrend-screen.png",
+      "figmaName": "culturetrend-screen",
+      "nodeId": "145:11890"
+    },
+    {
+      "file": "marketmacro-screen.png",
+      "figmaName": "marketmacro-screen",
+      "nodeId": "145:12575"
+    },
+    {
+      "file": "behave-screen.png",
+      "figmaName": "behave-screen",
+      "nodeId": "145:10976"
+    },
+    {
+      "file": "biometric-screen.png",
+      "figmaName": "biometric-screen",
+      "nodeId": "145:10274"
+    },
+    {
+      "file": "roas-screen.png",
+      "figmaName": "roas-screen",
+      "nodeId": "145:8822"
+    },
+    {
+      "file": "synthetic-screen.png",
+      "figmaName": "synthetic-screen",
+      "nodeId": "147:7058"
+    },
+    {
+      "file": "whitespace-screen.png",
+      "figmaName": "whitespace-screen",
+      "nodeId": "145:22161"
+    },
+    {
+      "file": "confidence-screen.png",
+      "figmaName": "confidence-screen",
+      "nodeId": "145:21467"
+    }
+  ]
+}

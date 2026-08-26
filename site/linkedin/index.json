@@ -1,0 +1,24 @@
+{
+  "source": {
+    "via": "Figma UI export, promoted from extras/"
+  },
+  "count": 2,
+  "assets": [
+    {
+      "file": "LinkedIn_Personal_Profile_Banner.png",
+      "figmaName": "LinkedIn_Personal_Profile_Banner",
+      "nodeId": "168:8033",
+      "page": "Branding",
+      "width": 1007,
+      "height": 317
+    },
+    {
+      "file": "LinkedIn_Company_Profile_Banner.png",
+      "figmaName": "LinkedIn_Company_Profile_Banner",
+      "nodeId": "168:8037",
+      "page": "Branding",
+      "width": 2855,
+      "height": 671
+    }
+  ]
+}

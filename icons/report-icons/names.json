@@ -1,0 +1,121 @@
+{
+  "generatedBy": "sync/icons.mjs",
+  "count": 78,
+  "monoFill": {
+    "light": "#1D1D1D",
+    "dark": "#077F97",
+    "normalisedTo": "currentColor"
+  },
+  "accentGradient": {
+    "light": {
+      "token": "--grad-house",
+      "stops": [
+        "#C2FF00",
+        "#CE6CBF"
+      ],
+      "cssVars": {
+        "--ri-accent-start": "#C2FF00",
+        "--ri-accent-end": "#CE6CBF"
+      }
+    },
+    "dark": {
+      "token": "--grad-house-cool",
+      "stops": [
+        "#C2FF00",
+        "#4DC9E2"
+      ],
+      "cssVars": {
+        "--ri-accent-start": "#C2FF00",
+        "--ri-accent-end": "#4DC9E2"
+      }
+    },
+    "note": "Set --ri-accent-end (and color) on the container; foundations/themes.css does this for .on-dark / [data-theme=dark]."
+  },
+  "aliases": {
+    "makreting-plans": "marketing-plans"
+  },
+  "notes": [
+    "desktop: the -dark variant is sourced from the Deck page (207:3339) at 148x160; the -light board variant (34x37) is used here.",
+    "whitespace: -dark and -light have slightly different path geometry in Figma; the -light board variant is used here. Reconcile at source."
+  ],
+  "names": [
+    "always-on",
+    "ask-us",
+    "attention-v1",
+    "attention-v2",
+    "audience",
+    "audio",
+    "automated-decisioning",
+    "barcode",
+    "behaviour",
+    "biometric",
+    "brand-and-performance",
+    "budget",
+    "business",
+    "chat",
+    "click",
+    "complete",
+    "connected",
+    "cost",
+    "customisable",
+    "desktop",
+    "directional",
+    "discount",
+    "document",
+    "download",
+    "email",
+    "factory",
+    "files",
+    "flagged",
+    "global",
+    "graphing",
+    "groceries",
+    "growth",
+    "high-roas",
+    "highest-score",
+    "home",
+    "human-input",
+    "human-man",
+    "human-signal",
+    "human-woman",
+    "in-store",
+    "info",
+    "internal-storage",
+    "jbp-evidence",
+    "live-competitor-tracking",
+    "location",
+    "locked",
+    "macro",
+    "marketing-plans",
+    "mastering",
+    "media",
+    "network",
+    "office",
+    "offline-storage",
+    "pricing",
+    "private-label-npd",
+    "product-and-retail",
+    "proprietary-data",
+    "query-agent",
+    "range-effectiveness",
+    "receipt",
+    "research",
+    "ring-fenced",
+    "roas",
+    "scientific",
+    "secure",
+    "share-v2",
+    "signal",
+    "supplier-negotiations",
+    "synthetic-buyer",
+    "synthetic-shopper",
+    "tools",
+    "trend",
+    "unlock",
+    "value",
+    "whitespace",
+    "wider-market",
+    "winning-listings",
+    "world"
+  ]
+}

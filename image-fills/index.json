@@ -1,0 +1,859 @@
+{
+  "source": {
+    "fileKey": "tK4jzuqvjdhLKK5KRSpk8k",
+    "endpoint": "/v1/files/:key/images (image fills)"
+  },
+  "note": "Source bitmaps embedded as fills. Not charged against the render quota.",
+  "exportedAt": "2026-08-17",
+  "count": 121,
+  "failed": [],
+  "assets": [
+    {
+      "file": "image.png",
+      "figmaName": "image",
+      "nodeId": "146:138",
+      "page": "Branding",
+      "usedByLayers": 3
+    },
+    {
+      "file": "background.png",
+      "figmaName": "Background",
+      "nodeId": "146:236",
+      "page": "Branding",
+      "usedByLayers": 13
+    },
+    {
+      "file": "background-2.png",
+      "figmaName": "Background",
+      "nodeId": "146:236",
+      "page": "Branding",
+      "usedByLayers": 13
+    },
+    {
+      "file": "image-6545.png",
+      "figmaName": "image 6545",
+      "nodeId": "146:643",
+      "page": "Branding",
+      "usedByLayers": 9
+    },
+    {
+      "file": "image-6545-2.png",
+      "figmaName": "image 6545",
+      "nodeId": "146:643",
+      "page": "Branding",
+      "usedByLayers": 9
+    },
+    {
+      "file": "rectangle.jpg",
+      "figmaName": "Rectangle",
+      "nodeId": "146:2572",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "rectangle-2.png",
+      "figmaName": "Rectangle",
+      "nodeId": "146:2587",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "rectangle-3.png",
+      "figmaName": "Rectangle",
+      "nodeId": "146:2602",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-2.png",
+      "figmaName": "image",
+      "nodeId": "146:1004",
+      "page": "Branding",
+      "usedByLayers": 5
+    },
+    {
+      "file": "background-3.png",
+      "figmaName": "Background",
+      "nodeId": "147:7035",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "screenshot-2026-07-01-at-11-53-55-2.png",
+      "figmaName": "Screenshot 2026-07-01 at 11.53.55 2",
+      "nodeId": "164:3925",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "screenshot-2026-07-01-at-11-53-55-2-2.png",
+      "figmaName": "Screenshot 2026-07-01 at 11.53.55 2",
+      "nodeId": "164:3925",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "screenshot-2026-07-01-at-11-53-55-2-3.png",
+      "figmaName": "Screenshot 2026-07-01 at 11.53.55 2",
+      "nodeId": "164:3925",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "be-icon.png",
+      "figmaName": "be-icon",
+      "nodeId": "164:4290",
+      "page": "Branding",
+      "usedByLayers": 10
+    },
+    {
+      "file": "background-4.png",
+      "figmaName": "Background",
+      "nodeId": "164:4660",
+      "page": "Branding",
+      "usedByLayers": 3
+    },
+    {
+      "file": "image-3.png",
+      "figmaName": "image",
+      "nodeId": "164:4732",
+      "page": "Branding",
+      "usedByLayers": 4
+    },
+    {
+      "file": "image-6561.png",
+      "figmaName": "image 6561",
+      "nodeId": "164:5229",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6561-2.png",
+      "figmaName": "image 6561",
+      "nodeId": "164:5229",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6860.png",
+      "figmaName": "image 6860",
+      "nodeId": "164:5718",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-6860-2.png",
+      "figmaName": "image 6860",
+      "nodeId": "164:5718",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-6853.png",
+      "figmaName": "image 6853",
+      "nodeId": "164:6224",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "image-6853-2.png",
+      "figmaName": "image 6853",
+      "nodeId": "164:6224",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "background-5.png",
+      "figmaName": "Background",
+      "nodeId": "164:6225",
+      "page": "Branding",
+      "usedByLayers": 13
+    },
+    {
+      "file": "background-6.png",
+      "figmaName": "Background",
+      "nodeId": "164:6225",
+      "page": "Branding",
+      "usedByLayers": 13
+    },
+    {
+      "file": "image-6527.png",
+      "figmaName": "image 6527",
+      "nodeId": "164:6923",
+      "page": "Branding",
+      "usedByLayers": 18
+    },
+    {
+      "file": "image-6527-2.png",
+      "figmaName": "image 6527",
+      "nodeId": "164:6923",
+      "page": "Branding",
+      "usedByLayers": 18
+    },
+    {
+      "file": "image-6528.png",
+      "figmaName": "image 6528",
+      "nodeId": "164:6924",
+      "page": "Branding",
+      "usedByLayers": 9
+    },
+    {
+      "file": "image-6528-2.png",
+      "figmaName": "image 6528",
+      "nodeId": "164:6924",
+      "page": "Branding",
+      "usedByLayers": 9
+    },
+    {
+      "file": "background-7.png",
+      "figmaName": "Background",
+      "nodeId": "168:8023",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "background-8.png",
+      "figmaName": "Background",
+      "nodeId": "168:8023",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "background-9.png",
+      "figmaName": "Background",
+      "nodeId": "168:8024",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-6562.png",
+      "figmaName": "image 6562",
+      "nodeId": "226:28",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-6562-2.png",
+      "figmaName": "image 6562",
+      "nodeId": "226:28",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-6541.png",
+      "figmaName": "image 6541",
+      "nodeId": "168:7969",
+      "page": "Branding",
+      "usedByLayers": 8
+    },
+    {
+      "file": "image-6541-2.png",
+      "figmaName": "image 6541",
+      "nodeId": "168:7969",
+      "page": "Branding",
+      "usedByLayers": 8
+    },
+    {
+      "file": "bio-icon.png",
+      "figmaName": "bio-icon",
+      "nodeId": "145:10361",
+      "page": "Branding",
+      "usedByLayers": 7
+    },
+    {
+      "file": "bio-icon-2.png",
+      "figmaName": "bio-icon",
+      "nodeId": "145:10361",
+      "page": "Branding",
+      "usedByLayers": 7
+    },
+    {
+      "file": "image-4.png",
+      "figmaName": "image",
+      "nodeId": "145:8908",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-5.png",
+      "figmaName": "image",
+      "nodeId": "147:7144",
+      "page": "Branding",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-6860-3.png",
+      "figmaName": "image 6860",
+      "nodeId": "153:7864",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6541-3.png",
+      "figmaName": "image 6541",
+      "nodeId": "146:6903",
+      "page": "Branding",
+      "usedByLayers": 3
+    },
+    {
+      "file": "image-6541-4.png",
+      "figmaName": "image 6541",
+      "nodeId": "146:6903",
+      "page": "Branding",
+      "usedByLayers": 3
+    },
+    {
+      "file": "image-6562-3.png",
+      "figmaName": "image 6562",
+      "nodeId": "146:3424",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "copy-of-copy-of-static-ad-workflow-part-1-of-the-four-grade-.png",
+      "figmaName": "Copy of Copy of Static Ad Workflow (Part 1 of the Four-Grade Ad System)_Gemini 3 (Nano Banana Pro)_2026-07-02_15-04-11 1",
+      "nodeId": "144:120",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "copy-of-copy-of-static-ad-workflow-part-1-of-the-four-grade--2.png",
+      "figmaName": "Copy of Copy of Static Ad Workflow (Part 1 of the Four-Grade Ad System)_Gemini 3 (Nano Banana Pro)_2026-07-02_15-04-11 1",
+      "nodeId": "144:120",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6564.png",
+      "figmaName": "image 6564",
+      "nodeId": "144:70",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6564-2.png",
+      "figmaName": "image 6564",
+      "nodeId": "144:70",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-10.png",
+      "figmaName": "Background",
+      "nodeId": "144:72",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "object.png",
+      "figmaName": "Object",
+      "nodeId": "144:83",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6854.png",
+      "figmaName": "image 6854",
+      "nodeId": "144:118",
+      "page": "Branding",
+      "usedByLayers": 4
+    },
+    {
+      "file": "image-6854-2.png",
+      "figmaName": "image 6854",
+      "nodeId": "144:118",
+      "page": "Branding",
+      "usedByLayers": 4
+    },
+    {
+      "file": "image-6855.png",
+      "figmaName": "image 6855",
+      "nodeId": "144:122",
+      "page": "Branding",
+      "usedByLayers": 3
+    },
+    {
+      "file": "image-6855-2.png",
+      "figmaName": "image 6855",
+      "nodeId": "144:122",
+      "page": "Branding",
+      "usedByLayers": 3
+    },
+    {
+      "file": "background-11.png",
+      "figmaName": "Background",
+      "nodeId": "145:7337",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-12.png",
+      "figmaName": "Background",
+      "nodeId": "145:7337",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-13.png",
+      "figmaName": "Background",
+      "nodeId": "145:7339",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-14.png",
+      "figmaName": "Background",
+      "nodeId": "145:7339",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "object-2.png",
+      "figmaName": "Object",
+      "nodeId": "145:7342",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "eyed-1.png",
+      "figmaName": "eyed 1",
+      "nodeId": "145:23713",
+      "page": "Branding",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6523.png",
+      "figmaName": "image 6523",
+      "nodeId": "151:7829",
+      "page": "Branding",
+      "usedByLayers": 4
+    },
+    {
+      "file": "image-6523-2.png",
+      "figmaName": "image 6523",
+      "nodeId": "151:7829",
+      "page": "Branding",
+      "usedByLayers": 4
+    },
+    {
+      "file": "screenshot-2026-07-10-at-10-02-17-1.png",
+      "figmaName": "Screenshot 2026-07-10 at 10.02.17 1",
+      "nodeId": "144:341",
+      "page": "Branding",
+      "usedByLayers": 12
+    },
+    {
+      "file": "screenshot-2026-07-10-at-10-02-17-1-2.png",
+      "figmaName": "Screenshot 2026-07-10 at 10.02.17 1",
+      "nodeId": "144:341",
+      "page": "Branding",
+      "usedByLayers": 12
+    },
+    {
+      "file": "background-15.png",
+      "figmaName": "Background",
+      "nodeId": "144:320",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "background-16.png",
+      "figmaName": "Background",
+      "nodeId": "144:320",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "bp-icon.png",
+      "figmaName": "bp-icon",
+      "nodeId": "144:383",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "bp-icon-2.png",
+      "figmaName": "bp-icon",
+      "nodeId": "144:383",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "mm-icon.png",
+      "figmaName": "mm-icon",
+      "nodeId": "144:335",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "mm-icon-2.png",
+      "figmaName": "mm-icon",
+      "nodeId": "144:335",
+      "page": "Branding",
+      "usedByLayers": 6
+    },
+    {
+      "file": "background-17.png",
+      "figmaName": "Background",
+      "nodeId": "176:7270",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-18.png",
+      "figmaName": "Background",
+      "nodeId": "176:7270",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "group-1820283651-1.png",
+      "figmaName": "Group 1820283651 1",
+      "nodeId": "176:7272",
+      "page": "Deck",
+      "usedByLayers": 2
+    },
+    {
+      "file": "image-6540.png",
+      "figmaName": "image 6540",
+      "nodeId": "207:511",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6540-2.png",
+      "figmaName": "image 6540",
+      "nodeId": "207:511",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237137.jpg",
+      "figmaName": "Frame 2147237137",
+      "nodeId": "205:1864",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237138.jpg",
+      "figmaName": "Frame 2147237138",
+      "nodeId": "205:1865",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237139.jpg",
+      "figmaName": "Frame 2147237139",
+      "nodeId": "205:1866",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237140.jpg",
+      "figmaName": "Frame 2147237140",
+      "nodeId": "205:1867",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237141.jpg",
+      "figmaName": "Frame 2147237141",
+      "nodeId": "205:1868",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237142.jpg",
+      "figmaName": "Frame 2147237142",
+      "nodeId": "205:1869",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237143.jpg",
+      "figmaName": "Frame 2147237143",
+      "nodeId": "205:1870",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237144.jpg",
+      "figmaName": "Frame 2147237144",
+      "nodeId": "205:1871",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237145.jpg",
+      "figmaName": "Frame 2147237145",
+      "nodeId": "205:1872",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237146.jpg",
+      "figmaName": "Frame 2147237146",
+      "nodeId": "205:1873",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237147.jpg",
+      "figmaName": "Frame 2147237147",
+      "nodeId": "205:1874",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237148.jpg",
+      "figmaName": "Frame 2147237148",
+      "nodeId": "205:1875",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237149.jpg",
+      "figmaName": "Frame 2147237149",
+      "nodeId": "205:1876",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "frame-2147237136.jpg",
+      "figmaName": "Frame 2147237136",
+      "nodeId": "205:1877",
+      "page": "Deck",
+      "usedByLayers": 2
+    },
+    {
+      "file": "background-19.png",
+      "figmaName": "Background",
+      "nodeId": "197:1701",
+      "page": "Deck",
+      "usedByLayers": 2
+    },
+    {
+      "file": "background-20.png",
+      "figmaName": "Background",
+      "nodeId": "197:1681",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-21.png",
+      "figmaName": "Background",
+      "nodeId": "197:1681",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-22.png",
+      "figmaName": "Background",
+      "nodeId": "207:573",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "background-23.png",
+      "figmaName": "Background",
+      "nodeId": "207:573",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "object-3.png",
+      "figmaName": "Object",
+      "nodeId": "207:576",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "screenshot-2026-07-17-at-15-11-26-1.png",
+      "figmaName": "Screenshot 2026-07-17 at 15.11.26 1",
+      "nodeId": "207:263",
+      "page": "Deck",
+      "usedByLayers": 3
+    },
+    {
+      "file": "screenshot-2026-07-17-at-15-11-26-1-2.png",
+      "figmaName": "Screenshot 2026-07-17 at 15.11.26 1",
+      "nodeId": "207:263",
+      "page": "Deck",
+      "usedByLayers": 3
+    },
+    {
+      "file": "background-24.png",
+      "figmaName": "Background",
+      "nodeId": "210:3881",
+      "page": "Deck",
+      "usedByLayers": 2
+    },
+    {
+      "file": "background-25.png",
+      "figmaName": "Background",
+      "nodeId": "210:3881",
+      "page": "Deck",
+      "usedByLayers": 2
+    },
+    {
+      "file": "logo.png",
+      "figmaName": "Logo",
+      "nodeId": "215:148",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "avatar.png",
+      "figmaName": "Avatar",
+      "nodeId": "215:149",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "product-image.png",
+      "figmaName": "Product Image",
+      "nodeId": "215:187",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "product-image-2.png",
+      "figmaName": "Product Image",
+      "nodeId": "215:194",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "photo-card.png",
+      "figmaName": "Photo Card",
+      "nodeId": "215:205",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "photo-card-2.png",
+      "figmaName": "Photo Card",
+      "nodeId": "215:206",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "photo-card-3.png",
+      "figmaName": "Photo Card",
+      "nodeId": "215:207",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "best-review-banner.jpg",
+      "figmaName": "Best Review Banner",
+      "nodeId": "215:209",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "photo-card-4.png",
+      "figmaName": "Photo Card",
+      "nodeId": "215:220",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "photo-card-5.png",
+      "figmaName": "Photo Card",
+      "nodeId": "215:221",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "photo-card-6.png",
+      "figmaName": "Photo Card",
+      "nodeId": "215:222",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6851.png",
+      "figmaName": "image 6851",
+      "nodeId": "215:493",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6851-2.png",
+      "figmaName": "image 6851",
+      "nodeId": "215:493",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-78.png",
+      "figmaName": "image 78",
+      "nodeId": "210:4247",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-78-2.png",
+      "figmaName": "image 78",
+      "nodeId": "210:4247",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6511.png",
+      "figmaName": "image 6511",
+      "nodeId": "210:4499",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6511-2.png",
+      "figmaName": "image 6511",
+      "nodeId": "210:4499",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6502.png",
+      "figmaName": "image 6502",
+      "nodeId": "210:5526",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6502-2.png",
+      "figmaName": "image 6502",
+      "nodeId": "210:5526",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "image-6445.png",
+      "figmaName": "image 6445",
+      "nodeId": "210:5528",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "container.jpg",
+      "figmaName": "Container",
+      "nodeId": "210:4988",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "container-2.png",
+      "figmaName": "Container",
+      "nodeId": "210:5012",
+      "page": "Deck",
+      "usedByLayers": 1
+    },
+    {
+      "file": "container-3.png",
+      "figmaName": "Container",
+      "nodeId": "210:5037",
+      "page": "Deck",
+      "usedByLayers": 1
+    }
+  ]
+}

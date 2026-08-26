@@ -1,0 +1,6559 @@
+{
+ "generated_from": "RGC Assets",
+ "count": 936,
+ "base_url": null,
+ "assets": [
+  {
+   "path": "backgrounds-extras/Article Header Style.png",
+   "category": "backgrounds-extras",
+   "bytes": 600669,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Article Header Style.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 74916,
+   "dimensions": "428\u00d7430",
+   "url": "backgrounds-extras/Background-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-10.png",
+   "category": "backgrounds-extras",
+   "bytes": 37434,
+   "dimensions": "216\u00d7197",
+   "url": "backgrounds-extras/Background-10.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-11.png",
+   "category": "backgrounds-extras",
+   "bytes": 37434,
+   "dimensions": "216\u00d7197",
+   "url": "backgrounds-extras/Background-11.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-12.png",
+   "category": "backgrounds-extras",
+   "bytes": 232747,
+   "dimensions": "554\u00d7722",
+   "url": "backgrounds-extras/Background-12.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 74916,
+   "dimensions": "428\u00d7430",
+   "url": "backgrounds-extras/Background-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 62318,
+   "dimensions": "289\u00d7185",
+   "url": "backgrounds-extras/Background-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 25823,
+   "dimensions": "289\u00d7185",
+   "url": "backgrounds-extras/Background-4.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-5.png",
+   "category": "backgrounds-extras",
+   "bytes": 57123,
+   "dimensions": "274\u00d7250",
+   "url": "backgrounds-extras/Background-5.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-6.png",
+   "category": "backgrounds-extras",
+   "bytes": 26036,
+   "dimensions": "274\u00d7250",
+   "url": "backgrounds-extras/Background-6.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-7.png",
+   "category": "backgrounds-extras",
+   "bytes": 65559,
+   "dimensions": "296\u00d7190",
+   "url": "backgrounds-extras/Background-7.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-8.png",
+   "category": "backgrounds-extras",
+   "bytes": 39323,
+   "dimensions": "228\u00d7146",
+   "url": "backgrounds-extras/Background-8.png"
+  },
+  {
+   "path": "backgrounds-extras/Background-9.png",
+   "category": "backgrounds-extras",
+   "bytes": 217075,
+   "dimensions": "518\u00d7718",
+   "url": "backgrounds-extras/Background-9.png"
+  },
+  {
+   "path": "backgrounds-extras/Background.png",
+   "category": "backgrounds-extras",
+   "bytes": 30828,
+   "dimensions": "254\u00d7176",
+   "url": "backgrounds-extras/Background.png"
+  },
+  {
+   "path": "backgrounds-extras/Backgrounds-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 460120,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Backgrounds-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Backgrounds.png",
+   "category": "backgrounds-extras",
+   "bytes": 171301,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Backgrounds.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 19655,
+   "dimensions": "166\u00d788",
+   "url": "backgrounds-extras/Behavioural-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 19655,
+   "dimensions": "166\u00d788",
+   "url": "backgrounds-extras/Behavioural-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 36281,
+   "dimensions": "230\u00d7122",
+   "url": "backgrounds-extras/Behavioural-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 280792,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Behavioural-4.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-5.png",
+   "category": "backgrounds-extras",
+   "bytes": 82272,
+   "dimensions": "289\u00d7189",
+   "url": "backgrounds-extras/Behavioural-5.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-6.png",
+   "category": "backgrounds-extras",
+   "bytes": 46055,
+   "dimensions": "289\u00d7189",
+   "url": "backgrounds-extras/Behavioural-6.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-7.png",
+   "category": "backgrounds-extras",
+   "bytes": 55789,
+   "dimensions": "289\u00d7262",
+   "url": "backgrounds-extras/Behavioural-7.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural-8.png",
+   "category": "backgrounds-extras",
+   "bytes": 31041,
+   "dimensions": "289\u00d7262",
+   "url": "backgrounds-extras/Behavioural-8.png"
+  },
+  {
+   "path": "backgrounds-extras/Behavioural.png",
+   "category": "backgrounds-extras",
+   "bytes": 63769,
+   "dimensions": "558\u00d7249",
+   "url": "backgrounds-extras/Behavioural.png"
+  },
+  {
+   "path": "backgrounds-extras/Biometric-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 207242,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Biometric-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Biometric.png",
+   "category": "backgrounds-extras",
+   "bytes": 62197,
+   "dimensions": "558\u00d7249",
+   "url": "backgrounds-extras/Biometric.png"
+  },
+  {
+   "path": "backgrounds-extras/Brand & Performance-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 205636,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Brand & Performance-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Brand & Performance-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 46304,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/Brand & Performance-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Brand & Performance-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 34058,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/Brand & Performance-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Brand & Performance.png",
+   "category": "backgrounds-extras",
+   "bytes": 70188,
+   "dimensions": "555\u00d7248",
+   "url": "backgrounds-extras/Brand & Performance.png"
+  },
+  {
+   "path": "backgrounds-extras/Breakthrough.png",
+   "category": "backgrounds-extras",
+   "bytes": 20761,
+   "dimensions": "162\u00d7133",
+   "url": "backgrounds-extras/Breakthrough.png"
+  },
+  {
+   "path": "backgrounds-extras/Building.png",
+   "category": "backgrounds-extras",
+   "bytes": 68432,
+   "dimensions": "283\u00d7176",
+   "url": "backgrounds-extras/Building.png"
+  },
+  {
+   "path": "backgrounds-extras/Buttons & UI.png",
+   "category": "backgrounds-extras",
+   "bytes": 170655,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Buttons & UI.png"
+  },
+  {
+   "path": "backgrounds-extras/Click - Dark.svg",
+   "category": "backgrounds-extras",
+   "bytes": 7499,
+   "dimensions": "77\u00d7119",
+   "url": "backgrounds-extras/Click - Dark.svg"
+  },
+  {
+   "path": "backgrounds-extras/Colours-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 79392,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Colours-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Colours.png",
+   "category": "backgrounds-extras",
+   "bytes": 83060,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Colours.png"
+  },
+  {
+   "path": "backgrounds-extras/Confidence Score.png",
+   "category": "backgrounds-extras",
+   "bytes": 169381,
+   "dimensions": "513\u00d7328",
+   "url": "backgrounds-extras/Confidence Score.png"
+  },
+  {
+   "path": "backgrounds-extras/Culture & Trend-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 208124,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Culture & Trend-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Culture & Trend-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 68539,
+   "dimensions": "289\u00d7187",
+   "url": "backgrounds-extras/Culture & Trend-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Culture & Trend-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 28819,
+   "dimensions": "289\u00d7187",
+   "url": "backgrounds-extras/Culture & Trend-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Culture & Trend.png",
+   "category": "backgrounds-extras",
+   "bytes": 75473,
+   "dimensions": "555\u00d7248",
+   "url": "backgrounds-extras/Culture & Trend.png"
+  },
+  {
+   "path": "backgrounds-extras/Dashboard-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 294262,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Dashboard-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Dashboard-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 302946,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Dashboard-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Dashboard-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 313389,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Dashboard-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Dashboard-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 227534,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Dashboard-4.png"
+  },
+  {
+   "path": "backgrounds-extras/Dashboard.png",
+   "category": "backgrounds-extras",
+   "bytes": 274506,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Dashboard.png"
+  },
+  {
+   "path": "backgrounds-extras/Data Visualisations.png",
+   "category": "backgrounds-extras",
+   "bytes": 60906,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Data Visualisations.png"
+  },
+  {
+   "path": "backgrounds-extras/Desktop - Dark.png",
+   "category": "backgrounds-extras",
+   "bytes": 17490,
+   "dimensions": "148\u00d7160",
+   "url": "backgrounds-extras/Desktop - Dark.png"
+  },
+  {
+   "path": "backgrounds-extras/Desktop - Dark.svg",
+   "category": "backgrounds-extras",
+   "bytes": 6308,
+   "dimensions": "148\u00d7160",
+   "url": "backgrounds-extras/Desktop - Dark.svg"
+  },
+  {
+   "path": "backgrounds-extras/Frame 1820283669-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 37270,
+   "dimensions": "323\u00d7240",
+   "url": "backgrounds-extras/Frame 1820283669-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Frame 1820283669.png",
+   "category": "backgrounds-extras",
+   "bytes": 37275,
+   "dimensions": "323\u00d7240",
+   "url": "backgrounds-extras/Frame 1820283669.png"
+  },
+  {
+   "path": "backgrounds-extras/Graphs.png",
+   "category": "backgrounds-extras",
+   "bytes": 49067,
+   "dimensions": "1851\u00d71038",
+   "url": "backgrounds-extras/Graphs.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283519.png",
+   "category": "backgrounds-extras",
+   "bytes": 2559,
+   "dimensions": "131\u00d783",
+   "url": "backgrounds-extras/Group 1820283519.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283523.png",
+   "category": "backgrounds-extras",
+   "bytes": 85546,
+   "dimensions": "290\u00d7220",
+   "url": "backgrounds-extras/Group 1820283523.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283524.png",
+   "category": "backgrounds-extras",
+   "bytes": 167593,
+   "dimensions": "537\u00d7250",
+   "url": "backgrounds-extras/Group 1820283524.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283651.png",
+   "category": "backgrounds-extras",
+   "bytes": 400488,
+   "dimensions": "464\u00d7583",
+   "url": "backgrounds-extras/Group 1820283651.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283653.png",
+   "category": "backgrounds-extras",
+   "bytes": 770821,
+   "dimensions": "645\u00d7886",
+   "url": "backgrounds-extras/Group 1820283653.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283702.png",
+   "category": "backgrounds-extras",
+   "bytes": 149,
+   "dimensions": "1\u00d71",
+   "url": "backgrounds-extras/Group 1820283702.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283738.png",
+   "category": "backgrounds-extras",
+   "bytes": 89598,
+   "dimensions": "378\u00d7378",
+   "url": "backgrounds-extras/Group 1820283738.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283739.png",
+   "category": "backgrounds-extras",
+   "bytes": 81301,
+   "dimensions": "209\u00d7262",
+   "url": "backgrounds-extras/Group 1820283739.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283748.png",
+   "category": "backgrounds-extras",
+   "bytes": 1615474,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Group 1820283748.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283752.png",
+   "category": "backgrounds-extras",
+   "bytes": 1615474,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Group 1820283752.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283757.png",
+   "category": "backgrounds-extras",
+   "bytes": 67494,
+   "dimensions": "180\u00d7265",
+   "url": "backgrounds-extras/Group 1820283757.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283851-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 10185,
+   "dimensions": "831\u00d7129",
+   "url": "backgrounds-extras/Group 1820283851-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283851-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 11228,
+   "dimensions": "944\u00d7146",
+   "url": "backgrounds-extras/Group 1820283851-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283851-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 11228,
+   "dimensions": "944\u00d7146",
+   "url": "backgrounds-extras/Group 1820283851-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283851.png",
+   "category": "backgrounds-extras",
+   "bytes": 10185,
+   "dimensions": "831\u00d7129",
+   "url": "backgrounds-extras/Group 1820283851.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283853-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 14430,
+   "dimensions": "471\u00d793",
+   "url": "backgrounds-extras/Group 1820283853-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283853-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 12848,
+   "dimensions": "501\u00d7186",
+   "url": "backgrounds-extras/Group 1820283853-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283853.png",
+   "category": "backgrounds-extras",
+   "bytes": 27173,
+   "dimensions": "789\u00d7155",
+   "url": "backgrounds-extras/Group 1820283853.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283854.png",
+   "category": "backgrounds-extras",
+   "bytes": 19983,
+   "dimensions": "501\u00d7185",
+   "url": "backgrounds-extras/Group 1820283854.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283862.png",
+   "category": "backgrounds-extras",
+   "bytes": 35974,
+   "dimensions": "501\u00d7249",
+   "url": "backgrounds-extras/Group 1820283862.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283863.png",
+   "category": "backgrounds-extras",
+   "bytes": 38034,
+   "dimensions": "501\u00d7249",
+   "url": "backgrounds-extras/Group 1820283863.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283864.png",
+   "category": "backgrounds-extras",
+   "bytes": 121133,
+   "dimensions": "392\u00d7392",
+   "url": "backgrounds-extras/Group 1820283864.png"
+  },
+  {
+   "path": "backgrounds-extras/Group 1820283868.png",
+   "category": "backgrounds-extras",
+   "bytes": 134287,
+   "dimensions": "1590\u00d7562",
+   "url": "backgrounds-extras/Group 1820283868.png"
+  },
+  {
+   "path": "backgrounds-extras/Growth 1.png",
+   "category": "backgrounds-extras",
+   "bytes": 148206,
+   "dimensions": "325\u00d7311",
+   "url": "backgrounds-extras/Growth 1.png"
+  },
+  {
+   "path": "backgrounds-extras/Growth 2.png",
+   "category": "backgrounds-extras",
+   "bytes": 143628,
+   "dimensions": "363\u00d7363",
+   "url": "backgrounds-extras/Growth 2.png"
+  },
+  {
+   "path": "backgrounds-extras/How To Use This.png",
+   "category": "backgrounds-extras",
+   "bytes": 89562,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/How To Use This.png"
+  },
+  {
+   "path": "backgrounds-extras/Human Input-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 132749,
+   "dimensions": "781\u00d7482",
+   "url": "backgrounds-extras/Human Input-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Human Input-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 132746,
+   "dimensions": "781\u00d7482",
+   "url": "backgrounds-extras/Human Input-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Human Input.png",
+   "category": "backgrounds-extras",
+   "bytes": 51061,
+   "dimensions": "367\u00d7176",
+   "url": "backgrounds-extras/Human Input.png"
+  },
+  {
+   "path": "backgrounds-extras/Infinite.png",
+   "category": "backgrounds-extras",
+   "bytes": 59203,
+   "dimensions": "346\u00d7176",
+   "url": "backgrounds-extras/Infinite.png"
+  },
+  {
+   "path": "backgrounds-extras/Linkedin.png",
+   "category": "backgrounds-extras",
+   "bytes": 181703,
+   "dimensions": "1851\u00d71038",
+   "url": "backgrounds-extras/Linkedin.png"
+  },
+  {
+   "path": "backgrounds-extras/Logos-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 84903,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Logos-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Logos-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 128689,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Logos-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Logos.png",
+   "category": "backgrounds-extras",
+   "bytes": 320344,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Logos.png"
+  },
+  {
+   "path": "backgrounds-extras/Longer Arms, Less Cheerios.png",
+   "category": "backgrounds-extras",
+   "bytes": 1558344,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Longer Arms, Less Cheerios.png"
+  },
+  {
+   "path": "backgrounds-extras/Market & Macro-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 54707,
+   "dimensions": "289\u00d7239",
+   "url": "backgrounds-extras/Market & Macro-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Market & Macro-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 30534,
+   "dimensions": "289\u00d7239",
+   "url": "backgrounds-extras/Market & Macro-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Market & Macro-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 35908,
+   "dimensions": "228\u00d7189",
+   "url": "backgrounds-extras/Market & Macro-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Market & Macro.png",
+   "category": "backgrounds-extras",
+   "bytes": 211405,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Market & Macro.png"
+  },
+  {
+   "path": "backgrounds-extras/Mercury-Light-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 138697,
+   "dimensions": "731\u00d7869",
+   "url": "backgrounds-extras/Mercury-Light-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Mercury-Light.png",
+   "category": "backgrounds-extras",
+   "bytes": 138698,
+   "dimensions": "731\u00d7869",
+   "url": "backgrounds-extras/Mercury-Light.png"
+  },
+  {
+   "path": "backgrounds-extras/Motif-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 596059,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Motif-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Motif-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 502294,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Motif-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Motif-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 568039,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Motif-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Motif-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 1586070,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Motif-4.png"
+  },
+  {
+   "path": "backgrounds-extras/Motif.png",
+   "category": "backgrounds-extras",
+   "bytes": 252399,
+   "dimensions": "1845\u00d71038",
+   "url": "backgrounds-extras/Motif.png"
+  },
+  {
+   "path": "backgrounds-extras/Product & Retail Graph.png",
+   "category": "backgrounds-extras",
+   "bytes": 238862,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Product & Retail Graph.png"
+  },
+  {
+   "path": "backgrounds-extras/Product & Retail.png",
+   "category": "backgrounds-extras",
+   "bytes": 70736,
+   "dimensions": "558\u00d7249",
+   "url": "backgrounds-extras/Product & Retail.png"
+  },
+  {
+   "path": "backgrounds-extras/Really Good Culture House.png",
+   "category": "backgrounds-extras",
+   "bytes": 10442515,
+   "dimensions": "15787\u00d710745",
+   "url": "backgrounds-extras/Really Good Culture House.png"
+  },
+  {
+   "path": "backgrounds-extras/Really Good Culture-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 9964,
+   "dimensions": "769\u00d799",
+   "url": "backgrounds-extras/Really Good Culture-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Really Good Culture-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 11040,
+   "dimensions": "874\u00d7112",
+   "url": "backgrounds-extras/Really Good Culture-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Really Good Culture-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 11026,
+   "dimensions": "874\u00d7112",
+   "url": "backgrounds-extras/Really Good Culture-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Really Good Culture.png",
+   "category": "backgrounds-extras",
+   "bytes": 9957,
+   "dimensions": "769\u00d799",
+   "url": "backgrounds-extras/Really Good Culture.png"
+  },
+  {
+   "path": "backgrounds-extras/Report Icons.png",
+   "category": "backgrounds-extras",
+   "bytes": 307075,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Report Icons.png"
+  },
+  {
+   "path": "backgrounds-extras/Ringfenced.png",
+   "category": "backgrounds-extras",
+   "bytes": 210614,
+   "dimensions": "442\u00d7415",
+   "url": "backgrounds-extras/Ringfenced.png"
+  },
+  {
+   "path": "backgrounds-extras/Safety-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 56782,
+   "dimensions": "389\u00d7356",
+   "url": "backgrounds-extras/Safety-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Safety.png",
+   "category": "backgrounds-extras",
+   "bytes": 56716,
+   "dimensions": "389\u00d7356",
+   "url": "backgrounds-extras/Safety.png"
+  },
+  {
+   "path": "backgrounds-extras/Section-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 1945,
+   "dimensions": "519\u00d7458",
+   "url": "backgrounds-extras/Section-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Section.png",
+   "category": "backgrounds-extras",
+   "bytes": 199615,
+   "dimensions": "519\u00d7458",
+   "url": "backgrounds-extras/Section.png"
+  },
+  {
+   "path": "backgrounds-extras/Social Posts.png",
+   "category": "backgrounds-extras",
+   "bytes": 49789,
+   "dimensions": "1851\u00d71038",
+   "url": "backgrounds-extras/Social Posts.png"
+  },
+  {
+   "path": "backgrounds-extras/Synthetic-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 230452,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Synthetic-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Synthetic-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 57150,
+   "dimensions": "289\u00d7250",
+   "url": "backgrounds-extras/Synthetic-2.png"
+  },
+  {
+   "path": "backgrounds-extras/Synthetic-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 26203,
+   "dimensions": "289\u00d7250",
+   "url": "backgrounds-extras/Synthetic-3.png"
+  },
+  {
+   "path": "backgrounds-extras/Synthetic-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 37551,
+   "dimensions": "228\u00d7197",
+   "url": "backgrounds-extras/Synthetic-4.png"
+  },
+  {
+   "path": "backgrounds-extras/Synthetic.png",
+   "category": "backgrounds-extras",
+   "bytes": 67930,
+   "dimensions": "558\u00d7249",
+   "url": "backgrounds-extras/Synthetic.png"
+  },
+  {
+   "path": "backgrounds-extras/Traceable.png",
+   "category": "backgrounds-extras",
+   "bytes": 68207,
+   "dimensions": "513\u00d7375",
+   "url": "backgrounds-extras/Traceable.png"
+  },
+  {
+   "path": "backgrounds-extras/Trend - Dark.png",
+   "category": "backgrounds-extras",
+   "bytes": 13591,
+   "dimensions": "125\u00d7151",
+   "url": "backgrounds-extras/Trend - Dark.png"
+  },
+  {
+   "path": "backgrounds-extras/Trend - Dark.svg",
+   "category": "backgrounds-extras",
+   "bytes": 7195,
+   "dimensions": "125\u00d7151",
+   "url": "backgrounds-extras/Trend - Dark.svg"
+  },
+  {
+   "path": "backgrounds-extras/Type-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 118818,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Type-1.png"
+  },
+  {
+   "path": "backgrounds-extras/Type.png",
+   "category": "backgrounds-extras",
+   "bytes": 115501,
+   "dimensions": "1844\u00d71038",
+   "url": "backgrounds-extras/Type.png"
+  },
+  {
+   "path": "backgrounds-extras/be-icon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 19191,
+   "dimensions": "102\u00d788",
+   "url": "backgrounds-extras/be-icon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/be-icon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 35651,
+   "dimensions": "141\u00d7122",
+   "url": "backgrounds-extras/be-icon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/be-icon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 80934,
+   "dimensions": "220\u00d7189",
+   "url": "backgrounds-extras/be-icon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/be-icon-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 44836,
+   "dimensions": "220\u00d7189",
+   "url": "backgrounds-extras/be-icon-4.png"
+  },
+  {
+   "path": "backgrounds-extras/be-icon.png",
+   "category": "backgrounds-extras",
+   "bytes": 19191,
+   "dimensions": "102\u00d788",
+   "url": "backgrounds-extras/be-icon.png"
+  },
+  {
+   "path": "backgrounds-extras/behave-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 156923,
+   "dimensions": "685\u00d7693",
+   "url": "backgrounds-extras/behave-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/behaveicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 106374,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/behaveicon.png"
+  },
+  {
+   "path": "backgrounds-extras/bio-icon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 55462,
+   "dimensions": "262\u00d7262",
+   "url": "backgrounds-extras/bio-icon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/bio-icon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 30599,
+   "dimensions": "262\u00d7262",
+   "url": "backgrounds-extras/bio-icon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/bio-icon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 37236,
+   "dimensions": "207\u00d7207",
+   "url": "backgrounds-extras/bio-icon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/bio-icon.png",
+   "category": "backgrounds-extras",
+   "bytes": 7828,
+   "dimensions": "84\u00d779",
+   "url": "backgrounds-extras/bio-icon.png"
+  },
+  {
+   "path": "backgrounds-extras/biometric-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 198008,
+   "dimensions": "834\u00d7717",
+   "url": "backgrounds-extras/biometric-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/biometricicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 85087,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/biometricicon.png"
+  },
+  {
+   "path": "backgrounds-extras/bp-icon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 33480,
+   "dimensions": "255\u00d7289",
+   "url": "backgrounds-extras/bp-icon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/bp-icon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 48102,
+   "dimensions": "261\u00d7296",
+   "url": "backgrounds-extras/bp-icon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/bp-icon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 24935,
+   "dimensions": "183\u00d7217",
+   "url": "backgrounds-extras/bp-icon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/bp-icon.png",
+   "category": "backgrounds-extras",
+   "bytes": 45911,
+   "dimensions": "255\u00d7289",
+   "url": "backgrounds-extras/bp-icon.png"
+  },
+  {
+   "path": "backgrounds-extras/brandperforamanceicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 89350,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/brandperforamanceicon.png"
+  },
+  {
+   "path": "backgrounds-extras/brandperform-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 165486,
+   "dimensions": "826\u00d7692",
+   "url": "backgrounds-extras/brandperform-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-behaveicon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 79746,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-behaveicon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-behaveicon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 103018,
+   "dimensions": "263\u00d7263",
+   "url": "backgrounds-extras/colour-behaveicon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-behaveicon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 79746,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-behaveicon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-behaveicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 117082,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/colour-behaveicon.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-biometricicon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 71286,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-biometricicon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-biometricicon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 91711,
+   "dimensions": "263\u00d7263",
+   "url": "backgrounds-extras/colour-biometricicon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-biometricicon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 71290,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-biometricicon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-biometricicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 103941,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/colour-biometricicon.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-brandperforamanceicon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 64596,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-brandperforamanceicon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-brandperforamanceicon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 103418,
+   "dimensions": "296\u00d7296",
+   "url": "backgrounds-extras/colour-brandperforamanceicon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-brandperforamanceicon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 64627,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-brandperforamanceicon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-brandperforamanceicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 100255,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/colour-brandperforamanceicon.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-culturetrendicon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 70033,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-culturetrendicon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-culturetrendicon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 107143,
+   "dimensions": "296\u00d7296",
+   "url": "backgrounds-extras/colour-culturetrendicon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-culturetrendicon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 70036,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-culturetrendicon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-culturetrendicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 102686,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/colour-culturetrendicon.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-marketmacroicon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 68727,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-marketmacroicon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-marketmacroicon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 89266,
+   "dimensions": "263\u00d7263",
+   "url": "backgrounds-extras/colour-marketmacroicon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-marketmacroicon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 68732,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-marketmacroicon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-marketmacroicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 101778,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/colour-marketmacroicon.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-productretailicon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 23059,
+   "dimensions": "196\u00d7196",
+   "url": "backgrounds-extras/colour-productretailicon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-productretailicon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 104375,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/colour-productretailicon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-productretailicon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 72625,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-productretailicon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-productretailicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 23435,
+   "dimensions": "196\u00d7196",
+   "url": "backgrounds-extras/colour-productretailicon.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-syntheticicon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 69875,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-syntheticicon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-syntheticicon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 90034,
+   "dimensions": "263\u00d7263",
+   "url": "backgrounds-extras/colour-syntheticicon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-syntheticicon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 69875,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-syntheticicon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-syntheticicon-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 69875,
+   "dimensions": "228\u00d7228",
+   "url": "backgrounds-extras/colour-syntheticicon-4.png"
+  },
+  {
+   "path": "backgrounds-extras/colour-syntheticicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 102070,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/colour-syntheticicon.png"
+  },
+  {
+   "path": "backgrounds-extras/confidence-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 83811,
+   "dimensions": "717\u00d7642",
+   "url": "backgrounds-extras/confidence-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/culturetrend-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 190907,
+   "dimensions": "842\u00d7660",
+   "url": "backgrounds-extras/culturetrend-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/culturetrendicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 72270,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/culturetrendicon.png"
+  },
+  {
+   "path": "backgrounds-extras/image 63.png",
+   "category": "backgrounds-extras",
+   "bytes": 244805,
+   "dimensions": "775\u00d7414",
+   "url": "backgrounds-extras/image 63.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6523-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 22938,
+   "dimensions": "147\u00d7181",
+   "url": "backgrounds-extras/image 6523-1.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6523.png",
+   "category": "backgrounds-extras",
+   "bytes": 316220,
+   "dimensions": "766\u00d7766",
+   "url": "backgrounds-extras/image 6523.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6534.png",
+   "category": "backgrounds-extras",
+   "bytes": 267174,
+   "dimensions": "427\u00d7724",
+   "url": "backgrounds-extras/image 6534.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6535.png",
+   "category": "backgrounds-extras",
+   "bytes": 301616,
+   "dimensions": "509\u00d7607",
+   "url": "backgrounds-extras/image 6535.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6540-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 118972,
+   "dimensions": "350\u00d7358",
+   "url": "backgrounds-extras/image 6540-1.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6540-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 233752,
+   "dimensions": "503\u00d7514",
+   "url": "backgrounds-extras/image 6540-2.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6540-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 233752,
+   "dimensions": "503\u00d7514",
+   "url": "backgrounds-extras/image 6540-3.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6540.png",
+   "category": "backgrounds-extras",
+   "bytes": 118972,
+   "dimensions": "350\u00d7358",
+   "url": "backgrounds-extras/image 6540.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6541.png",
+   "category": "backgrounds-extras",
+   "bytes": 32314,
+   "dimensions": "179\u00d7183",
+   "url": "backgrounds-extras/image 6541.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6545-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 1689,
+   "dimensions": "33\u00d731",
+   "url": "backgrounds-extras/image 6545-1.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6545-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 1690,
+   "dimensions": "33\u00d730",
+   "url": "backgrounds-extras/image 6545-2.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6545-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 6065,
+   "dimensions": "73\u00d773",
+   "url": "backgrounds-extras/image 6545-3.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6545-4.png",
+   "category": "backgrounds-extras",
+   "bytes": 3737,
+   "dimensions": "73\u00d773",
+   "url": "backgrounds-extras/image 6545-4.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6545.png",
+   "category": "backgrounds-extras",
+   "bytes": 159,
+   "dimensions": "32\u00d732",
+   "url": "backgrounds-extras/image 6545.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6854.png",
+   "category": "backgrounds-extras",
+   "bytes": 147727,
+   "dimensions": "309\u00d7311",
+   "url": "backgrounds-extras/image 6854.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6855.png",
+   "category": "backgrounds-extras",
+   "bytes": 143628,
+   "dimensions": "363\u00d7363",
+   "url": "backgrounds-extras/image 6855.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6856.png",
+   "category": "backgrounds-extras",
+   "bytes": 93962,
+   "dimensions": "240\u00d7569",
+   "url": "backgrounds-extras/image 6856.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6857.png",
+   "category": "backgrounds-extras",
+   "bytes": 76702,
+   "dimensions": "304\u00d7308",
+   "url": "backgrounds-extras/image 6857.png"
+  },
+  {
+   "path": "backgrounds-extras/image 6860.png",
+   "category": "backgrounds-extras",
+   "bytes": 159,
+   "dimensions": "32\u00d732",
+   "url": "backgrounds-extras/image 6860.png"
+  },
+  {
+   "path": "backgrounds-extras/index.json",
+   "category": "backgrounds-extras",
+   "bytes": 42170,
+   "dimensions": "",
+   "url": "backgrounds-extras/index.json"
+  },
+  {
+   "path": "backgrounds-extras/marketmacro-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 171416,
+   "dimensions": "813\u00d7653",
+   "url": "backgrounds-extras/marketmacro-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/marketmacroicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 80752,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/marketmacroicon.png"
+  },
+  {
+   "path": "backgrounds-extras/mm-icon-1.png",
+   "category": "backgrounds-extras",
+   "bytes": 30362,
+   "dimensions": "278\u00d7239",
+   "url": "backgrounds-extras/mm-icon-1.png"
+  },
+  {
+   "path": "backgrounds-extras/mm-icon-2.png",
+   "category": "backgrounds-extras",
+   "bytes": 46442,
+   "dimensions": "254\u00d7219",
+   "url": "backgrounds-extras/mm-icon-2.png"
+  },
+  {
+   "path": "backgrounds-extras/mm-icon-3.png",
+   "category": "backgrounds-extras",
+   "bytes": 35658,
+   "dimensions": "220\u00d7189",
+   "url": "backgrounds-extras/mm-icon-3.png"
+  },
+  {
+   "path": "backgrounds-extras/mm-icon.png",
+   "category": "backgrounds-extras",
+   "bytes": 54753,
+   "dimensions": "278\u00d7239",
+   "url": "backgrounds-extras/mm-icon.png"
+  },
+  {
+   "path": "backgrounds-extras/prediction.png",
+   "category": "backgrounds-extras",
+   "bytes": 36966,
+   "dimensions": "565\u00d7150",
+   "url": "backgrounds-extras/prediction.png"
+  },
+  {
+   "path": "backgrounds-extras/prodretail-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 179237,
+   "dimensions": "798\u00d7682",
+   "url": "backgrounds-extras/prodretail-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/productretailicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 94550,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/productretailicon.png"
+  },
+  {
+   "path": "backgrounds-extras/roas-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 195384,
+   "dimensions": "838\u00d7685",
+   "url": "backgrounds-extras/roas-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/synthetic-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 192320,
+   "dimensions": "853\u00d7694",
+   "url": "backgrounds-extras/synthetic-screen.png"
+  },
+  {
+   "path": "backgrounds-extras/syntheticicon.png",
+   "category": "backgrounds-extras",
+   "bytes": 79640,
+   "dimensions": "289\u00d7289",
+   "url": "backgrounds-extras/syntheticicon.png"
+  },
+  {
+   "path": "backgrounds-extras/whitespace-screen.png",
+   "category": "backgrounds-extras",
+   "bytes": 90969,
+   "dimensions": "750\u00d7649",
+   "url": "backgrounds-extras/whitespace-screen.png"
+  },
+  {
+   "path": "boards/branding/article-header-style.png",
+   "category": "boards",
+   "bytes": 600669,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/article-header-style.png"
+  },
+  {
+   "path": "boards/branding/backgrounds-2.png",
+   "category": "boards",
+   "bytes": 460120,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/backgrounds-2.png"
+  },
+  {
+   "path": "boards/branding/backgrounds.png",
+   "category": "boards",
+   "bytes": 171301,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/backgrounds.png"
+  },
+  {
+   "path": "boards/branding/behavioural.png",
+   "category": "boards",
+   "bytes": 280792,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/behavioural.png"
+  },
+  {
+   "path": "boards/branding/biometric.png",
+   "category": "boards",
+   "bytes": 207242,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/biometric.png"
+  },
+  {
+   "path": "boards/branding/brand-and-performance.png",
+   "category": "boards",
+   "bytes": 205636,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/brand-and-performance.png"
+  },
+  {
+   "path": "boards/branding/buttons-and-ui.png",
+   "category": "boards",
+   "bytes": 170655,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/buttons-and-ui.png"
+  },
+  {
+   "path": "boards/branding/colours-2.png",
+   "category": "boards",
+   "bytes": 79392,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/colours-2.png"
+  },
+  {
+   "path": "boards/branding/colours.png",
+   "category": "boards",
+   "bytes": 83060,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/colours.png"
+  },
+  {
+   "path": "boards/branding/culture-and-trend.png",
+   "category": "boards",
+   "bytes": 208124,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/culture-and-trend.png"
+  },
+  {
+   "path": "boards/branding/dashboard-2.png",
+   "category": "boards",
+   "bytes": 294262,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/dashboard-2.png"
+  },
+  {
+   "path": "boards/branding/dashboard-3.png",
+   "category": "boards",
+   "bytes": 302946,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/dashboard-3.png"
+  },
+  {
+   "path": "boards/branding/dashboard-4.png",
+   "category": "boards",
+   "bytes": 313389,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/dashboard-4.png"
+  },
+  {
+   "path": "boards/branding/dashboard-5.png",
+   "category": "boards",
+   "bytes": 227534,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/dashboard-5.png"
+  },
+  {
+   "path": "boards/branding/dashboard.png",
+   "category": "boards",
+   "bytes": 274506,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/dashboard.png"
+  },
+  {
+   "path": "boards/branding/data-visualisations.png",
+   "category": "boards",
+   "bytes": 60906,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/data-visualisations.png"
+  },
+  {
+   "path": "boards/branding/graphs.png",
+   "category": "boards",
+   "bytes": 49067,
+   "dimensions": "1851\u00d71038",
+   "url": "boards/branding/graphs.png"
+  },
+  {
+   "path": "boards/branding/how-to-use-this.png",
+   "category": "boards",
+   "bytes": 89562,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/how-to-use-this.png"
+  },
+  {
+   "path": "boards/branding/index.json",
+   "category": "boards",
+   "bytes": 3835,
+   "dimensions": "",
+   "url": "boards/branding/index.json"
+  },
+  {
+   "path": "boards/branding/linkedin.png",
+   "category": "boards",
+   "bytes": 181703,
+   "dimensions": "1851\u00d71038",
+   "url": "boards/branding/linkedin.png"
+  },
+  {
+   "path": "boards/branding/logos-2.png",
+   "category": "boards",
+   "bytes": 84903,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/logos-2.png"
+  },
+  {
+   "path": "boards/branding/logos-3.png",
+   "category": "boards",
+   "bytes": 128689,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/logos-3.png"
+  },
+  {
+   "path": "boards/branding/logos.png",
+   "category": "boards",
+   "bytes": 320344,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/logos.png"
+  },
+  {
+   "path": "boards/branding/market-and-macro.png",
+   "category": "boards",
+   "bytes": 211405,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/market-and-macro.png"
+  },
+  {
+   "path": "boards/branding/motif-2.png",
+   "category": "boards",
+   "bytes": 596059,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/motif-2.png"
+  },
+  {
+   "path": "boards/branding/motif-3.png",
+   "category": "boards",
+   "bytes": 502294,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/motif-3.png"
+  },
+  {
+   "path": "boards/branding/motif-4.png",
+   "category": "boards",
+   "bytes": 568039,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/motif-4.png"
+  },
+  {
+   "path": "boards/branding/motif-5.png",
+   "category": "boards",
+   "bytes": 1586070,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/motif-5.png"
+  },
+  {
+   "path": "boards/branding/motif.png",
+   "category": "boards",
+   "bytes": 252399,
+   "dimensions": "1845\u00d71038",
+   "url": "boards/branding/motif.png"
+  },
+  {
+   "path": "boards/branding/product-and-retail-graph.png",
+   "category": "boards",
+   "bytes": 238862,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/product-and-retail-graph.png"
+  },
+  {
+   "path": "boards/branding/report-icons.png",
+   "category": "boards",
+   "bytes": 307075,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/report-icons.png"
+  },
+  {
+   "path": "boards/branding/social-posts.png",
+   "category": "boards",
+   "bytes": 49789,
+   "dimensions": "1851\u00d71038",
+   "url": "boards/branding/social-posts.png"
+  },
+  {
+   "path": "boards/branding/synthetic.png",
+   "category": "boards",
+   "bytes": 230452,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/synthetic.png"
+  },
+  {
+   "path": "boards/branding/type-2.png",
+   "category": "boards",
+   "bytes": 118818,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/type-2.png"
+  },
+  {
+   "path": "boards/branding/type.png",
+   "category": "boards",
+   "bytes": 115501,
+   "dimensions": "1844\u00d71038",
+   "url": "boards/branding/type.png"
+  },
+  {
+   "path": "deck/frame-01-cover-2.png",
+   "category": "deck",
+   "bytes": 234279,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/frame-01-cover-2.png"
+  },
+  {
+   "path": "deck/frame-01-cover.png",
+   "category": "deck",
+   "bytes": 234279,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/frame-01-cover.png"
+  },
+  {
+   "path": "deck/section-02-section-one.png",
+   "category": "deck",
+   "bytes": 22340,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-02-section-one.png"
+  },
+  {
+   "path": "deck/section-03-who-we-are.png",
+   "category": "deck",
+   "bytes": 1011670,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-03-who-we-are.png"
+  },
+  {
+   "path": "deck/section-04-the-people.png",
+   "category": "deck",
+   "bytes": 1989034,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-04-the-people.png"
+  },
+  {
+   "path": "deck/section-05-two-offerings.png",
+   "category": "deck",
+   "bytes": 414089,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-05-two-offerings.png"
+  },
+  {
+   "path": "deck/section-06-credibility.png",
+   "category": "deck",
+   "bytes": 1300120,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-06-credibility.png"
+  },
+  {
+   "path": "deck/section-07-pretty-good-at-it.png",
+   "category": "deck",
+   "bytes": 335853,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-07-pretty-good-at-it.png"
+  },
+  {
+   "path": "deck/section-08-one-question.png",
+   "category": "deck",
+   "bytes": 836563,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-08-one-question.png"
+  },
+  {
+   "path": "deck/section-09-hindsight-setup.png",
+   "category": "deck",
+   "bytes": 41700,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-09-hindsight-setup.png"
+  },
+  {
+   "path": "deck/section-10-hindsight-20-20.png",
+   "category": "deck",
+   "bytes": 552916,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-10-hindsight-20-20.png"
+  },
+  {
+   "path": "deck/section-11-ask-something-else.png",
+   "category": "deck",
+   "bytes": 33806,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-11-ask-something-else.png"
+  },
+  {
+   "path": "deck/section-12-ask-something-else-ii.png",
+   "category": "deck",
+   "bytes": 104163,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-12-ask-something-else-ii.png"
+  },
+  {
+   "path": "deck/section-13-section-two.png",
+   "category": "deck",
+   "bytes": 25822,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-13-section-two.png"
+  },
+  {
+   "path": "deck/section-14-this-is-epos-data.png",
+   "category": "deck",
+   "bytes": 718765,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-14-this-is-epos-data.png"
+  },
+  {
+   "path": "deck/section-15-10m-scenarios.png",
+   "category": "deck",
+   "bytes": 885809,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-15-10m-scenarios.png"
+  },
+  {
+   "path": "deck/section-16-distilled.png",
+   "category": "deck",
+   "bytes": 697518,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-16-distilled.png"
+  },
+  {
+   "path": "deck/section-17-that-s-what-we-do.png",
+   "category": "deck",
+   "bytes": 22305,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-17-that-s-what-we-do.png"
+  },
+  {
+   "path": "deck/section-18-that-s-breakthrough.png",
+   "category": "deck",
+   "bytes": 338886,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-18-that-s-breakthrough.png"
+  },
+  {
+   "path": "deck/section-19-hello-breakthrough.png",
+   "category": "deck",
+   "bytes": 1600112,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-19-hello-breakthrough.png"
+  },
+  {
+   "path": "deck/section-20-seven-dimensions.png",
+   "category": "deck",
+   "bytes": 528643,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-20-seven-dimensions.png"
+  },
+  {
+   "path": "deck/section-21-infinite-cycle.png",
+   "category": "deck",
+   "bytes": 586935,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-21-infinite-cycle.png"
+  },
+  {
+   "path": "deck/section-22-product-and-retail.png",
+   "category": "deck",
+   "bytes": 399924,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-22-product-and-retail.png"
+  },
+  {
+   "path": "deck/section-23-brand-and-performance.png",
+   "category": "deck",
+   "bytes": 182378,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-23-brand-and-performance.png"
+  },
+  {
+   "path": "deck/section-24-onto-trends.png",
+   "category": "deck",
+   "bytes": 59989,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-24-onto-trends.png"
+  },
+  {
+   "path": "deck/section-25-culture-and-trend.png",
+   "category": "deck",
+   "bytes": 386109,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-25-culture-and-trend.png"
+  },
+  {
+   "path": "deck/section-26-trend-timeline.png",
+   "category": "deck",
+   "bytes": 295759,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-26-trend-timeline.png"
+  },
+  {
+   "path": "deck/section-27-not-the-only-variables.png",
+   "category": "deck",
+   "bytes": 54189,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-27-not-the-only-variables.png"
+  },
+  {
+   "path": "deck/section-28-market-and-macro.png",
+   "category": "deck",
+   "bytes": 458990,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-28-market-and-macro.png"
+  },
+  {
+   "path": "deck/section-29-5-validated-by-humans.png",
+   "category": "deck",
+   "bytes": 1848333,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-29-5-validated-by-humans.png"
+  },
+  {
+   "path": "deck/section-29-validated-by-humans.png",
+   "category": "deck",
+   "bytes": 279655,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-29-validated-by-humans.png"
+  },
+  {
+   "path": "deck/section-30-the-human-mind.png",
+   "category": "deck",
+   "bytes": 350330,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-30-the-human-mind.png"
+  },
+  {
+   "path": "deck/section-31-watch-humans.png",
+   "category": "deck",
+   "bytes": 180042,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-31-watch-humans.png"
+  },
+  {
+   "path": "deck/section-32-behavioural.png",
+   "category": "deck",
+   "bytes": 293013,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-32-behavioural.png"
+  },
+  {
+   "path": "deck/section-33-brain-to-body.png",
+   "category": "deck",
+   "bytes": 490915,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-33-brain-to-body.png"
+  },
+  {
+   "path": "deck/section-34-health-power-shift.png",
+   "category": "deck",
+   "bytes": 1242440,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-34-health-power-shift.png"
+  },
+  {
+   "path": "deck/section-35-biometric.png",
+   "category": "deck",
+   "bytes": 576238,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-35-biometric.png"
+  },
+  {
+   "path": "deck/section-36-remember-this.png",
+   "category": "deck",
+   "bytes": 681978,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-36-remember-this.png"
+  },
+  {
+   "path": "deck/section-37-course-you-do.png",
+   "category": "deck",
+   "bytes": 690339,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-37-course-you-do.png"
+  },
+  {
+   "path": "deck/section-38-all-of-that-data.png",
+   "category": "deck",
+   "bytes": 855942,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-38-all-of-that-data.png"
+  },
+  {
+   "path": "deck/section-39-here-s-how.png",
+   "category": "deck",
+   "bytes": 447589,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-39-here-s-how.png"
+  },
+  {
+   "path": "deck/section-40-synthetic-panel.png",
+   "category": "deck",
+   "bytes": 504721,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-40-synthetic-panel.png"
+  },
+  {
+   "path": "deck/section-41-synthetic-buyers.png",
+   "category": "deck",
+   "bytes": 427653,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-41-synthetic-buyers.png"
+  },
+  {
+   "path": "deck/section-42-so-ask.png",
+   "category": "deck",
+   "bytes": 66632,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-42-so-ask.png"
+  },
+  {
+   "path": "deck/section-43-find-out.png",
+   "category": "deck",
+   "bytes": 1398390,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-43-find-out.png"
+  },
+  {
+   "path": "deck/section-44-close-2.png",
+   "category": "deck",
+   "bytes": 299585,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-44-close-2.png"
+  },
+  {
+   "path": "deck/section-44-close.png",
+   "category": "deck",
+   "bytes": 299615,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/section-44-close.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-01-cover.png",
+   "category": "deck",
+   "bytes": 75733,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-01-cover.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-02-section-01.png",
+   "category": "deck",
+   "bytes": 30483,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-02-section-01.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-03-two-views-panels.png",
+   "category": "deck",
+   "bytes": 52789,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-03-two-views-panels.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-04-four-up-icon-cards.png",
+   "category": "deck",
+   "bytes": 70165,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-04-four-up-icon-cards.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-05-marker-statement-light.png",
+   "category": "deck",
+   "bytes": 62916,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-05-marker-statement-light.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-06-metric-4m.png",
+   "category": "deck",
+   "bytes": 71582,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-06-metric-4m.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-07-dimensions-overview.png",
+   "category": "deck",
+   "bytes": 287266,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-07-dimensions-overview.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-08-why-rgc-starfield.png",
+   "category": "deck",
+   "bytes": 163331,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-08-why-rgc-starfield.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-09-context-map-split.png",
+   "category": "deck",
+   "bytes": 186690,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-09-context-map-split.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-10-radar-diagnostic.png",
+   "category": "deck",
+   "bytes": 85358,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-10-radar-diagnostic.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-11-three-lenses-marker.png",
+   "category": "deck",
+   "bytes": 75635,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-11-three-lenses-marker.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-12-section-02.png",
+   "category": "deck",
+   "bytes": 36029,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-12-section-02.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-13-three-outcomes-sky.png",
+   "category": "deck",
+   "bytes": 72486,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-13-three-outcomes-sky.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-14-buyers-case-checklist.png",
+   "category": "deck",
+   "bytes": 69218,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-14-buyers-case-checklist.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-15-breakthrough-demo.png",
+   "category": "deck",
+   "bytes": 215405,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-15-breakthrough-demo.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-16-uk-map-stores.png",
+   "category": "deck",
+   "bytes": 267370,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-16-uk-map-stores.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-17-media-loop.png",
+   "category": "deck",
+   "bytes": 92383,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-17-media-loop.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-18-npd-wireframe.png",
+   "category": "deck",
+   "bytes": 160097,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-18-npd-wireframe.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-19-image-cereal-bowl.png",
+   "category": "deck",
+   "bytes": 995972,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-19-image-cereal-bowl.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-20-next-play-statement-light.png",
+   "category": "deck",
+   "bytes": 58214,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-20-next-play-statement-light.png"
+  },
+  {
+   "path": "deck/example-slides/brand-pitch/slide-21-lets-talk.png",
+   "category": "deck",
+   "bytes": 295704,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/example-slides/brand-pitch/slide-21-lets-talk.png"
+  },
+  {
+   "path": "deck/slide-templates/index.json",
+   "category": "deck",
+   "bytes": 5547,
+   "dimensions": "",
+   "url": "deck/slide-templates/index.json"
+  },
+  {
+   "path": "deck/slide-templates/slide-01-really-good-culture-date.png",
+   "category": "deck",
+   "bytes": 108837,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-01-really-good-culture-date.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-02-section-one.png",
+   "category": "deck",
+   "bytes": 30040,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-02-section-one.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-03-contents.png",
+   "category": "deck",
+   "bytes": 56188,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-03-contents.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-04-a-headline-for-the-detailed-argument-you-re-.png",
+   "category": "deck",
+   "bytes": 96349,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-04-a-headline-for-the-detailed-argument-you-re-.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-05-one-big-fat-idea-said-plainly.png",
+   "category": "deck",
+   "bytes": 40923,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-05-one-big-fat-idea-said-plainly.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-06-metric-label.png",
+   "category": "deck",
+   "bytes": 124335,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-06-metric-label.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-07-a-punchy-testimonial-from-a-customer-partner.png",
+   "category": "deck",
+   "bytes": 766452,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-07-a-punchy-testimonial-from-a-customer-partner.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-08-full-bleed-image.png",
+   "category": "deck",
+   "bytes": 29400,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-08-full-bleed-image.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-09-or-text-on-one-side-image-on-the-other.png",
+   "category": "deck",
+   "bytes": 62620,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-09-or-text-on-one-side-image-on-the-other.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-10-three-things-side-by-side.png",
+   "category": "deck",
+   "bytes": 455072,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-10-three-things-side-by-side.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-11-this-vs-that.png",
+   "category": "deck",
+   "bytes": 80030,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-11-this-vs-that.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-12-how-it-unfolds-step-by-step.png",
+   "category": "deck",
+   "bytes": 49642,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-12-how-it-unfolds-step-by-step.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-13-compare-values-across-categories.png",
+   "category": "deck",
+   "bytes": 493639,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-13-compare-values-across-categories.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-14-line-chart-trend.png",
+   "category": "deck",
+   "bytes": 40441,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-14-line-chart-trend.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-15-convenience-seeker.png",
+   "category": "deck",
+   "bytes": 138933,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-15-convenience-seeker.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-16-line-items-in-a-clean-table.png",
+   "category": "deck",
+   "bytes": 80965,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-16-line-items-in-a-clean-table.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-17-the-numbers-at-a-glance.png",
+   "category": "deck",
+   "bytes": 48032,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-17-the-numbers-at-a-glance.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-18-our-partners.png",
+   "category": "deck",
+   "bytes": 1080494,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-18-our-partners.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-19-the-team-for-this-project.png",
+   "category": "deck",
+   "bytes": 411885,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-19-the-team-for-this-project.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-20-our-mission.png",
+   "category": "deck",
+   "bytes": 87904,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-20-our-mission.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-21-what-we-believe.png",
+   "category": "deck",
+   "bytes": 52961,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-21-what-we-believe.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-22-the-flywheel.png",
+   "category": "deck",
+   "bytes": 50980,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-22-the-flywheel.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-23-product-demo.png",
+   "category": "deck",
+   "bytes": 107909,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-23-product-demo.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-24-walk-through-the-interface.png",
+   "category": "deck",
+   "bytes": 50326,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-24-walk-through-the-interface.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-25-deliverable.png",
+   "category": "deck",
+   "bytes": 98364,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-25-deliverable.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-26-how-we-studied-it.png",
+   "category": "deck",
+   "bytes": 53867,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-26-how-we-studied-it.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-27-what-we-learned.png",
+   "category": "deck",
+   "bytes": 66429,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-27-what-we-learned.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-28-validation.png",
+   "category": "deck",
+   "bytes": 50053,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-28-validation.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-29-pilot-90-days.png",
+   "category": "deck",
+   "bytes": 76213,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-29-pilot-90-days.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-30-client-logo.png",
+   "category": "deck",
+   "bytes": 58967,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-30-client-logo.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-31-where-we-re-headed.png",
+   "category": "deck",
+   "bytes": 451136,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-31-where-we-re-headed.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-32-simple-scalable-pricing.png",
+   "category": "deck",
+   "bytes": 125883,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-32-simple-scalable-pricing.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-33-objection-handling.png",
+   "category": "deck",
+   "bytes": 55041,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-33-objection-handling.png"
+  },
+  {
+   "path": "deck/slide-templates/slide-34-get-in-touch.png",
+   "category": "deck",
+   "bytes": 45812,
+   "dimensions": "1920\u00d71080",
+   "url": "deck/slide-templates/slide-34-get-in-touch.png"
+  },
+  {
+   "path": "icons/archetypes/conscious-consumer.svg",
+   "category": "icons",
+   "bytes": 20781,
+   "dimensions": "1100\u00d71019",
+   "url": "icons/archetypes/conscious-consumer.svg"
+  },
+  {
+   "path": "icons/archetypes/everyday-planner.svg",
+   "category": "icons",
+   "bytes": 20914,
+   "dimensions": "1100\u00d71019",
+   "url": "icons/archetypes/everyday-planner.svg"
+  },
+  {
+   "path": "icons/archetypes/experience-explorer.svg",
+   "category": "icons",
+   "bytes": 27358,
+   "dimensions": "1089\u00d71008",
+   "url": "icons/archetypes/experience-explorer.svg"
+  },
+  {
+   "path": "icons/archetypes/impulse-buyer.svg",
+   "category": "icons",
+   "bytes": 44767,
+   "dimensions": "1089\u00d71008",
+   "url": "icons/archetypes/impulse-buyer.svg"
+  },
+  {
+   "path": "icons/archetypes/luxury-shopper.svg",
+   "category": "icons",
+   "bytes": 30160,
+   "dimensions": "1089\u00d71008",
+   "url": "icons/archetypes/luxury-shopper.svg"
+  },
+  {
+   "path": "icons/archetypes/on-the-go-shopper.svg",
+   "category": "icons",
+   "bytes": 15527,
+   "dimensions": "1100\u00d71019",
+   "url": "icons/archetypes/on-the-go-shopper.svg"
+  },
+  {
+   "path": "icons/archetypes/smart-saver.svg",
+   "category": "icons",
+   "bytes": 18553,
+   "dimensions": "1100\u00d71019",
+   "url": "icons/archetypes/smart-saver.svg"
+  },
+  {
+   "path": "icons/archetypes/thoughtful-buyer.svg",
+   "category": "icons",
+   "bytes": 45648,
+   "dimensions": "1089\u00d71008",
+   "url": "icons/archetypes/thoughtful-buyer.svg"
+  },
+  {
+   "path": "icons/archetypes/trend-enthusiast.svg",
+   "category": "icons",
+   "bytes": 19575,
+   "dimensions": "1089\u00d71008",
+   "url": "icons/archetypes/trend-enthusiast.svg"
+  },
+  {
+   "path": "icons/archetypes/wellness-seeker.svg",
+   "category": "icons",
+   "bytes": 20490,
+   "dimensions": "1100\u00d71019",
+   "url": "icons/archetypes/wellness-seeker.svg"
+  },
+  {
+   "path": "icons/modules/behavioural.png",
+   "category": "icons",
+   "bytes": 205018,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules/behavioural.png"
+  },
+  {
+   "path": "icons/modules/biometric.png",
+   "category": "icons",
+   "bytes": 171635,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules/biometric.png"
+  },
+  {
+   "path": "icons/modules/brand-performance.png",
+   "category": "icons",
+   "bytes": 168669,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules/brand-performance.png"
+  },
+  {
+   "path": "icons/modules/culture-trend.png",
+   "category": "icons",
+   "bytes": 179917,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules/culture-trend.png"
+  },
+  {
+   "path": "icons/modules/market-macro.png",
+   "category": "icons",
+   "bytes": 175053,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules/market-macro.png"
+  },
+  {
+   "path": "icons/modules/product-retail.png",
+   "category": "icons",
+   "bytes": 186896,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules/product-retail.png"
+  },
+  {
+   "path": "icons/modules/synthetic.png",
+   "category": "icons",
+   "bytes": 167512,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules/synthetic.png"
+  },
+  {
+   "path": "icons/modules-colour/colour-behaveicon.png",
+   "category": "icons",
+   "bytes": 205018,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules-colour/colour-behaveicon.png"
+  },
+  {
+   "path": "icons/modules-colour/colour-biometricicon.png",
+   "category": "icons",
+   "bytes": 171635,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules-colour/colour-biometricicon.png"
+  },
+  {
+   "path": "icons/modules-colour/colour-brandperforamanceicon.png",
+   "category": "icons",
+   "bytes": 168669,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules-colour/colour-brandperforamanceicon.png"
+  },
+  {
+   "path": "icons/modules-colour/colour-culturetrendicon.png",
+   "category": "icons",
+   "bytes": 179917,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules-colour/colour-culturetrendicon.png"
+  },
+  {
+   "path": "icons/modules-colour/colour-marketmacroicon.png",
+   "category": "icons",
+   "bytes": 175053,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules-colour/colour-marketmacroicon.png"
+  },
+  {
+   "path": "icons/modules-colour/colour-productretailicon.png",
+   "category": "icons",
+   "bytes": 186896,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules-colour/colour-productretailicon.png"
+  },
+  {
+   "path": "icons/modules-colour/colour-syntheticicon.png",
+   "category": "icons",
+   "bytes": 167512,
+   "dimensions": "400\u00d7400",
+   "url": "icons/modules-colour/colour-syntheticicon.png"
+  },
+  {
+   "path": "icons/report-icons/always-on-dark.svg",
+   "category": "icons",
+   "bytes": 6004,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/always-on-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/always-on-light.svg",
+   "category": "icons",
+   "bytes": 6186,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/always-on-light.svg"
+  },
+  {
+   "path": "icons/report-icons/ask-us-dark.svg",
+   "category": "icons",
+   "bytes": 9845,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/ask-us-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/ask-us-light.svg",
+   "category": "icons",
+   "bytes": 9983,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/ask-us-light.svg"
+  },
+  {
+   "path": "icons/report-icons/attention-v1-dark.svg",
+   "category": "icons",
+   "bytes": 8659,
+   "dimensions": "36\u00d734",
+   "url": "icons/report-icons/attention-v1-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/attention-v1-light.svg",
+   "category": "icons",
+   "bytes": 8747,
+   "dimensions": "36\u00d734",
+   "url": "icons/report-icons/attention-v1-light.svg"
+  },
+  {
+   "path": "icons/report-icons/attention-v2-dark.svg",
+   "category": "icons",
+   "bytes": 2380,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/attention-v2-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/attention-v2-light.svg",
+   "category": "icons",
+   "bytes": 2404,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/attention-v2-light.svg"
+  },
+  {
+   "path": "icons/report-icons/audience-dark.svg",
+   "category": "icons",
+   "bytes": 8206,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/audience-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/audience-light.svg",
+   "category": "icons",
+   "bytes": 8415,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/audience-light.svg"
+  },
+  {
+   "path": "icons/report-icons/audio-dark.svg",
+   "category": "icons",
+   "bytes": 4773,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/audio-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/audio-light.svg",
+   "category": "icons",
+   "bytes": 4818,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/audio-light.svg"
+  },
+  {
+   "path": "icons/report-icons/automated-decisioning-dark.svg",
+   "category": "icons",
+   "bytes": 5657,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/automated-decisioning-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/automated-decisioning-light.svg",
+   "category": "icons",
+   "bytes": 5741,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/automated-decisioning-light.svg"
+  },
+  {
+   "path": "icons/report-icons/barcode-dark.svg",
+   "category": "icons",
+   "bytes": 5853,
+   "dimensions": "36\u00d729",
+   "url": "icons/report-icons/barcode-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/barcode-light.svg",
+   "category": "icons",
+   "bytes": 5943,
+   "dimensions": "36\u00d729",
+   "url": "icons/report-icons/barcode-light.svg"
+  },
+  {
+   "path": "icons/report-icons/behaviour-dark.svg",
+   "category": "icons",
+   "bytes": 17506,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/behaviour-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/behaviour-light.svg",
+   "category": "icons",
+   "bytes": 17764,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/behaviour-light.svg"
+  },
+  {
+   "path": "icons/report-icons/biometric-dark.svg",
+   "category": "icons",
+   "bytes": 6581,
+   "dimensions": "25\u00d737",
+   "url": "icons/report-icons/biometric-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/biometric-light.svg",
+   "category": "icons",
+   "bytes": 6656,
+   "dimensions": "25\u00d737",
+   "url": "icons/report-icons/biometric-light.svg"
+  },
+  {
+   "path": "icons/report-icons/brand-and-performance-dark.svg",
+   "category": "icons",
+   "bytes": 10445,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/brand-and-performance-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/brand-and-performance-light.svg",
+   "category": "icons",
+   "bytes": 10595,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/brand-and-performance-light.svg"
+  },
+  {
+   "path": "icons/report-icons/budget-dark.svg",
+   "category": "icons",
+   "bytes": 13056,
+   "dimensions": "34\u00d730",
+   "url": "icons/report-icons/budget-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/budget-light.svg",
+   "category": "icons",
+   "bytes": 13242,
+   "dimensions": "34\u00d730",
+   "url": "icons/report-icons/budget-light.svg"
+  },
+  {
+   "path": "icons/report-icons/business-dark.svg",
+   "category": "icons",
+   "bytes": 8425,
+   "dimensions": "32\u00d737",
+   "url": "icons/report-icons/business-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/business-light.svg",
+   "category": "icons",
+   "bytes": 8527,
+   "dimensions": "32\u00d737",
+   "url": "icons/report-icons/business-light.svg"
+  },
+  {
+   "path": "icons/report-icons/chat-dark.svg",
+   "category": "icons",
+   "bytes": 5967,
+   "dimensions": "36\u00d730",
+   "url": "icons/report-icons/chat-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/chat-light.svg",
+   "category": "icons",
+   "bytes": 6121,
+   "dimensions": "36\u00d730",
+   "url": "icons/report-icons/chat-light.svg"
+  },
+  {
+   "path": "icons/report-icons/click-dark.svg",
+   "category": "icons",
+   "bytes": 7446,
+   "dimensions": "22\u00d734",
+   "url": "icons/report-icons/click-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/click-light.svg",
+   "category": "icons",
+   "bytes": 7674,
+   "dimensions": "22\u00d734",
+   "url": "icons/report-icons/click-light.svg"
+  },
+  {
+   "path": "icons/report-icons/complete-dark.svg",
+   "category": "icons",
+   "bytes": 6394,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/complete-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/complete-light.svg",
+   "category": "icons",
+   "bytes": 6469,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/complete-light.svg"
+  },
+  {
+   "path": "icons/report-icons/connected-dark.svg",
+   "category": "icons",
+   "bytes": 5335,
+   "dimensions": "32\u00d737",
+   "url": "icons/report-icons/connected-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/connected-light.svg",
+   "category": "icons",
+   "bytes": 5379,
+   "dimensions": "32\u00d737",
+   "url": "icons/report-icons/connected-light.svg"
+  },
+  {
+   "path": "icons/report-icons/cost-dark.svg",
+   "category": "icons",
+   "bytes": 12074,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/cost-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/cost-light.svg",
+   "category": "icons",
+   "bytes": 12224,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/cost-light.svg"
+  },
+  {
+   "path": "icons/report-icons/customisable-dark.svg",
+   "category": "icons",
+   "bytes": 4025,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/customisable-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/customisable-light.svg",
+   "category": "icons",
+   "bytes": 4079,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/customisable-light.svg"
+  },
+  {
+   "path": "icons/report-icons/desktop-dark.svg",
+   "category": "icons",
+   "bytes": 6308,
+   "dimensions": "148\u00d7160",
+   "url": "icons/report-icons/desktop-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/desktop-light.svg",
+   "category": "icons",
+   "bytes": 5140,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/desktop-light.svg"
+  },
+  {
+   "path": "icons/report-icons/directional-dark.svg",
+   "category": "icons",
+   "bytes": 10100,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/directional-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/directional-light.svg",
+   "category": "icons",
+   "bytes": 10250,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/directional-light.svg"
+  },
+  {
+   "path": "icons/report-icons/discount-dark.svg",
+   "category": "icons",
+   "bytes": 5171,
+   "dimensions": "36\u00d727",
+   "url": "icons/report-icons/discount-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/discount-light.svg",
+   "category": "icons",
+   "bytes": 5237,
+   "dimensions": "36\u00d727",
+   "url": "icons/report-icons/discount-light.svg"
+  },
+  {
+   "path": "icons/report-icons/document-dark.svg",
+   "category": "icons",
+   "bytes": 3810,
+   "dimensions": "36\u00d737",
+   "url": "icons/report-icons/document-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/document-light.svg",
+   "category": "icons",
+   "bytes": 3914,
+   "dimensions": "36\u00d737",
+   "url": "icons/report-icons/document-light.svg"
+  },
+  {
+   "path": "icons/report-icons/download-dark.svg",
+   "category": "icons",
+   "bytes": 8694,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/download-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/download-light.svg",
+   "category": "icons",
+   "bytes": 8936,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/download-light.svg"
+  },
+  {
+   "path": "icons/report-icons/email-dark.svg",
+   "category": "icons",
+   "bytes": 11176,
+   "dimensions": "38\u00d730",
+   "url": "icons/report-icons/email-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/email-light.svg",
+   "category": "icons",
+   "bytes": 11321,
+   "dimensions": "38\u00d730",
+   "url": "icons/report-icons/email-light.svg"
+  },
+  {
+   "path": "icons/report-icons/factory-dark.svg",
+   "category": "icons",
+   "bytes": 5510,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/factory-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/factory-light.svg",
+   "category": "icons",
+   "bytes": 5576,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/factory-light.svg"
+  },
+  {
+   "path": "icons/report-icons/files-dark.svg",
+   "category": "icons",
+   "bytes": 5860,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/files-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/files-light.svg",
+   "category": "icons",
+   "bytes": 6003,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/files-light.svg"
+  },
+  {
+   "path": "icons/report-icons/flagged-dark.svg",
+   "category": "icons",
+   "bytes": 2382,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/flagged-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/flagged-light.svg",
+   "category": "icons",
+   "bytes": 2412,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/flagged-light.svg"
+  },
+  {
+   "path": "icons/report-icons/global-dark.svg",
+   "category": "icons",
+   "bytes": 10049,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/global-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/global-light.svg",
+   "category": "icons",
+   "bytes": 10193,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/global-light.svg"
+  },
+  {
+   "path": "icons/report-icons/graphing-dark.svg",
+   "category": "icons",
+   "bytes": 5290,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/graphing-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/graphing-light.svg",
+   "category": "icons",
+   "bytes": 5446,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/graphing-light.svg"
+  },
+  {
+   "path": "icons/report-icons/groceries-dark.svg",
+   "category": "icons",
+   "bytes": 7188,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/groceries-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/groceries-light.svg",
+   "category": "icons",
+   "bytes": 7284,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/groceries-light.svg"
+  },
+  {
+   "path": "icons/report-icons/growth-dark.svg",
+   "category": "icons",
+   "bytes": 7060,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/growth-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/growth-light.svg",
+   "category": "icons",
+   "bytes": 7162,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/growth-light.svg"
+  },
+  {
+   "path": "icons/report-icons/high-roas-dark.svg",
+   "category": "icons",
+   "bytes": 12077,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/high-roas-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/high-roas-light.svg",
+   "category": "icons",
+   "bytes": 12245,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/high-roas-light.svg"
+  },
+  {
+   "path": "icons/report-icons/highest-score-dark.svg",
+   "category": "icons",
+   "bytes": 7088,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/highest-score-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/highest-score-light.svg",
+   "category": "icons",
+   "bytes": 7343,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/highest-score-light.svg"
+  },
+  {
+   "path": "icons/report-icons/home-dark.svg",
+   "category": "icons",
+   "bytes": 11368,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/home-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/home-light.svg",
+   "category": "icons",
+   "bytes": 11524,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/home-light.svg"
+  },
+  {
+   "path": "icons/report-icons/human-input-dark.svg",
+   "category": "icons",
+   "bytes": 7354,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-input-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/human-input-light.svg",
+   "category": "icons",
+   "bytes": 7456,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-input-light.svg"
+  },
+  {
+   "path": "icons/report-icons/human-man-dark.svg",
+   "category": "icons",
+   "bytes": 12964,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-man-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/human-man-light.svg",
+   "category": "icons",
+   "bytes": 13162,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-man-light.svg"
+  },
+  {
+   "path": "icons/report-icons/human-signal-dark.svg",
+   "category": "icons",
+   "bytes": 16165,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-signal-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/human-signal-light.svg",
+   "category": "icons",
+   "bytes": 16411,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-signal-light.svg"
+  },
+  {
+   "path": "icons/report-icons/human-woman-dark.svg",
+   "category": "icons",
+   "bytes": 11877,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-woman-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/human-woman-light.svg",
+   "category": "icons",
+   "bytes": 12051,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/human-woman-light.svg"
+  },
+  {
+   "path": "icons/report-icons/in-store-dark.svg",
+   "category": "icons",
+   "bytes": 7543,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/in-store-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/in-store-light.svg",
+   "category": "icons",
+   "bytes": 7645,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/in-store-light.svg"
+  },
+  {
+   "path": "icons/report-icons/index.json",
+   "category": "icons",
+   "bytes": 18378,
+   "dimensions": "",
+   "url": "icons/report-icons/index.json"
+  },
+  {
+   "path": "icons/report-icons/info-dark.svg",
+   "category": "icons",
+   "bytes": 10339,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/info-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/info-light.svg",
+   "category": "icons",
+   "bytes": 10495,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/info-light.svg"
+  },
+  {
+   "path": "icons/report-icons/internal-storage-dark.svg",
+   "category": "icons",
+   "bytes": 6782,
+   "dimensions": "36\u00d734",
+   "url": "icons/report-icons/internal-storage-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/internal-storage-light.svg",
+   "category": "icons",
+   "bytes": 6862,
+   "dimensions": "36\u00d734",
+   "url": "icons/report-icons/internal-storage-light.svg"
+  },
+  {
+   "path": "icons/report-icons/jbp-evidence-dark.svg",
+   "category": "icons",
+   "bytes": 14172,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/jbp-evidence-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/jbp-evidence-light.svg",
+   "category": "icons",
+   "bytes": 14382,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/jbp-evidence-light.svg"
+  },
+  {
+   "path": "icons/report-icons/live-competitor-tracking-dark.svg",
+   "category": "icons",
+   "bytes": 8618,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/live-competitor-tracking-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/live-competitor-tracking-light.svg",
+   "category": "icons",
+   "bytes": 8738,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/live-competitor-tracking-light.svg"
+  },
+  {
+   "path": "icons/report-icons/location-dark.svg",
+   "category": "icons",
+   "bytes": 10047,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/location-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/location-light.svg",
+   "category": "icons",
+   "bytes": 10247,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/location-light.svg"
+  },
+  {
+   "path": "icons/report-icons/locked-dark.svg",
+   "category": "icons",
+   "bytes": 12388,
+   "dimensions": "31\u00d737",
+   "url": "icons/report-icons/locked-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/locked-light.svg",
+   "category": "icons",
+   "bytes": 12574,
+   "dimensions": "31\u00d737",
+   "url": "icons/report-icons/locked-light.svg"
+  },
+  {
+   "path": "icons/report-icons/macro-dark.svg",
+   "category": "icons",
+   "bytes": 8786,
+   "dimensions": "38\u00d732",
+   "url": "icons/report-icons/macro-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/macro-light.svg",
+   "category": "icons",
+   "bytes": 8918,
+   "dimensions": "38\u00d732",
+   "url": "icons/report-icons/macro-light.svg"
+  },
+  {
+   "path": "icons/report-icons/makreting-plans-light.svg",
+   "category": "icons",
+   "bytes": 14967,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/makreting-plans-light.svg"
+  },
+  {
+   "path": "icons/report-icons/marketing-plans-dark.svg",
+   "category": "icons",
+   "bytes": 14751,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/marketing-plans-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/mastering-dark.svg",
+   "category": "icons",
+   "bytes": 12196,
+   "dimensions": "36\u00d737",
+   "url": "icons/report-icons/mastering-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/mastering-light.svg",
+   "category": "icons",
+   "bytes": 12382,
+   "dimensions": "36\u00d737",
+   "url": "icons/report-icons/mastering-light.svg"
+  },
+  {
+   "path": "icons/report-icons/media-dark.svg",
+   "category": "icons",
+   "bytes": 8912,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/media-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/media-light.svg",
+   "category": "icons",
+   "bytes": 9038,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/media-light.svg"
+  },
+  {
+   "path": "icons/report-icons/names.json",
+   "category": "icons",
+   "bytes": 2498,
+   "dimensions": "",
+   "url": "icons/report-icons/names.json"
+  },
+  {
+   "path": "icons/report-icons/network-dark.svg",
+   "category": "icons",
+   "bytes": 4987,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/network-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/network-light.svg",
+   "category": "icons",
+   "bytes": 5086,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/network-light.svg"
+  },
+  {
+   "path": "icons/report-icons/office-dark.svg",
+   "category": "icons",
+   "bytes": 9850,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/office-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/office-light.svg",
+   "category": "icons",
+   "bytes": 9982,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/office-light.svg"
+  },
+  {
+   "path": "icons/report-icons/offline-storage-dark.svg",
+   "category": "icons",
+   "bytes": 4607,
+   "dimensions": "20\u00d737",
+   "url": "icons/report-icons/offline-storage-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/offline-storage-light.svg",
+   "category": "icons",
+   "bytes": 4673,
+   "dimensions": "20\u00d737",
+   "url": "icons/report-icons/offline-storage-light.svg"
+  },
+  {
+   "path": "icons/report-icons/pricing-dark.svg",
+   "category": "icons",
+   "bytes": 19346,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/pricing-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/pricing-light.svg",
+   "category": "icons",
+   "bytes": 19696,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/pricing-light.svg"
+  },
+  {
+   "path": "icons/report-icons/private-label-npd-dark.svg",
+   "category": "icons",
+   "bytes": 10312,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/private-label-npd-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/private-label-npd-light.svg",
+   "category": "icons",
+   "bytes": 10408,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/private-label-npd-light.svg"
+  },
+  {
+   "path": "icons/report-icons/product-and-retail-dark.svg",
+   "category": "icons",
+   "bytes": 1877,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/product-and-retail-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/product-and-retail-light.svg",
+   "category": "icons",
+   "bytes": 1898,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/product-and-retail-light.svg"
+  },
+  {
+   "path": "icons/report-icons/proprietary-data-dark.svg",
+   "category": "icons",
+   "bytes": 4586,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/proprietary-data-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/proprietary-data-light.svg",
+   "category": "icons",
+   "bytes": 4674,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/proprietary-data-light.svg"
+  },
+  {
+   "path": "icons/report-icons/query-agent-dark.svg",
+   "category": "icons",
+   "bytes": 5092,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/query-agent-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/query-agent-light.svg",
+   "category": "icons",
+   "bytes": 5140,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/query-agent-light.svg"
+  },
+  {
+   "path": "icons/report-icons/range-effectiveness-dark.svg",
+   "category": "icons",
+   "bytes": 10370,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/range-effectiveness-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/range-effectiveness-light.svg",
+   "category": "icons",
+   "bytes": 10520,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/range-effectiveness-light.svg"
+  },
+  {
+   "path": "icons/report-icons/receipt-dark.svg",
+   "category": "icons",
+   "bytes": 17852,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/receipt-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/receipt-light.svg",
+   "category": "icons",
+   "bytes": 18167,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/receipt-light.svg"
+  },
+  {
+   "path": "icons/report-icons/report-icons.js",
+   "category": "icons",
+   "bytes": 365935,
+   "dimensions": "",
+   "url": "icons/report-icons/report-icons.js"
+  },
+  {
+   "path": "icons/report-icons/research-dark.svg",
+   "category": "icons",
+   "bytes": 8975,
+   "dimensions": "31\u00d737",
+   "url": "icons/report-icons/research-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/research-light.svg",
+   "category": "icons",
+   "bytes": 9107,
+   "dimensions": "31\u00d737",
+   "url": "icons/report-icons/research-light.svg"
+  },
+  {
+   "path": "icons/report-icons/ring-fenced-dark.svg",
+   "category": "icons",
+   "bytes": 9157,
+   "dimensions": "32\u00d732",
+   "url": "icons/report-icons/ring-fenced-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/ring-fenced-light.svg",
+   "category": "icons",
+   "bytes": 9249,
+   "dimensions": "32\u00d732",
+   "url": "icons/report-icons/ring-fenced-light.svg"
+  },
+  {
+   "path": "icons/report-icons/roas-dark.svg",
+   "category": "icons",
+   "bytes": 6728,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/roas-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/roas-light.svg",
+   "category": "icons",
+   "bytes": 6800,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/roas-light.svg"
+  },
+  {
+   "path": "icons/report-icons/scientific-dark.svg",
+   "category": "icons",
+   "bytes": 7866,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/scientific-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/scientific-light.svg",
+   "category": "icons",
+   "bytes": 7974,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/scientific-light.svg"
+  },
+  {
+   "path": "icons/report-icons/secure-dark.svg",
+   "category": "icons",
+   "bytes": 4295,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/secure-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/secure-light.svg",
+   "category": "icons",
+   "bytes": 4355,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/secure-light.svg"
+  },
+  {
+   "path": "icons/report-icons/share-v2-dark.svg",
+   "category": "icons",
+   "bytes": 6692,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/share-v2-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/share-v2-light.svg",
+   "category": "icons",
+   "bytes": 6756,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/share-v2-light.svg"
+  },
+  {
+   "path": "icons/report-icons/signal-dark.svg",
+   "category": "icons",
+   "bytes": 2986,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/signal-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/signal-light.svg",
+   "category": "icons",
+   "bytes": 3010,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/signal-light.svg"
+  },
+  {
+   "path": "icons/report-icons/sprite.svg",
+   "category": "icons",
+   "bytes": 352648,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/sprite.svg"
+  },
+  {
+   "path": "icons/report-icons/supplier-negotiations-dark.svg",
+   "category": "icons",
+   "bytes": 13975,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/supplier-negotiations-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/supplier-negotiations-light.svg",
+   "category": "icons",
+   "bytes": 14150,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/supplier-negotiations-light.svg"
+  },
+  {
+   "path": "icons/report-icons/synthetic-buyer-dark.svg",
+   "category": "icons",
+   "bytes": 13014,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/synthetic-buyer-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/synthetic-buyer-light.svg",
+   "category": "icons",
+   "bytes": 13174,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/synthetic-buyer-light.svg"
+  },
+  {
+   "path": "icons/report-icons/synthetic-shopper-dark.svg",
+   "category": "icons",
+   "bytes": 8659,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/synthetic-shopper-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/synthetic-shopper-light.svg",
+   "category": "icons",
+   "bytes": 8827,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/synthetic-shopper-light.svg"
+  },
+  {
+   "path": "icons/report-icons/tools-dark.svg",
+   "category": "icons",
+   "bytes": 10125,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/tools-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/tools-light.svg",
+   "category": "icons",
+   "bytes": 10269,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/tools-light.svg"
+  },
+  {
+   "path": "icons/report-icons/trend-dark.svg",
+   "category": "icons",
+   "bytes": 5612,
+   "dimensions": "29\u00d737",
+   "url": "icons/report-icons/trend-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/trend-light.svg",
+   "category": "icons",
+   "bytes": 5755,
+   "dimensions": "29\u00d737",
+   "url": "icons/report-icons/trend-light.svg"
+  },
+  {
+   "path": "icons/report-icons/unlock-dark.svg",
+   "category": "icons",
+   "bytes": 9274,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/unlock-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/unlock-light.svg",
+   "category": "icons",
+   "bytes": 9406,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/unlock-light.svg"
+  },
+  {
+   "path": "icons/report-icons/value-dark.svg",
+   "category": "icons",
+   "bytes": 11815,
+   "dimensions": "38\u00d730",
+   "url": "icons/report-icons/value-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/value-light.svg",
+   "category": "icons",
+   "bytes": 11989,
+   "dimensions": "38\u00d730",
+   "url": "icons/report-icons/value-light.svg"
+  },
+  {
+   "path": "icons/report-icons/whitespace-dark.svg",
+   "category": "icons",
+   "bytes": 7220,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/whitespace-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/whitespace-light.svg",
+   "category": "icons",
+   "bytes": 7305,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/whitespace-light.svg"
+  },
+  {
+   "path": "icons/report-icons/wider-market-dark.svg",
+   "category": "icons",
+   "bytes": 15400,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/wider-market-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/wider-market-light.svg",
+   "category": "icons",
+   "bytes": 15628,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/wider-market-light.svg"
+  },
+  {
+   "path": "icons/report-icons/winning-listings-dark.svg",
+   "category": "icons",
+   "bytes": 6102,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/winning-listings-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/winning-listings-light.svg",
+   "category": "icons",
+   "bytes": 6146,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/winning-listings-light.svg"
+  },
+  {
+   "path": "icons/report-icons/world-dark.svg",
+   "category": "icons",
+   "bytes": 5584,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/world-dark.svg"
+  },
+  {
+   "path": "icons/report-icons/world-light.svg",
+   "category": "icons",
+   "bytes": 5650,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/world-light.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/always-on.svg",
+   "category": "icons",
+   "bytes": 3431,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/mono/always-on.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/ask-us.svg",
+   "category": "icons",
+   "bytes": 5155,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/ask-us.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/attention-v1.svg",
+   "category": "icons",
+   "bytes": 4320,
+   "dimensions": "36\u00d734",
+   "url": "icons/report-icons/mono/attention-v1.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/attention-v2.svg",
+   "category": "icons",
+   "bytes": 2012,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/attention-v2.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/audience.svg",
+   "category": "icons",
+   "bytes": 4511,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/mono/audience.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/audio.svg",
+   "category": "icons",
+   "bytes": 3080,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/audio.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/automated-decisioning.svg",
+   "category": "icons",
+   "bytes": 3127,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/automated-decisioning.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/barcode.svg",
+   "category": "icons",
+   "bytes": 2899,
+   "dimensions": "36\u00d729",
+   "url": "icons/report-icons/mono/barcode.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/behaviour.svg",
+   "category": "icons",
+   "bytes": 8690,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/mono/behaviour.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/biometric.svg",
+   "category": "icons",
+   "bytes": 3658,
+   "dimensions": "25\u00d737",
+   "url": "icons/report-icons/mono/biometric.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/brand-and-performance.svg",
+   "category": "icons",
+   "bytes": 5715,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/brand-and-performance.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/budget.svg",
+   "category": "icons",
+   "bytes": 6646,
+   "dimensions": "34\u00d730",
+   "url": "icons/report-icons/mono/budget.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/business.svg",
+   "category": "icons",
+   "bytes": 5061,
+   "dimensions": "32\u00d737",
+   "url": "icons/report-icons/mono/business.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/chat.svg",
+   "category": "icons",
+   "bytes": 3252,
+   "dimensions": "36\u00d730",
+   "url": "icons/report-icons/mono/chat.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/click.svg",
+   "category": "icons",
+   "bytes": 3692,
+   "dimensions": "22\u00d734",
+   "url": "icons/report-icons/mono/click.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/complete.svg",
+   "category": "icons",
+   "bytes": 3455,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/mono/complete.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/connected.svg",
+   "category": "icons",
+   "bytes": 3259,
+   "dimensions": "32\u00d737",
+   "url": "icons/report-icons/mono/connected.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/cost.svg",
+   "category": "icons",
+   "bytes": 5816,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/mono/cost.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/customisable.svg",
+   "category": "icons",
+   "bytes": 2403,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/customisable.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/desktop.svg",
+   "category": "icons",
+   "bytes": 2778,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/desktop.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/directional.svg",
+   "category": "icons",
+   "bytes": 5110,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/directional.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/discount.svg",
+   "category": "icons",
+   "bytes": 3085,
+   "dimensions": "36\u00d727",
+   "url": "icons/report-icons/mono/discount.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/document.svg",
+   "category": "icons",
+   "bytes": 2415,
+   "dimensions": "36\u00d737",
+   "url": "icons/report-icons/mono/document.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/download.svg",
+   "category": "icons",
+   "bytes": 4375,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/mono/download.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/email.svg",
+   "category": "icons",
+   "bytes": 5165,
+   "dimensions": "38\u00d730",
+   "url": "icons/report-icons/mono/email.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/factory.svg",
+   "category": "icons",
+   "bytes": 3412,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/factory.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/files.svg",
+   "category": "icons",
+   "bytes": 3371,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/files.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/flagged.svg",
+   "category": "icons",
+   "bytes": 1558,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/flagged.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/global.svg",
+   "category": "icons",
+   "bytes": 5144,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/global.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/graphing.svg",
+   "category": "icons",
+   "bytes": 3075,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/mono/graphing.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/groceries.svg",
+   "category": "icons",
+   "bytes": 4054,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/groceries.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/growth.svg",
+   "category": "icons",
+   "bytes": 3660,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/growth.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/high-roas.svg",
+   "category": "icons",
+   "bytes": 6399,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/high-roas.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/highest-score.svg",
+   "category": "icons",
+   "bytes": 3983,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/mono/highest-score.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/home.svg",
+   "category": "icons",
+   "bytes": 5979,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/home.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/human-input.svg",
+   "category": "icons",
+   "bytes": 4044,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/human-input.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/human-man.svg",
+   "category": "icons",
+   "bytes": 6226,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/human-man.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/human-signal.svg",
+   "category": "icons",
+   "bytes": 7857,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/human-signal.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/human-woman.svg",
+   "category": "icons",
+   "bytes": 6047,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/human-woman.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/in-store.svg",
+   "category": "icons",
+   "bytes": 4179,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/in-store.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/info.svg",
+   "category": "icons",
+   "bytes": 4950,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/info.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/internal-storage.svg",
+   "category": "icons",
+   "bytes": 3766,
+   "dimensions": "36\u00d734",
+   "url": "icons/report-icons/mono/internal-storage.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/jbp-evidence.svg",
+   "category": "icons",
+   "bytes": 7118,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/jbp-evidence.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/live-competitor-tracking.svg",
+   "category": "icons",
+   "bytes": 4951,
+   "dimensions": "38\u00d734",
+   "url": "icons/report-icons/mono/live-competitor-tracking.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/location.svg",
+   "category": "icons",
+   "bytes": 5029,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/mono/location.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/locked.svg",
+   "category": "icons",
+   "bytes": 5978,
+   "dimensions": "31\u00d737",
+   "url": "icons/report-icons/mono/locked.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/macro.svg",
+   "category": "icons",
+   "bytes": 4288,
+   "dimensions": "38\u00d732",
+   "url": "icons/report-icons/mono/macro.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/marketing-plans.svg",
+   "category": "icons",
+   "bytes": 7599,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/marketing-plans.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/mastering.svg",
+   "category": "icons",
+   "bytes": 5882,
+   "dimensions": "36\u00d737",
+   "url": "icons/report-icons/mono/mastering.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/media.svg",
+   "category": "icons",
+   "bytes": 4630,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/media.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/network.svg",
+   "category": "icons",
+   "bytes": 3360,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/network.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/office.svg",
+   "category": "icons",
+   "bytes": 5375,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/office.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/offline-storage.svg",
+   "category": "icons",
+   "bytes": 2605,
+   "dimensions": "20\u00d737",
+   "url": "icons/report-icons/mono/offline-storage.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/pricing.svg",
+   "category": "icons",
+   "bytes": 8903,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/pricing.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/private-label-npd.svg",
+   "category": "icons",
+   "bytes": 5680,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/private-label-npd.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/product-and-retail.svg",
+   "category": "icons",
+   "bytes": 1522,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/mono/product-and-retail.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/proprietary-data.svg",
+   "category": "icons",
+   "bytes": 3247,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/proprietary-data.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/query-agent.svg",
+   "category": "icons",
+   "bytes": 2830,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/query-agent.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/range-effectiveness.svg",
+   "category": "icons",
+   "bytes": 5588,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/mono/range-effectiveness.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/receipt.svg",
+   "category": "icons",
+   "bytes": 8479,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/receipt.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/research.svg",
+   "category": "icons",
+   "bytes": 4546,
+   "dimensions": "31\u00d737",
+   "url": "icons/report-icons/mono/research.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/ring-fenced.svg",
+   "category": "icons",
+   "bytes": 4585,
+   "dimensions": "32\u00d732",
+   "url": "icons/report-icons/mono/ring-fenced.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/roas.svg",
+   "category": "icons",
+   "bytes": 4377,
+   "dimensions": "38\u00d736",
+   "url": "icons/report-icons/mono/roas.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/scientific.svg",
+   "category": "icons",
+   "bytes": 4327,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/scientific.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/secure.svg",
+   "category": "icons",
+   "bytes": 2400,
+   "dimensions": "27\u00d737",
+   "url": "icons/report-icons/mono/secure.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/share-v2.svg",
+   "category": "icons",
+   "bytes": 3539,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/mono/share-v2.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/signal.svg",
+   "category": "icons",
+   "bytes": 2369,
+   "dimensions": "34\u00d734",
+   "url": "icons/report-icons/mono/signal.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/supplier-negotiations.svg",
+   "category": "icons",
+   "bytes": 7244,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/supplier-negotiations.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/synthetic-buyer.svg",
+   "category": "icons",
+   "bytes": 6685,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/synthetic-buyer.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/synthetic-shopper.svg",
+   "category": "icons",
+   "bytes": 4683,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/synthetic-shopper.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/tools.svg",
+   "category": "icons",
+   "bytes": 5195,
+   "dimensions": "34\u00d737",
+   "url": "icons/report-icons/mono/tools.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/trend.svg",
+   "category": "icons",
+   "bytes": 3123,
+   "dimensions": "29\u00d737",
+   "url": "icons/report-icons/mono/trend.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/unlock.svg",
+   "category": "icons",
+   "bytes": 4799,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/unlock.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/value.svg",
+   "category": "icons",
+   "bytes": 5805,
+   "dimensions": "38\u00d730",
+   "url": "icons/report-icons/mono/value.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/whitespace.svg",
+   "category": "icons",
+   "bytes": 3886,
+   "dimensions": "36\u00d736",
+   "url": "icons/report-icons/mono/whitespace.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/wider-market.svg",
+   "category": "icons",
+   "bytes": 7719,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/wider-market.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/winning-listings.svg",
+   "category": "icons",
+   "bytes": 4110,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/winning-listings.svg"
+  },
+  {
+   "path": "icons/report-icons/mono/world.svg",
+   "category": "icons",
+   "bytes": 3462,
+   "dimensions": "38\u00d737",
+   "url": "icons/report-icons/mono/world.svg"
+  },
+  {
+   "path": "image-fills/avatar.png",
+   "category": "image-fills",
+   "bytes": 13861,
+   "dimensions": "200\u00d7200",
+   "url": "image-fills/avatar.png"
+  },
+  {
+   "path": "image-fills/background-10.png",
+   "category": "image-fills",
+   "bytes": 782111,
+   "dimensions": "1248\u00d7832",
+   "url": "image-fills/background-10.png"
+  },
+  {
+   "path": "image-fills/background-11.png",
+   "category": "image-fills",
+   "bytes": 2235769,
+   "dimensions": "2637\u00d7847",
+   "url": "image-fills/background-11.png"
+  },
+  {
+   "path": "image-fills/background-12.png",
+   "category": "image-fills",
+   "bytes": 1161579,
+   "dimensions": "2637\u00d7847",
+   "url": "image-fills/background-12.png"
+  },
+  {
+   "path": "image-fills/background-13.png",
+   "category": "image-fills",
+   "bytes": 2150651,
+   "dimensions": "1024\u00d7897",
+   "url": "image-fills/background-13.png"
+  },
+  {
+   "path": "image-fills/background-14.png",
+   "category": "image-fills",
+   "bytes": 1423497,
+   "dimensions": "1024\u00d7897",
+   "url": "image-fills/background-14.png"
+  },
+  {
+   "path": "image-fills/background-15.png",
+   "category": "image-fills",
+   "bytes": 1435738,
+   "dimensions": "1248\u00d7728",
+   "url": "image-fills/background-15.png"
+  },
+  {
+   "path": "image-fills/background-16.png",
+   "category": "image-fills",
+   "bytes": 838197,
+   "dimensions": "1248\u00d7728",
+   "url": "image-fills/background-16.png"
+  },
+  {
+   "path": "image-fills/background-17.png",
+   "category": "image-fills",
+   "bytes": 1206830,
+   "dimensions": "1248\u00d7832",
+   "url": "image-fills/background-17.png"
+  },
+  {
+   "path": "image-fills/background-18.png",
+   "category": "image-fills",
+   "bytes": 597896,
+   "dimensions": "1248\u00d7832",
+   "url": "image-fills/background-18.png"
+  },
+  {
+   "path": "image-fills/background-19.png",
+   "category": "image-fills",
+   "bytes": 592893,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background-19.png"
+  },
+  {
+   "path": "image-fills/background-2.png",
+   "category": "image-fills",
+   "bytes": 751917,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background-2.png"
+  },
+  {
+   "path": "image-fills/background-20.png",
+   "category": "image-fills",
+   "bytes": 906088,
+   "dimensions": "1022\u00d71024",
+   "url": "image-fills/background-20.png"
+  },
+  {
+   "path": "image-fills/background-21.png",
+   "category": "image-fills",
+   "bytes": 410067,
+   "dimensions": "1022\u00d71024",
+   "url": "image-fills/background-21.png"
+  },
+  {
+   "path": "image-fills/background-22.png",
+   "category": "image-fills",
+   "bytes": 1254525,
+   "dimensions": "832\u00d71005",
+   "url": "image-fills/background-22.png"
+  },
+  {
+   "path": "image-fills/background-23.png",
+   "category": "image-fills",
+   "bytes": 748250,
+   "dimensions": "832\u00d71005",
+   "url": "image-fills/background-23.png"
+  },
+  {
+   "path": "image-fills/background-24.png",
+   "category": "image-fills",
+   "bytes": 1532169,
+   "dimensions": "832\u00d71040",
+   "url": "image-fills/background-24.png"
+  },
+  {
+   "path": "image-fills/background-25.png",
+   "category": "image-fills",
+   "bytes": 720056,
+   "dimensions": "832\u00d71040",
+   "url": "image-fills/background-25.png"
+  },
+  {
+   "path": "image-fills/background-3.png",
+   "category": "image-fills",
+   "bytes": 195244,
+   "dimensions": "491\u00d7604",
+   "url": "image-fills/background-3.png"
+  },
+  {
+   "path": "image-fills/background-4.png",
+   "category": "image-fills",
+   "bytes": 195729,
+   "dimensions": "491\u00d7604",
+   "url": "image-fills/background-4.png"
+  },
+  {
+   "path": "image-fills/background-5.png",
+   "category": "image-fills",
+   "bytes": 1278599,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background-5.png"
+  },
+  {
+   "path": "image-fills/background-6.png",
+   "category": "image-fills",
+   "bytes": 537703,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background-6.png"
+  },
+  {
+   "path": "image-fills/background-7.png",
+   "category": "image-fills",
+   "bytes": 1026185,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background-7.png"
+  },
+  {
+   "path": "image-fills/background-8.png",
+   "category": "image-fills",
+   "bytes": 592748,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background-8.png"
+  },
+  {
+   "path": "image-fills/background-9.png",
+   "category": "image-fills",
+   "bytes": 594615,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background-9.png"
+  },
+  {
+   "path": "image-fills/background.png",
+   "category": "image-fills",
+   "bytes": 999059,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/background.png"
+  },
+  {
+   "path": "image-fills/be-icon.png",
+   "category": "image-fills",
+   "bytes": 252766,
+   "dimensions": "404\u00d7349",
+   "url": "image-fills/be-icon.png"
+  },
+  {
+   "path": "image-fills/best-review-banner.jpg",
+   "category": "image-fills",
+   "bytes": 504220,
+   "dimensions": "1840\u00d71232",
+   "url": "image-fills/best-review-banner.jpg"
+  },
+  {
+   "path": "image-fills/bio-icon-2.png",
+   "category": "image-fills",
+   "bytes": 587095,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/bio-icon-2.png"
+  },
+  {
+   "path": "image-fills/bio-icon.png",
+   "category": "image-fills",
+   "bytes": 1486112,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/bio-icon.png"
+  },
+  {
+   "path": "image-fills/bp-icon-2.png",
+   "category": "image-fills",
+   "bytes": 401103,
+   "dimensions": "832\u00d71040",
+   "url": "image-fills/bp-icon-2.png"
+  },
+  {
+   "path": "image-fills/bp-icon.png",
+   "category": "image-fills",
+   "bytes": 1476417,
+   "dimensions": "832\u00d71040",
+   "url": "image-fills/bp-icon.png"
+  },
+  {
+   "path": "image-fills/container-2.png",
+   "category": "image-fills",
+   "bytes": 1187125,
+   "dimensions": "960\u00d7960",
+   "url": "image-fills/container-2.png"
+  },
+  {
+   "path": "image-fills/container-3.png",
+   "category": "image-fills",
+   "bytes": 169496,
+   "dimensions": "470\u00d7470",
+   "url": "image-fills/container-3.png"
+  },
+  {
+   "path": "image-fills/container.jpg",
+   "category": "image-fills",
+   "bytes": 44408,
+   "dimensions": "640\u00d7640",
+   "url": "image-fills/container.jpg"
+  },
+  {
+   "path": "image-fills/copy-of-copy-of-static-ad-workflow-part-1-of-the-four-grade--2.png",
+   "category": "image-fills",
+   "bytes": 853816,
+   "dimensions": "832\u00d71118",
+   "url": "image-fills/copy-of-copy-of-static-ad-workflow-part-1-of-the-four-grade--2.png"
+  },
+  {
+   "path": "image-fills/copy-of-copy-of-static-ad-workflow-part-1-of-the-four-grade-.png",
+   "category": "image-fills",
+   "bytes": 1218204,
+   "dimensions": "832\u00d71118",
+   "url": "image-fills/copy-of-copy-of-static-ad-workflow-part-1-of-the-four-grade-.png"
+  },
+  {
+   "path": "image-fills/eyed-1.png",
+   "category": "image-fills",
+   "bytes": 3569,
+   "dimensions": "181\u00d7114",
+   "url": "image-fills/eyed-1.png"
+  },
+  {
+   "path": "image-fills/frame-2147237136.jpg",
+   "category": "image-fills",
+   "bytes": 7898937,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237136.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237137.jpg",
+   "category": "image-fills",
+   "bytes": 8762347,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237137.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237138.jpg",
+   "category": "image-fills",
+   "bytes": 8947612,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237138.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237139.jpg",
+   "category": "image-fills",
+   "bytes": 7737887,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237139.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237140.jpg",
+   "category": "image-fills",
+   "bytes": 9444450,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237140.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237141.jpg",
+   "category": "image-fills",
+   "bytes": 9962878,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237141.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237142.jpg",
+   "category": "image-fills",
+   "bytes": 7078552,
+   "dimensions": "4096\u00d72731",
+   "url": "image-fills/frame-2147237142.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237143.jpg",
+   "category": "image-fills",
+   "bytes": 8783640,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237143.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237144.jpg",
+   "category": "image-fills",
+   "bytes": 7604218,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237144.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237145.jpg",
+   "category": "image-fills",
+   "bytes": 8355651,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237145.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237146.jpg",
+   "category": "image-fills",
+   "bytes": 8106302,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237146.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237147.jpg",
+   "category": "image-fills",
+   "bytes": 6834544,
+   "dimensions": "4096\u00d72731",
+   "url": "image-fills/frame-2147237147.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237148.jpg",
+   "category": "image-fills",
+   "bytes": 7011773,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237148.jpg"
+  },
+  {
+   "path": "image-fills/frame-2147237149.jpg",
+   "category": "image-fills",
+   "bytes": 7601187,
+   "dimensions": "2731\u00d74096",
+   "url": "image-fills/frame-2147237149.jpg"
+  },
+  {
+   "path": "image-fills/group-1820283651-1.png",
+   "category": "image-fills",
+   "bytes": 2039066,
+   "dimensions": "1183\u00d71449",
+   "url": "image-fills/group-1820283651-1.png"
+  },
+  {
+   "path": "image-fills/image-2.png",
+   "category": "image-fills",
+   "bytes": 248497,
+   "dimensions": "620\u00d7362",
+   "url": "image-fills/image-2.png"
+  },
+  {
+   "path": "image-fills/image-3.png",
+   "category": "image-fills",
+   "bytes": 173493,
+   "dimensions": "620\u00d7415",
+   "url": "image-fills/image-3.png"
+  },
+  {
+   "path": "image-fills/image-4.png",
+   "category": "image-fills",
+   "bytes": 370583,
+   "dimensions": "620\u00d7568",
+   "url": "image-fills/image-4.png"
+  },
+  {
+   "path": "image-fills/image-5.png",
+   "category": "image-fills",
+   "bytes": 154436,
+   "dimensions": "620\u00d7480",
+   "url": "image-fills/image-5.png"
+  },
+  {
+   "path": "image-fills/image-6445.png",
+   "category": "image-fills",
+   "bytes": 296431,
+   "dimensions": "736\u00d7736",
+   "url": "image-fills/image-6445.png"
+  },
+  {
+   "path": "image-fills/image-6502-2.png",
+   "category": "image-fills",
+   "bytes": 2477982,
+   "dimensions": "2365\u00d72365",
+   "url": "image-fills/image-6502-2.png"
+  },
+  {
+   "path": "image-fills/image-6502.png",
+   "category": "image-fills",
+   "bytes": 2496899,
+   "dimensions": "2365\u00d72365",
+   "url": "image-fills/image-6502.png"
+  },
+  {
+   "path": "image-fills/image-6511-2.png",
+   "category": "image-fills",
+   "bytes": 470938,
+   "dimensions": "848\u00d71060",
+   "url": "image-fills/image-6511-2.png"
+  },
+  {
+   "path": "image-fills/image-6511.png",
+   "category": "image-fills",
+   "bytes": 1004806,
+   "dimensions": "848\u00d71060",
+   "url": "image-fills/image-6511.png"
+  },
+  {
+   "path": "image-fills/image-6523-2.png",
+   "category": "image-fills",
+   "bytes": 415873,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6523-2.png"
+  },
+  {
+   "path": "image-fills/image-6523.png",
+   "category": "image-fills",
+   "bytes": 643931,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6523.png"
+  },
+  {
+   "path": "image-fills/image-6527-2.png",
+   "category": "image-fills",
+   "bytes": 502028,
+   "dimensions": "1080\u00d71080",
+   "url": "image-fills/image-6527-2.png"
+  },
+  {
+   "path": "image-fills/image-6527.png",
+   "category": "image-fills",
+   "bytes": 2701350,
+   "dimensions": "1080\u00d71080",
+   "url": "image-fills/image-6527.png"
+  },
+  {
+   "path": "image-fills/image-6528-2.png",
+   "category": "image-fills",
+   "bytes": 378231,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6528-2.png"
+  },
+  {
+   "path": "image-fills/image-6528.png",
+   "category": "image-fills",
+   "bytes": 1818353,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6528.png"
+  },
+  {
+   "path": "image-fills/image-6540-2.png",
+   "category": "image-fills",
+   "bytes": 621027,
+   "dimensions": "1080\u00d7791",
+   "url": "image-fills/image-6540-2.png"
+  },
+  {
+   "path": "image-fills/image-6540.png",
+   "category": "image-fills",
+   "bytes": 579258,
+   "dimensions": "1080\u00d7791",
+   "url": "image-fills/image-6540.png"
+  },
+  {
+   "path": "image-fills/image-6541-2.png",
+   "category": "image-fills",
+   "bytes": 737831,
+   "dimensions": "1002\u00d71024",
+   "url": "image-fills/image-6541-2.png"
+  },
+  {
+   "path": "image-fills/image-6541-3.png",
+   "category": "image-fills",
+   "bytes": 726357,
+   "dimensions": "1200\u00d71199",
+   "url": "image-fills/image-6541-3.png"
+  },
+  {
+   "path": "image-fills/image-6541-4.png",
+   "category": "image-fills",
+   "bytes": 640866,
+   "dimensions": "1200\u00d71199",
+   "url": "image-fills/image-6541-4.png"
+  },
+  {
+   "path": "image-fills/image-6541.png",
+   "category": "image-fills",
+   "bytes": 1388008,
+   "dimensions": "1002\u00d71024",
+   "url": "image-fills/image-6541.png"
+  },
+  {
+   "path": "image-fills/image-6545-2.png",
+   "category": "image-fills",
+   "bytes": 805122,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6545-2.png"
+  },
+  {
+   "path": "image-fills/image-6545.png",
+   "category": "image-fills",
+   "bytes": 876637,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6545.png"
+  },
+  {
+   "path": "image-fills/image-6561-2.png",
+   "category": "image-fills",
+   "bytes": 337309,
+   "dimensions": "1024\u00d71023",
+   "url": "image-fills/image-6561-2.png"
+  },
+  {
+   "path": "image-fills/image-6561.png",
+   "category": "image-fills",
+   "bytes": 1758677,
+   "dimensions": "1024\u00d71023",
+   "url": "image-fills/image-6561.png"
+  },
+  {
+   "path": "image-fills/image-6562-2.png",
+   "category": "image-fills",
+   "bytes": 213168,
+   "dimensions": "1024\u00d71023",
+   "url": "image-fills/image-6562-2.png"
+  },
+  {
+   "path": "image-fills/image-6562-3.png",
+   "category": "image-fills",
+   "bytes": 3858277,
+   "dimensions": "4096\u00d74092",
+   "url": "image-fills/image-6562-3.png"
+  },
+  {
+   "path": "image-fills/image-6562.png",
+   "category": "image-fills",
+   "bytes": 1659701,
+   "dimensions": "1024\u00d71023",
+   "url": "image-fills/image-6562.png"
+  },
+  {
+   "path": "image-fills/image-6564-2.png",
+   "category": "image-fills",
+   "bytes": 230119,
+   "dimensions": "750\u00d7500",
+   "url": "image-fills/image-6564-2.png"
+  },
+  {
+   "path": "image-fills/image-6564.png",
+   "category": "image-fills",
+   "bytes": 291228,
+   "dimensions": "750\u00d7500",
+   "url": "image-fills/image-6564.png"
+  },
+  {
+   "path": "image-fills/image-6851-2.png",
+   "category": "image-fills",
+   "bytes": 279567,
+   "dimensions": "736\u00d7736",
+   "url": "image-fills/image-6851-2.png"
+  },
+  {
+   "path": "image-fills/image-6851.png",
+   "category": "image-fills",
+   "bytes": 314538,
+   "dimensions": "736\u00d7736",
+   "url": "image-fills/image-6851.png"
+  },
+  {
+   "path": "image-fills/image-6853-2.png",
+   "category": "image-fills",
+   "bytes": 305988,
+   "dimensions": "1024\u00d7989",
+   "url": "image-fills/image-6853-2.png"
+  },
+  {
+   "path": "image-fills/image-6853.png",
+   "category": "image-fills",
+   "bytes": 623848,
+   "dimensions": "1024\u00d7989",
+   "url": "image-fills/image-6853.png"
+  },
+  {
+   "path": "image-fills/image-6854-2.png",
+   "category": "image-fills",
+   "bytes": 1145139,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6854-2.png"
+  },
+  {
+   "path": "image-fills/image-6854.png",
+   "category": "image-fills",
+   "bytes": 1161159,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6854.png"
+  },
+  {
+   "path": "image-fills/image-6855-2.png",
+   "category": "image-fills",
+   "bytes": 884577,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6855-2.png"
+  },
+  {
+   "path": "image-fills/image-6855.png",
+   "category": "image-fills",
+   "bytes": 1000679,
+   "dimensions": "1024\u00d71024",
+   "url": "image-fills/image-6855.png"
+  },
+  {
+   "path": "image-fills/image-6860-2.png",
+   "category": "image-fills",
+   "bytes": 1777977,
+   "dimensions": "842\u00d71191",
+   "url": "image-fills/image-6860-2.png"
+  },
+  {
+   "path": "image-fills/image-6860-3.png",
+   "category": "image-fills",
+   "bytes": 760915,
+   "dimensions": "1002\u00d71024",
+   "url": "image-fills/image-6860-3.png"
+  },
+  {
+   "path": "image-fills/image-6860.png",
+   "category": "image-fills",
+   "bytes": 974117,
+   "dimensions": "842\u00d71191",
+   "url": "image-fills/image-6860.png"
+  },
+  {
+   "path": "image-fills/image-78-2.png",
+   "category": "image-fills",
+   "bytes": 4613625,
+   "dimensions": "1472\u00d71854",
+   "url": "image-fills/image-78-2.png"
+  },
+  {
+   "path": "image-fills/image-78.png",
+   "category": "image-fills",
+   "bytes": 2110086,
+   "dimensions": "832\u00d71048",
+   "url": "image-fills/image-78.png"
+  },
+  {
+   "path": "image-fills/image.png",
+   "category": "image-fills",
+   "bytes": 250752,
+   "dimensions": "620\u00d7593",
+   "url": "image-fills/image.png"
+  },
+  {
+   "path": "image-fills/index.json",
+   "category": "image-fills",
+   "bytes": 19786,
+   "dimensions": "",
+   "url": "image-fills/index.json"
+  },
+  {
+   "path": "image-fills/light-gradient-background.png",
+   "category": "image-fills",
+   "bytes": 898363,
+   "dimensions": "1168\u00d71030",
+   "url": "image-fills/light-gradient-background.png"
+  },
+  {
+   "path": "image-fills/logo.png",
+   "category": "image-fills",
+   "bytes": 32243,
+   "dimensions": "844\u00d7532",
+   "url": "image-fills/logo.png"
+  },
+  {
+   "path": "image-fills/mm-icon-2.png",
+   "category": "image-fills",
+   "bytes": 683323,
+   "dimensions": "1024\u00d7885",
+   "url": "image-fills/mm-icon-2.png"
+  },
+  {
+   "path": "image-fills/mm-icon.png",
+   "category": "image-fills",
+   "bytes": 985651,
+   "dimensions": "1024\u00d7885",
+   "url": "image-fills/mm-icon.png"
+  },
+  {
+   "path": "image-fills/object-2.png",
+   "category": "image-fills",
+   "bytes": 165103,
+   "dimensions": "628\u00d7190",
+   "url": "image-fills/object-2.png"
+  },
+  {
+   "path": "image-fills/object-3.png",
+   "category": "image-fills",
+   "bytes": 7158,
+   "dimensions": "82\u00d737",
+   "url": "image-fills/object-3.png"
+  },
+  {
+   "path": "image-fills/object.png",
+   "category": "image-fills",
+   "bytes": 97484,
+   "dimensions": "342\u00d7338",
+   "url": "image-fills/object.png"
+  },
+  {
+   "path": "image-fills/photo-card-2.png",
+   "category": "image-fills",
+   "bytes": 571433,
+   "dimensions": "474\u00d7794",
+   "url": "image-fills/photo-card-2.png"
+  },
+  {
+   "path": "image-fills/photo-card-3.png",
+   "category": "image-fills",
+   "bytes": 597348,
+   "dimensions": "474\u00d7854",
+   "url": "image-fills/photo-card-3.png"
+  },
+  {
+   "path": "image-fills/photo-card-4.png",
+   "category": "image-fills",
+   "bytes": 504179,
+   "dimensions": "480\u00d7866",
+   "url": "image-fills/photo-card-4.png"
+  },
+  {
+   "path": "image-fills/photo-card-5.png",
+   "category": "image-fills",
+   "bytes": 426572,
+   "dimensions": "478\u00d7866",
+   "url": "image-fills/photo-card-5.png"
+  },
+  {
+   "path": "image-fills/photo-card-6.png",
+   "category": "image-fills",
+   "bytes": 383604,
+   "dimensions": "474\u00d7862",
+   "url": "image-fills/photo-card-6.png"
+  },
+  {
+   "path": "image-fills/photo-card.png",
+   "category": "image-fills",
+   "bytes": 510157,
+   "dimensions": "452\u00d7652",
+   "url": "image-fills/photo-card.png"
+  },
+  {
+   "path": "image-fills/prediction-gradient.png",
+   "category": "image-fills",
+   "bytes": 62266,
+   "dimensions": "784\u00d7209",
+   "url": "image-fills/prediction-gradient.png"
+  },
+  {
+   "path": "image-fills/product-image-2.png",
+   "category": "image-fills",
+   "bytes": 497176,
+   "dimensions": "1080\u00d71080",
+   "url": "image-fills/product-image-2.png"
+  },
+  {
+   "path": "image-fills/product-image.png",
+   "category": "image-fills",
+   "bytes": 334125,
+   "dimensions": "1060\u00d71073",
+   "url": "image-fills/product-image.png"
+  },
+  {
+   "path": "image-fills/rectangle-2.png",
+   "category": "image-fills",
+   "bytes": 813690,
+   "dimensions": "960\u00d7960",
+   "url": "image-fills/rectangle-2.png"
+  },
+  {
+   "path": "image-fills/rectangle-3.png",
+   "category": "image-fills",
+   "bytes": 1670747,
+   "dimensions": "2365\u00d72365",
+   "url": "image-fills/rectangle-3.png"
+  },
+  {
+   "path": "image-fills/rectangle.jpg",
+   "category": "image-fills",
+   "bytes": 177891,
+   "dimensions": "1200\u00d71200",
+   "url": "image-fills/rectangle.jpg"
+  },
+  {
+   "path": "image-fills/screenshot-2026-07-01-at-11-53-55-2-2.png",
+   "category": "image-fills",
+   "bytes": 5144237,
+   "dimensions": "2836\u00d71024",
+   "url": "image-fills/screenshot-2026-07-01-at-11-53-55-2-2.png"
+  },
+  {
+   "path": "image-fills/screenshot-2026-07-01-at-11-53-55-2-3.png",
+   "category": "image-fills",
+   "bytes": 2277170,
+   "dimensions": "2836\u00d71024",
+   "url": "image-fills/screenshot-2026-07-01-at-11-53-55-2-3.png"
+  },
+  {
+   "path": "image-fills/screenshot-2026-07-01-at-11-53-55-2.png",
+   "category": "image-fills",
+   "bytes": 1140661,
+   "dimensions": "1418\u00d7512",
+   "url": "image-fills/screenshot-2026-07-01-at-11-53-55-2.png"
+  },
+  {
+   "path": "image-fills/screenshot-2026-07-10-at-10-02-17-1-2.png",
+   "category": "image-fills",
+   "bytes": 95458,
+   "dimensions": "282\u00d7322",
+   "url": "image-fills/screenshot-2026-07-10-at-10-02-17-1-2.png"
+  },
+  {
+   "path": "image-fills/screenshot-2026-07-10-at-10-02-17-1.png",
+   "category": "image-fills",
+   "bytes": 96614,
+   "dimensions": "282\u00d7322",
+   "url": "image-fills/screenshot-2026-07-10-at-10-02-17-1.png"
+  },
+  {
+   "path": "image-fills/screenshot-2026-07-17-at-15-11-26-1-2.png",
+   "category": "image-fills",
+   "bytes": 95621,
+   "dimensions": "1296\u00d7812",
+   "url": "image-fills/screenshot-2026-07-17-at-15-11-26-1-2.png"
+  },
+  {
+   "path": "image-fills/screenshot-2026-07-17-at-15-11-26-1.png",
+   "category": "image-fills",
+   "bytes": 122920,
+   "dimensions": "1296\u00d7812",
+   "url": "image-fills/screenshot-2026-07-17-at-15-11-26-1.png"
+  },
+  {
+   "path": "logos/breakthrough-mark.png",
+   "category": "logos",
+   "bytes": 758440,
+   "dimensions": "644\u00d7809",
+   "url": "logos/breakthrough-mark.png"
+  },
+  {
+   "path": "logos/footer-rgc-dark.png",
+   "category": "logos",
+   "bytes": 27689,
+   "dimensions": "695\u00d7256",
+   "url": "logos/footer-rgc-dark.png"
+  },
+  {
+   "path": "logos/footer-rgc-light.png",
+   "category": "logos",
+   "bytes": 18372,
+   "dimensions": "695\u00d7258",
+   "url": "logos/footer-rgc-light.png"
+  },
+  {
+   "path": "logos/rgc-logo.svg",
+   "category": "logos",
+   "bytes": 24321,
+   "dimensions": "711\u00d7306",
+   "url": "logos/rgc-logo.svg"
+  },
+  {
+   "path": "logos/rgc-mark.png",
+   "category": "logos",
+   "bytes": 213180,
+   "dimensions": "485\u00d7496",
+   "url": "logos/rgc-mark.png"
+  },
+  {
+   "path": "logos/watchhumans-mark.png",
+   "category": "logos",
+   "bytes": 166869,
+   "dimensions": "524\u00d7524",
+   "url": "logos/watchhumans-mark.png"
+  },
+  {
+   "path": "motifs/3dbreakthrough.png",
+   "category": "motifs",
+   "bytes": 758440,
+   "dimensions": "644\u00d7809",
+   "url": "motifs/3dbreakthrough.png"
+  },
+  {
+   "path": "motifs/3drgc.png",
+   "category": "motifs",
+   "bytes": 213180,
+   "dimensions": "485\u00d7496",
+   "url": "motifs/3drgc.png"
+  },
+  {
+   "path": "motifs/3dwatchumansb2c.png",
+   "category": "motifs",
+   "bytes": 166869,
+   "dimensions": "524\u00d7524",
+   "url": "motifs/3dwatchumansb2c.png"
+  },
+  {
+   "path": "motifs/motif-b.png",
+   "category": "motifs",
+   "bytes": 305988,
+   "dimensions": "1024\u00d7989",
+   "url": "motifs/motif-b.png"
+  },
+  {
+   "path": "motifs/motif-c.png",
+   "category": "motifs",
+   "bytes": 502028,
+   "dimensions": "1080\u00d71080",
+   "url": "motifs/motif-c.png"
+  },
+  {
+   "path": "motifs/motif-primary.png",
+   "category": "motifs",
+   "bytes": 640866,
+   "dimensions": "1200\u00d71199",
+   "url": "motifs/motif-primary.png"
+  },
+  {
+   "path": "motifs/traceable-orb.png",
+   "category": "motifs",
+   "bytes": 195244,
+   "dimensions": "491\u00d7604",
+   "url": "motifs/traceable-orb.png"
+  },
+  {
+   "path": "screens/behave-screen.png",
+   "category": "screens",
+   "bytes": 156923,
+   "dimensions": "685\u00d7693",
+   "url": "screens/behave-screen.png"
+  },
+  {
+   "path": "screens/biometric-screen.png",
+   "category": "screens",
+   "bytes": 198008,
+   "dimensions": "834\u00d7717",
+   "url": "screens/biometric-screen.png"
+  },
+  {
+   "path": "screens/brandperform-screen.png",
+   "category": "screens",
+   "bytes": 165486,
+   "dimensions": "826\u00d7692",
+   "url": "screens/brandperform-screen.png"
+  },
+  {
+   "path": "screens/confidence-screen.png",
+   "category": "screens",
+   "bytes": 83811,
+   "dimensions": "717\u00d7642",
+   "url": "screens/confidence-screen.png"
+  },
+  {
+   "path": "screens/culturetrend-screen.png",
+   "category": "screens",
+   "bytes": 190907,
+   "dimensions": "842\u00d7660",
+   "url": "screens/culturetrend-screen.png"
+  },
+  {
+   "path": "screens/index.json",
+   "category": "screens",
+   "bytes": 1461,
+   "dimensions": "",
+   "url": "screens/index.json"
+  },
+  {
+   "path": "screens/marketmacro-screen.png",
+   "category": "screens",
+   "bytes": 171416,
+   "dimensions": "813\u00d7653",
+   "url": "screens/marketmacro-screen.png"
+  },
+  {
+   "path": "screens/prodretail-screen.png",
+   "category": "screens",
+   "bytes": 179237,
+   "dimensions": "798\u00d7682",
+   "url": "screens/prodretail-screen.png"
+  },
+  {
+   "path": "screens/roas-screen.png",
+   "category": "screens",
+   "bytes": 195384,
+   "dimensions": "838\u00d7685",
+   "url": "screens/roas-screen.png"
+  },
+  {
+   "path": "screens/synthetic-screen.png",
+   "category": "screens",
+   "bytes": 192320,
+   "dimensions": "853\u00d7694",
+   "url": "screens/synthetic-screen.png"
+  },
+  {
+   "path": "screens/whitespace-screen.png",
+   "category": "screens",
+   "bytes": 90969,
+   "dimensions": "750\u00d7649",
+   "url": "screens/whitespace-screen.png"
+  },
+  {
+   "path": "site/article-headers/Synthetic-shoppers.png",
+   "category": "site",
+   "bytes": 60256,
+   "dimensions": "367\u00d7176",
+   "url": "site/article-headers/Synthetic-shoppers.png"
+  },
+  {
+   "path": "site/article-headers/bestdata.png",
+   "category": "site",
+   "bytes": 78119,
+   "dimensions": "367\u00d7176",
+   "url": "site/article-headers/bestdata.png"
+  },
+  {
+   "path": "site/article-headers/endofgutfeel.png",
+   "category": "site",
+   "bytes": 76240,
+   "dimensions": "365\u00d7175",
+   "url": "site/article-headers/endofgutfeel.png"
+  },
+  {
+   "path": "site/article-headers/index.json",
+   "category": "site",
+   "bytes": 1549,
+   "dimensions": "",
+   "url": "site/article-headers/index.json"
+  },
+  {
+   "path": "site/article-headers/readingdemand.png",
+   "category": "site",
+   "bytes": 58986,
+   "dimensions": "368\u00d7176",
+   "url": "site/article-headers/readingdemand.png"
+  },
+  {
+   "path": "site/article-headers/rewardthepast.png",
+   "category": "site",
+   "bytes": 75642,
+   "dimensions": "367\u00d7176",
+   "url": "site/article-headers/rewardthepast.png"
+  },
+  {
+   "path": "site/article-headers/sevendimensions.png",
+   "category": "site",
+   "bytes": 50370,
+   "dimensions": "366\u00d7174",
+   "url": "site/article-headers/sevendimensions.png"
+  },
+  {
+   "path": "site/article-headers/whatpredictiveintelligene.png",
+   "category": "site",
+   "bytes": 71975,
+   "dimensions": "365\u00d7174",
+   "url": "site/article-headers/whatpredictiveintelligene.png"
+  },
+  {
+   "path": "site/article-headers/whitespace.png",
+   "category": "site",
+   "bytes": 55774,
+   "dimensions": "366\u00d7174",
+   "url": "site/article-headers/whitespace.png"
+  },
+  {
+   "path": "site/linkedin/LinkedIn_Company_Profile_Banner.png",
+   "category": "site",
+   "bytes": 67312,
+   "dimensions": "2855\u00d7671",
+   "url": "site/linkedin/LinkedIn_Company_Profile_Banner.png"
+  },
+  {
+   "path": "site/linkedin/LinkedIn_Personal_Profile_Banner.png",
+   "category": "site",
+   "bytes": 28860,
+   "dimensions": "1007\u00d7317",
+   "url": "site/linkedin/LinkedIn_Personal_Profile_Banner.png"
+  },
+  {
+   "path": "site/linkedin/index.json",
+   "category": "site",
+   "bytes": 537,
+   "dimensions": "",
+   "url": "site/linkedin/index.json"
+  },
+  {
+   "path": "site/site-assets/built-for-retail.webp",
+   "category": "site",
+   "bytes": 129082,
+   "dimensions": "2060\u00d71057",
+   "url": "site/site-assets/built-for-retail.webp"
+  },
+  {
+   "path": "site/site-assets/cereal-blue.webp",
+   "category": "site",
+   "bytes": 42566,
+   "dimensions": "1254\u00d71254",
+   "url": "site/site-assets/cereal-blue.webp"
+  },
+  {
+   "path": "site/site-assets/cereal-coral.webp",
+   "category": "site",
+   "bytes": 11094,
+   "dimensions": "315\u00d7396",
+   "url": "site/site-assets/cereal-coral.webp"
+  },
+  {
+   "path": "site/site-assets/cereal-teal.webp",
+   "category": "site",
+   "bytes": 7178,
+   "dimensions": "300\u00d7300",
+   "url": "site/site-assets/cereal-teal.webp"
+  },
+  {
+   "path": "site/site-assets/cereal-yellow.webp",
+   "category": "site",
+   "bytes": 8178,
+   "dimensions": "300\u00d7300",
+   "url": "site/site-assets/cereal-yellow.webp"
+  },
+  {
+   "path": "site/site-assets/chain.webp",
+   "category": "site",
+   "bytes": 175472,
+   "dimensions": "1851\u00d71676",
+   "url": "site/site-assets/chain.webp"
+  },
+  {
+   "path": "site/site-assets/ci-alwayson.webp",
+   "category": "site",
+   "bytes": 4520,
+   "dimensions": "133\u00d7126",
+   "url": "site/site-assets/ci-alwayson.webp"
+  },
+  {
+   "path": "site/site-assets/ci-automated.webp",
+   "category": "site",
+   "bytes": 3580,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/ci-automated.webp"
+  },
+  {
+   "path": "site/site-assets/ci-highroas.webp",
+   "category": "site",
+   "bytes": 5842,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/ci-highroas.webp"
+  },
+  {
+   "path": "site/site-assets/ci-jbpevidence.webp",
+   "category": "site",
+   "bytes": 6058,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/ci-jbpevidence.webp"
+  },
+  {
+   "path": "site/site-assets/ci-livetracking.webp",
+   "category": "site",
+   "bytes": 4960,
+   "dimensions": "133\u00d7119",
+   "url": "site/site-assets/ci-livetracking.webp"
+  },
+  {
+   "path": "site/site-assets/ci-location.svg",
+   "category": "site",
+   "bytes": 10679,
+   "dimensions": "38\u00d751",
+   "url": "site/site-assets/ci-location.svg"
+  },
+  {
+   "path": "site/site-assets/ci-marketingplans.webp",
+   "category": "site",
+   "bytes": 6740,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/ci-marketingplans.webp"
+  },
+  {
+   "path": "site/site-assets/ci-privatelabelnpd.webp",
+   "category": "site",
+   "bytes": 5236,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/ci-privatelabelnpd.webp"
+  },
+  {
+   "path": "site/site-assets/ci-queryagent.webp",
+   "category": "site",
+   "bytes": 4074,
+   "dimensions": "120\u00d7132",
+   "url": "site/site-assets/ci-queryagent.webp"
+  },
+  {
+   "path": "site/site-assets/ci-rangeeffectiveness.webp",
+   "category": "site",
+   "bytes": 4822,
+   "dimensions": "120\u00d7119",
+   "url": "site/site-assets/ci-rangeeffectiveness.webp"
+  },
+  {
+   "path": "site/site-assets/ci-rom.svg",
+   "category": "site",
+   "bytes": 7961,
+   "dimensions": "47\u00d751",
+   "url": "site/site-assets/ci-rom.svg"
+  },
+  {
+   "path": "site/site-assets/ci-shopperbehaviour.svg",
+   "category": "site",
+   "bytes": 18556,
+   "dimensions": "52\u00d749",
+   "url": "site/site-assets/ci-shopperbehaviour.svg"
+  },
+  {
+   "path": "site/site-assets/ci-suppliernegotiations.webp",
+   "category": "site",
+   "bytes": 5852,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/ci-suppliernegotiations.webp"
+  },
+  {
+   "path": "site/site-assets/ci-trendtracking.svg",
+   "category": "site",
+   "bytes": 7477,
+   "dimensions": "52\u00d751",
+   "url": "site/site-assets/ci-trendtracking.svg"
+  },
+  {
+   "path": "site/site-assets/ci-whitespace.webp",
+   "category": "site",
+   "bytes": 3844,
+   "dimensions": "127\u00d7126",
+   "url": "site/site-assets/ci-whitespace.webp"
+  },
+  {
+   "path": "site/site-assets/ci-winninglistings.webp",
+   "category": "site",
+   "bytes": 6140,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/ci-winninglistings.webp"
+  },
+  {
+   "path": "site/site-assets/club-logo.png",
+   "category": "site",
+   "bytes": 62521,
+   "dimensions": "695\u00d7344",
+   "url": "site/site-assets/club-logo.png"
+  },
+  {
+   "path": "site/site-assets/color-behave.webp",
+   "category": "site",
+   "bytes": 37114,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/color-behave.webp"
+  },
+  {
+   "path": "site/site-assets/color-biometric.webp",
+   "category": "site",
+   "bytes": 42070,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/color-biometric.webp"
+  },
+  {
+   "path": "site/site-assets/color-market.webp",
+   "category": "site",
+   "bytes": 35522,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/color-market.webp"
+  },
+  {
+   "path": "site/site-assets/color-perform.webp",
+   "category": "site",
+   "bytes": 34422,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/color-perform.webp"
+  },
+  {
+   "path": "site/site-assets/color-product.webp",
+   "category": "site",
+   "bytes": 41630,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/color-product.webp"
+  },
+  {
+   "path": "site/site-assets/color-synthetic.webp",
+   "category": "site",
+   "bytes": 37968,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/color-synthetic.webp"
+  },
+  {
+   "path": "site/site-assets/color-trend.webp",
+   "category": "site",
+   "bytes": 32600,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/color-trend.webp"
+  },
+  {
+   "path": "site/site-assets/corg-3d.webp",
+   "category": "site",
+   "bytes": 20720,
+   "dimensions": "492\u00d7503",
+   "url": "site/site-assets/corg-3d.webp"
+  },
+  {
+   "path": "site/site-assets/cubes-logo.png",
+   "category": "site",
+   "bytes": 758230,
+   "dimensions": "644\u00d7809",
+   "url": "site/site-assets/cubes-logo.png"
+  },
+  {
+   "path": "site/site-assets/dim-behaviour.webp",
+   "category": "site",
+   "bytes": 49312,
+   "dimensions": "405\u00d7349",
+   "url": "site/site-assets/dim-behaviour.webp"
+  },
+  {
+   "path": "site/site-assets/dim-biometric.webp",
+   "category": "site",
+   "bytes": 62142,
+   "dimensions": "592\u00d7592",
+   "url": "site/site-assets/dim-biometric.webp"
+  },
+  {
+   "path": "site/site-assets/dim-brand.webp",
+   "category": "site",
+   "bytes": 23834,
+   "dimensions": "727\u00d7811",
+   "url": "site/site-assets/dim-brand.webp"
+  },
+  {
+   "path": "site/site-assets/dim-culture.webp",
+   "category": "site",
+   "bytes": 43096,
+   "dimensions": "1081\u00d7918",
+   "url": "site/site-assets/dim-culture.webp"
+  },
+  {
+   "path": "site/site-assets/dim-market.webp",
+   "category": "site",
+   "bytes": 27324,
+   "dimensions": "509\u00d7439",
+   "url": "site/site-assets/dim-market.webp"
+  },
+  {
+   "path": "site/site-assets/dim-product.webp",
+   "category": "site",
+   "bytes": 33834,
+   "dimensions": "380\u00d7538",
+   "url": "site/site-assets/dim-product.webp"
+  },
+  {
+   "path": "site/site-assets/dim-synthetic.webp",
+   "category": "site",
+   "bytes": 40930,
+   "dimensions": "503\u00d7509",
+   "url": "site/site-assets/dim-synthetic.webp"
+  },
+  {
+   "path": "site/site-assets/eyes.png",
+   "category": "site",
+   "bytes": 2828,
+   "dimensions": "146\u00d792",
+   "url": "site/site-assets/eyes.png"
+  },
+  {
+   "path": "site/site-assets/flower-left.webp",
+   "category": "site",
+   "bytes": 294250,
+   "dimensions": "1600\u00d71467",
+   "url": "site/site-assets/flower-left.webp"
+  },
+  {
+   "path": "site/site-assets/flower-right.webp",
+   "category": "site",
+   "bytes": 184906,
+   "dimensions": "1600\u00d71548",
+   "url": "site/site-assets/flower-right.webp"
+  },
+  {
+   "path": "site/site-assets/hands-globe.webp",
+   "category": "site",
+   "bytes": 246530,
+   "dimensions": "2041\u00d71332",
+   "url": "site/site-assets/hands-globe.webp"
+  },
+  {
+   "path": "site/site-assets/hero-basket.webp",
+   "category": "site",
+   "bytes": 241822,
+   "dimensions": "1600\u00d71315",
+   "url": "site/site-assets/hero-basket.webp"
+  },
+  {
+   "path": "site/site-assets/hero-ribbon-noise.webp",
+   "category": "site",
+   "bytes": 88834,
+   "dimensions": "1920\u00d7981",
+   "url": "site/site-assets/hero-ribbon-noise.webp"
+  },
+  {
+   "path": "site/site-assets/hero-ribbon.webp",
+   "category": "site",
+   "bytes": 122028,
+   "dimensions": "1372\u00d7915",
+   "url": "site/site-assets/hero-ribbon.webp"
+  },
+  {
+   "path": "site/site-assets/hero-snacks.webp",
+   "category": "site",
+   "bytes": 233272,
+   "dimensions": "1600\u00d71484",
+   "url": "site/site-assets/hero-snacks.webp"
+  },
+  {
+   "path": "site/site-assets/human-hand.webp",
+   "category": "site",
+   "bytes": 32156,
+   "dimensions": "1296\u00d71316",
+   "url": "site/site-assets/human-hand.webp"
+  },
+  {
+   "path": "site/site-assets/icecream.png",
+   "category": "site",
+   "bytes": 190274,
+   "dimensions": "536\u00d7536",
+   "url": "site/site-assets/icecream.png"
+  },
+  {
+   "path": "site/site-assets/iceland-logo.png",
+   "category": "site",
+   "bytes": 29598,
+   "dimensions": "3000\u00d72000",
+   "url": "site/site-assets/iceland-logo.png"
+  },
+  {
+   "path": "site/site-assets/icon-barcode.svg",
+   "category": "site",
+   "bytes": 6179,
+   "dimensions": "127\u00d7101",
+   "url": "site/site-assets/icon-barcode.svg"
+  },
+  {
+   "path": "site/site-assets/icon-behave.webp",
+   "category": "site",
+   "bytes": 36078,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/icon-behave.webp"
+  },
+  {
+   "path": "site/site-assets/icon-biometric.webp",
+   "category": "site",
+   "bytes": 37658,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/icon-biometric.webp"
+  },
+  {
+   "path": "site/site-assets/icon-market.webp",
+   "category": "site",
+   "bytes": 31956,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/icon-market.webp"
+  },
+  {
+   "path": "site/site-assets/icon-perform.webp",
+   "category": "site",
+   "bytes": 33624,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/icon-perform.webp"
+  },
+  {
+   "path": "site/site-assets/icon-product.webp",
+   "category": "site",
+   "bytes": 36556,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/icon-product.webp"
+  },
+  {
+   "path": "site/site-assets/icon-receipt.svg",
+   "category": "site",
+   "bytes": 18930,
+   "dimensions": "120\u00d7132",
+   "url": "site/site-assets/icon-receipt.svg"
+  },
+  {
+   "path": "site/site-assets/icon-store.svg",
+   "category": "site",
+   "bytes": 6343,
+   "dimensions": "133\u00d7132",
+   "url": "site/site-assets/icon-store.svg"
+  },
+  {
+   "path": "site/site-assets/icon-synthetic.webp",
+   "category": "site",
+   "bytes": 32410,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/icon-synthetic.webp"
+  },
+  {
+   "path": "site/site-assets/icon-trend.webp",
+   "category": "site",
+   "bytes": 28394,
+   "dimensions": "400\u00d7400",
+   "url": "site/site-assets/icon-trend.webp"
+  },
+  {
+   "path": "site/site-assets/image-slot.js",
+   "category": "site",
+   "bytes": 55034,
+   "dimensions": "",
+   "url": "site/site-assets/image-slot.js"
+  },
+  {
+   "path": "site/site-assets/og-image.webp",
+   "category": "site",
+   "bytes": 17464,
+   "dimensions": "1200\u00d7630",
+   "url": "site/site-assets/og-image.webp"
+  },
+  {
+   "path": "site/site-assets/page-wiggle.webp",
+   "category": "site",
+   "bytes": 391666,
+   "dimensions": "2437\u00d7806",
+   "url": "site/site-assets/page-wiggle.webp"
+  },
+  {
+   "path": "site/site-assets/retailer-logos-v2.png",
+   "category": "site",
+   "bytes": 14797,
+   "dimensions": "1280\u00d770",
+   "url": "site/site-assets/retailer-logos-v2.png"
+  },
+  {
+   "path": "site/site-assets/retailer-logos-v3.png",
+   "category": "site",
+   "bytes": 10630,
+   "dimensions": "1280\u00d770",
+   "url": "site/site-assets/retailer-logos-v3.png"
+  },
+  {
+   "path": "site/site-assets/retailer-logos.png",
+   "category": "site",
+   "bytes": 10302,
+   "dimensions": "1280\u00d770",
+   "url": "site/site-assets/retailer-logos.png"
+  },
+  {
+   "path": "site/site-assets/rgc-3d-logo.png",
+   "category": "site",
+   "bytes": 302160,
+   "dimensions": "586\u00d7598",
+   "url": "site/site-assets/rgc-3d-logo.png"
+  },
+  {
+   "path": "site/site-assets/rgc-big-3d.webp",
+   "category": "site",
+   "bytes": 39726,
+   "dimensions": "1876\u00d7642",
+   "url": "site/site-assets/rgc-big-3d.webp"
+  },
+  {
+   "path": "site/site-assets/rgc-big-noeyes.png",
+   "category": "site",
+   "bytes": 80630,
+   "dimensions": "1876\u00d7642",
+   "url": "site/site-assets/rgc-big-noeyes.png"
+  },
+  {
+   "path": "site/site-assets/rgc-big.png",
+   "category": "site",
+   "bytes": 50559,
+   "dimensions": "1876\u00d7642",
+   "url": "site/site-assets/rgc-big.png"
+  },
+  {
+   "path": "site/site-assets/rgc-cubes.png",
+   "category": "site",
+   "bytes": 223366,
+   "dimensions": "357\u00d7448",
+   "url": "site/site-assets/rgc-cubes.png"
+  },
+  {
+   "path": "site/site-assets/rgc-eyes.png",
+   "category": "site",
+   "bytes": 1729,
+   "dimensions": "88\u00d756",
+   "url": "site/site-assets/rgc-eyes.png"
+  },
+  {
+   "path": "site/site-assets/rgc-logo.png",
+   "category": "site",
+   "bytes": 72441,
+   "dimensions": "272\u00d7278",
+   "url": "site/site-assets/rgc-logo.png"
+  },
+  {
+   "path": "site/site-assets/robot-hand.webp",
+   "category": "site",
+   "bytes": 45388,
+   "dimensions": "1080\u00d71083",
+   "url": "site/site-assets/robot-hand.webp"
+  },
+  {
+   "path": "site/site-assets/slack-icon.webp",
+   "category": "site",
+   "bytes": 4588,
+   "dimensions": "250\u00d7250",
+   "url": "site/site-assets/slack-icon.webp"
+  },
+  {
+   "path": "site/site-assets/squigg-fullwidth.webp",
+   "category": "site",
+   "bytes": 281474,
+   "dimensions": "1920\u00d7806",
+   "url": "site/site-assets/squigg-fullwidth.webp"
+  },
+  {
+   "path": "site/site-assets/star-3d.webp",
+   "category": "site",
+   "bytes": 25762,
+   "dimensions": "520\u00d7520",
+   "url": "site/site-assets/star-3d.webp"
+  },
+  {
+   "path": "site/site-assets/teams-media-crop.webp",
+   "category": "site",
+   "bytes": 31426,
+   "dimensions": "506\u00d7430",
+   "url": "site/site-assets/teams-media-crop.webp"
+  },
+  {
+   "path": "site/site-assets/teams-media.webp",
+   "category": "site",
+   "bytes": 110436,
+   "dimensions": "603\u00d7527",
+   "url": "site/site-assets/teams-media.webp"
+  },
+  {
+   "path": "site/site-assets/teams-npd-crop.webp",
+   "category": "site",
+   "bytes": 69328,
+   "dimensions": "1005\u00d7852",
+   "url": "site/site-assets/teams-npd-crop.webp"
+  },
+  {
+   "path": "site/site-assets/teams-npd.webp",
+   "category": "site",
+   "bytes": 387186,
+   "dimensions": "1206\u00d71053",
+   "url": "site/site-assets/teams-npd.webp"
+  },
+  {
+   "path": "site/site-assets/teams-range-crop.webp",
+   "category": "site",
+   "bytes": 24290,
+   "dimensions": "462\u00d7446",
+   "url": "site/site-assets/teams-range-crop.webp"
+  },
+  {
+   "path": "site/site-assets/teams-range.webp",
+   "category": "site",
+   "bytes": 94150,
+   "dimensions": "549\u00d7533",
+   "url": "site/site-assets/teams-range.webp"
+  },
+  {
+   "path": "site/site-assets/why-confidence.webp",
+   "category": "site",
+   "bytes": 221792,
+   "dimensions": "1600\u00d71022",
+   "url": "site/site-assets/why-confidence.webp"
+  },
+  {
+   "path": "site/site-assets/why-ringfenced.webp",
+   "category": "site",
+   "bytes": 337290,
+   "dimensions": "1600\u00d71502",
+   "url": "site/site-assets/why-ringfenced.webp"
+  },
+  {
+   "path": "site/site-assets/why-traceable.webp",
+   "category": "site",
+   "bytes": 78790,
+   "dimensions": "1600\u00d71169",
+   "url": "site/site-assets/why-traceable.webp"
+  },
+  {
+   "path": "site/site-assets/wiggle-left.webp",
+   "category": "site",
+   "bytes": 114336,
+   "dimensions": "1251\u00d7626",
+   "url": "site/site-assets/wiggle-left.webp"
+  },
+  {
+   "path": "site/site-assets/wiggle-right.webp",
+   "category": "site",
+   "bytes": 133774,
+   "dimensions": "1251\u00d7544",
+   "url": "site/site-assets/wiggle-right.webp"
+  },
+  {
+   "path": "site/site-assets/wiggle.webp",
+   "category": "site",
+   "bytes": 211538,
+   "dimensions": "1251\u00d71253",
+   "url": "site/site-assets/wiggle.webp"
+  },
+  {
+   "path": "site/site-assets/backgrounds/bg-behave.webp",
+   "category": "site",
+   "bytes": 59362,
+   "dimensions": "1638\u00d7730",
+   "url": "site/site-assets/backgrounds/bg-behave.webp"
+  },
+  {
+   "path": "site/site-assets/backgrounds/bg-biometric.webp",
+   "category": "site",
+   "bytes": 49704,
+   "dimensions": "1638\u00d7730",
+   "url": "site/site-assets/backgrounds/bg-biometric.webp"
+  },
+  {
+   "path": "site/site-assets/backgrounds/bg-brandperform.webp",
+   "category": "site",
+   "bytes": 40126,
+   "dimensions": "1638\u00d7730",
+   "url": "site/site-assets/backgrounds/bg-brandperform.webp"
+  },
+  {
+   "path": "site/site-assets/backgrounds/bg-culturetrend.webp",
+   "category": "site",
+   "bytes": 58164,
+   "dimensions": "1638\u00d7730",
+   "url": "site/site-assets/backgrounds/bg-culturetrend.webp"
+  },
+  {
+   "path": "site/site-assets/backgrounds/bg-marketmacro.webp",
+   "category": "site",
+   "bytes": 50886,
+   "dimensions": "1638\u00d7730",
+   "url": "site/site-assets/backgrounds/bg-marketmacro.webp"
+  },
+  {
+   "path": "site/site-assets/backgrounds/bg-prodretail.webp",
+   "category": "site",
+   "bytes": 48414,
+   "dimensions": "1638\u00d7730",
+   "url": "site/site-assets/backgrounds/bg-prodretail.webp"
+  },
+  {
+   "path": "site/site-assets/backgrounds/bg-synthetic.webp",
+   "category": "site",
+   "bytes": 43554,
+   "dimensions": "1638\u00d7730",
+   "url": "site/site-assets/backgrounds/bg-synthetic.webp"
+  },
+  {
+   "path": "site/site-assets/brands/bigpotato-t.png",
+   "category": "site",
+   "bytes": 49753,
+   "dimensions": "472\u00d7361",
+   "url": "site/site-assets/brands/bigpotato-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/bigpotato.webp",
+   "category": "site",
+   "bytes": 12284,
+   "dimensions": "472\u00d7361",
+   "url": "site/site-assets/brands/bigpotato.webp"
+  },
+  {
+   "path": "site/site-assets/brands/dr-wills.png",
+   "category": "site",
+   "bytes": 35747,
+   "dimensions": "1040\u00d7642",
+   "url": "site/site-assets/brands/dr-wills.png"
+  },
+  {
+   "path": "site/site-assets/brands/lemonaid.svg",
+   "category": "site",
+   "bytes": 2506,
+   "dimensions": "101\u00d724",
+   "url": "site/site-assets/brands/lemonaid.svg"
+  },
+  {
+   "path": "site/site-assets/brands/mighty-kitchen-t.png",
+   "category": "site",
+   "bytes": 61323,
+   "dimensions": "750\u00d7372",
+   "url": "site/site-assets/brands/mighty-kitchen-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/mighty-kitchen.jpeg",
+   "category": "site",
+   "bytes": 12606,
+   "dimensions": "750\u00d7372",
+   "url": "site/site-assets/brands/mighty-kitchen.jpeg"
+  },
+  {
+   "path": "site/site-assets/brands/momo-t.png",
+   "category": "site",
+   "bytes": 180624,
+   "dimensions": "2562\u00d71000",
+   "url": "site/site-assets/brands/momo-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/momo.png",
+   "category": "site",
+   "bytes": 106758,
+   "dimensions": "2562\u00d71000",
+   "url": "site/site-assets/brands/momo.png"
+  },
+  {
+   "path": "site/site-assets/brands/mooncup-t.png",
+   "category": "site",
+   "bytes": 27245,
+   "dimensions": "400\u00d7205",
+   "url": "site/site-assets/brands/mooncup-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/mooncup.jpg",
+   "category": "site",
+   "bytes": 10270,
+   "dimensions": "400\u00d7205",
+   "url": "site/site-assets/brands/mooncup.jpg"
+  },
+  {
+   "path": "site/site-assets/brands/oddbox.jpg",
+   "category": "site",
+   "bytes": 35789,
+   "dimensions": "665\u00d7519",
+   "url": "site/site-assets/brands/oddbox.jpg"
+  },
+  {
+   "path": "site/site-assets/brands/otherfoods-t.png",
+   "category": "site",
+   "bytes": 29228,
+   "dimensions": "447\u00d7447",
+   "url": "site/site-assets/brands/otherfoods-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/otherfoods.png",
+   "category": "site",
+   "bytes": 10109,
+   "dimensions": "447\u00d7447",
+   "url": "site/site-assets/brands/otherfoods.png"
+  },
+  {
+   "path": "site/site-assets/brands/protein-ball-co-t.png",
+   "category": "site",
+   "bytes": 11542,
+   "dimensions": "213\u00d7150",
+   "url": "site/site-assets/brands/protein-ball-co-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/protein-ball-co.png",
+   "category": "site",
+   "bytes": 11869,
+   "dimensions": "213\u00d7150",
+   "url": "site/site-assets/brands/protein-ball-co.png"
+  },
+  {
+   "path": "site/site-assets/brands/puresport-t.png",
+   "category": "site",
+   "bytes": 19521,
+   "dimensions": "783\u00d7391",
+   "url": "site/site-assets/brands/puresport-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/puresport.png",
+   "category": "site",
+   "bytes": 5110,
+   "dimensions": "783\u00d7391",
+   "url": "site/site-assets/brands/puresport.png"
+  },
+  {
+   "path": "site/site-assets/brands/rhythm108-t.png",
+   "category": "site",
+   "bytes": 463938,
+   "dimensions": "2481\u00d71631",
+   "url": "site/site-assets/brands/rhythm108-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/rhythm108.webp",
+   "category": "site",
+   "bytes": 84078,
+   "dimensions": "2481\u00d71631",
+   "url": "site/site-assets/brands/rhythm108.webp"
+  },
+  {
+   "path": "site/site-assets/brands/simply-roasted-t.png",
+   "category": "site",
+   "bytes": 342262,
+   "dimensions": "3071\u00d71336",
+   "url": "site/site-assets/brands/simply-roasted-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/simply-roasted.webp",
+   "category": "site",
+   "bytes": 53620,
+   "dimensions": "3071\u00d71336",
+   "url": "site/site-assets/brands/simply-roasted.webp"
+  },
+  {
+   "path": "site/site-assets/brands/small-beer-t.png",
+   "category": "site",
+   "bytes": 193607,
+   "dimensions": "747\u00d7747",
+   "url": "site/site-assets/brands/small-beer-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/small-beer.webp",
+   "category": "site",
+   "bytes": 52304,
+   "dimensions": "747\u00d7747",
+   "url": "site/site-assets/brands/small-beer.webp"
+  },
+  {
+   "path": "site/site-assets/brands/threespirit-t.png",
+   "category": "site",
+   "bytes": 92806,
+   "dimensions": "2500\u00d71188",
+   "url": "site/site-assets/brands/threespirit-t.png"
+  },
+  {
+   "path": "site/site-assets/brands/threespirit.png",
+   "category": "site",
+   "bytes": 38152,
+   "dimensions": "2500\u00d71188",
+   "url": "site/site-assets/brands/threespirit.png"
+  },
+  {
+   "path": "site/site-assets/club/pillar-audience.svg",
+   "category": "site",
+   "bytes": 8886,
+   "dimensions": "52\u00d747",
+   "url": "site/site-assets/club/pillar-audience.svg"
+  },
+  {
+   "path": "site/site-assets/club/pillar-score.svg",
+   "category": "site",
+   "bytes": 7752,
+   "dimensions": "49\u00d749",
+   "url": "site/site-assets/club/pillar-score.svg"
+  },
+  {
+   "path": "site/site-assets/club/pillar-trend.svg",
+   "category": "site",
+   "bytes": 6060,
+   "dimensions": "40\u00d751",
+   "url": "site/site-assets/club/pillar-trend.svg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g01.jpg",
+   "category": "site",
+   "bytes": 278319,
+   "dimensions": "788\u00d71400",
+   "url": "site/site-assets/club-gallery/g01.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g02.jpg",
+   "category": "site",
+   "bytes": 319668,
+   "dimensions": "1050\u00d71400",
+   "url": "site/site-assets/club-gallery/g02.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g03.jpg",
+   "category": "site",
+   "bytes": 325541,
+   "dimensions": "1050\u00d71400",
+   "url": "site/site-assets/club-gallery/g03.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g04.jpg",
+   "category": "site",
+   "bytes": 147740,
+   "dimensions": "1200\u00d71022",
+   "url": "site/site-assets/club-gallery/g04.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g05.jpg",
+   "category": "site",
+   "bytes": 250504,
+   "dimensions": "1200\u00d7900",
+   "url": "site/site-assets/club-gallery/g05.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g06.jpg",
+   "category": "site",
+   "bytes": 198021,
+   "dimensions": "1200\u00d7900",
+   "url": "site/site-assets/club-gallery/g06.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g07.jpg",
+   "category": "site",
+   "bytes": 224632,
+   "dimensions": "1200\u00d7900",
+   "url": "site/site-assets/club-gallery/g07.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g08.jpg",
+   "category": "site",
+   "bytes": 190438,
+   "dimensions": "1200\u00d7900",
+   "url": "site/site-assets/club-gallery/g08.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g09.jpg",
+   "category": "site",
+   "bytes": 98118,
+   "dimensions": "1057\u00d71400",
+   "url": "site/site-assets/club-gallery/g09.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g10.jpg",
+   "category": "site",
+   "bytes": 142419,
+   "dimensions": "1050\u00d71400",
+   "url": "site/site-assets/club-gallery/g10.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g11.jpg",
+   "category": "site",
+   "bytes": 243568,
+   "dimensions": "1170\u00d7878",
+   "url": "site/site-assets/club-gallery/g11.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g12.jpg",
+   "category": "site",
+   "bytes": 297850,
+   "dimensions": "966\u00d71094",
+   "url": "site/site-assets/club-gallery/g12.jpg"
+  },
+  {
+   "path": "site/site-assets/club-gallery/g13.jpg",
+   "category": "site",
+   "bytes": 500344,
+   "dimensions": "950\u00d71098",
+   "url": "site/site-assets/club-gallery/g13.jpg"
+  },
+  {
+   "path": "site/site-assets/club-stickers/s1.png",
+   "category": "site",
+   "bytes": 24323,
+   "dimensions": "77\u00d7173",
+   "url": "site/site-assets/club-stickers/s1.png"
+  },
+  {
+   "path": "site/site-assets/club-stickers/s2.png",
+   "category": "site",
+   "bytes": 26995,
+   "dimensions": "143\u00d7138",
+   "url": "site/site-assets/club-stickers/s2.png"
+  },
+  {
+   "path": "site/site-assets/club-stickers/s3.png",
+   "category": "site",
+   "bytes": 53280,
+   "dimensions": "280\u00d7115",
+   "url": "site/site-assets/club-stickers/s3.png"
+  },
+  {
+   "path": "site/site-assets/club-stickers/s4.png",
+   "category": "site",
+   "bytes": 27035,
+   "dimensions": "130\u00d7145",
+   "url": "site/site-assets/club-stickers/s4.png"
+  },
+  {
+   "path": "site/site-assets/club-stickers/s5.png",
+   "category": "site",
+   "bytes": 48809,
+   "dimensions": "208\u00d7153",
+   "url": "site/site-assets/club-stickers/s5.png"
+  },
+  {
+   "path": "site/site-assets/screens/behave-screen.webp",
+   "category": "site",
+   "bytes": 383866,
+   "dimensions": "1602\u00d71621",
+   "url": "site/site-assets/screens/behave-screen.webp"
+  },
+  {
+   "path": "site/site-assets/screens/biometric-screen.webp",
+   "category": "site",
+   "bytes": 333082,
+   "dimensions": "1602\u00d71376",
+   "url": "site/site-assets/screens/biometric-screen.webp"
+  },
+  {
+   "path": "site/site-assets/screens/brandperform-screen.webp",
+   "category": "site",
+   "bytes": 308008,
+   "dimensions": "1602\u00d71341",
+   "url": "site/site-assets/screens/brandperform-screen.webp"
+  },
+  {
+   "path": "site/site-assets/screens/culturetrend-screen.webp",
+   "category": "site",
+   "bytes": 298262,
+   "dimensions": "1602\u00d71256",
+   "url": "site/site-assets/screens/culturetrend-screen.webp"
+  },
+  {
+   "path": "site/site-assets/screens/marketmacro-screen.webp",
+   "category": "site",
+   "bytes": 301640,
+   "dimensions": "1602\u00d71285",
+   "url": "site/site-assets/screens/marketmacro-screen.webp"
+  },
+  {
+   "path": "site/site-assets/screens/prodretail-screen.webp",
+   "category": "site",
+   "bytes": 312824,
+   "dimensions": "1602\u00d71370",
+   "url": "site/site-assets/screens/prodretail-screen.webp"
+  },
+  {
+   "path": "site/site-assets/screens/synthetic-screen.webp",
+   "category": "site",
+   "bytes": 313984,
+   "dimensions": "1602\u00d71303",
+   "url": "site/site-assets/screens/synthetic-screen.webp"
+  },
+  {
+   "path": "site/site-assets/team/aaron.webp",
+   "category": "site",
+   "bytes": 29092,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/aaron.webp"
+  },
+  {
+   "path": "site/site-assets/team/adam.webp",
+   "category": "site",
+   "bytes": 27156,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/adam.webp"
+  },
+  {
+   "path": "site/site-assets/team/amelia.webp",
+   "category": "site",
+   "bytes": 29044,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/amelia.webp"
+  },
+  {
+   "path": "site/site-assets/team/bertie.webp",
+   "category": "site",
+   "bytes": 17300,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/bertie.webp"
+  },
+  {
+   "path": "site/site-assets/team/cami.webp",
+   "category": "site",
+   "bytes": 24006,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/cami.webp"
+  },
+  {
+   "path": "site/site-assets/team/dai.webp",
+   "category": "site",
+   "bytes": 22520,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/dai.webp"
+  },
+  {
+   "path": "site/site-assets/team/david.webp",
+   "category": "site",
+   "bytes": 19734,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/david.webp"
+  },
+  {
+   "path": "site/site-assets/team/ege.webp",
+   "category": "site",
+   "bytes": 27260,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/ege.webp"
+  },
+  {
+   "path": "site/site-assets/team/isobel.webp",
+   "category": "site",
+   "bytes": 19670,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/isobel.webp"
+  },
+  {
+   "path": "site/site-assets/team/maks.webp",
+   "category": "site",
+   "bytes": 34844,
+   "dimensions": "322\u00d7372",
+   "url": "site/site-assets/team/maks.webp"
+  },
+  {
+   "path": "site/site-assets/team/mateo.webp",
+   "category": "site",
+   "bytes": 13824,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/mateo.webp"
+  },
+  {
+   "path": "site/site-assets/team/omar.webp",
+   "category": "site",
+   "bytes": 25742,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/omar.webp"
+  },
+  {
+   "path": "site/site-assets/team/phil.webp",
+   "category": "site",
+   "bytes": 25536,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/phil.webp"
+  },
+  {
+   "path": "site/site-assets/team/sahil.webp",
+   "category": "site",
+   "bytes": 25958,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/sahil.webp"
+  },
+  {
+   "path": "site/site-assets/team/sean.webp",
+   "category": "site",
+   "bytes": 19242,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/sean.webp"
+  },
+  {
+   "path": "site/site-assets/team/smiley.png",
+   "category": "site",
+   "bytes": 8862,
+   "dimensions": "293\u00d7318",
+   "url": "site/site-assets/team/smiley.png"
+  },
+  {
+   "path": "site/site-assets/team/sophie.webp",
+   "category": "site",
+   "bytes": 27670,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/sophie.webp"
+  },
+  {
+   "path": "site/site-assets/team/tom.webp",
+   "category": "site",
+   "bytes": 18832,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/tom.webp"
+  },
+  {
+   "path": "site/site-assets/team/winona.webp",
+   "category": "site",
+   "bytes": 16934,
+   "dimensions": "294\u00d7319",
+   "url": "site/site-assets/team/winona.webp"
+  }
+ ]
+}

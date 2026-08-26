@@ -1,0 +1,1829 @@
+{
+  "source": {
+    "via": "Figma UI \"Export all\" \u2014 layers with export settings that are not tracked frames"
+  },
+  "note": "Kept so nothing from the export is lost. Node ids resolved by layer name; where a name occurs more than once in the file, nodeIdAmbiguous gives the count and the id is the first match only. The 156 report icons are excluded, they live in icons/report-icons/.",
+  "count": 207,
+  "nodeIdsResolved": 206,
+  "assets": [
+    {
+      "file": "Article Header Style.png",
+      "figmaName": "Article Header Style",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "162:18",
+      "page": "Branding"
+    },
+    {
+      "file": "Background-1.png",
+      "figmaName": "Background",
+      "width": 428,
+      "height": 430,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-10.png",
+      "figmaName": "Background",
+      "width": 216,
+      "height": 197,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-11.png",
+      "figmaName": "Background",
+      "width": 216,
+      "height": 197,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-12.png",
+      "figmaName": "Background",
+      "width": 554,
+      "height": 722,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-2.png",
+      "figmaName": "Background",
+      "width": 428,
+      "height": 430,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-3.png",
+      "figmaName": "Background",
+      "width": 289,
+      "height": 185,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-4.png",
+      "figmaName": "Background",
+      "width": 289,
+      "height": 185,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-5.png",
+      "figmaName": "Background",
+      "width": 274,
+      "height": 250,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-6.png",
+      "figmaName": "Background",
+      "width": 274,
+      "height": 250,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-7.png",
+      "figmaName": "Background",
+      "width": 296,
+      "height": 190,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-8.png",
+      "figmaName": "Background",
+      "width": 228,
+      "height": 146,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background-9.png",
+      "figmaName": "Background",
+      "width": 518,
+      "height": 718,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Background.png",
+      "figmaName": "Background",
+      "width": 254,
+      "height": 176,
+      "nodeId": "146:25",
+      "page": "Branding",
+      "nodeIdAmbiguous": 881
+    },
+    {
+      "file": "Backgrounds-1.png",
+      "figmaName": "Backgrounds",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1437",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Backgrounds.png",
+      "figmaName": "Backgrounds",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1437",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Behavioural-1.png",
+      "figmaName": "Behavioural",
+      "width": 166,
+      "height": 88,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural-2.png",
+      "figmaName": "Behavioural",
+      "width": 166,
+      "height": 88,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural-3.png",
+      "figmaName": "Behavioural",
+      "width": 230,
+      "height": 122,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural-4.png",
+      "figmaName": "Behavioural",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural-5.png",
+      "figmaName": "Behavioural",
+      "width": 289,
+      "height": 189,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural-6.png",
+      "figmaName": "Behavioural",
+      "width": 289,
+      "height": 189,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural-7.png",
+      "figmaName": "Behavioural",
+      "width": 289,
+      "height": 262,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural-8.png",
+      "figmaName": "Behavioural",
+      "width": 289,
+      "height": 262,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Behavioural.png",
+      "figmaName": "Behavioural",
+      "width": 558,
+      "height": 249,
+      "nodeId": "146:2029",
+      "page": "Branding",
+      "nodeIdAmbiguous": 33
+    },
+    {
+      "file": "Biometric-1.png",
+      "figmaName": "Biometric",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "146:2515",
+      "page": "Branding",
+      "nodeIdAmbiguous": 18
+    },
+    {
+      "file": "Biometric.png",
+      "figmaName": "Biometric",
+      "width": 558,
+      "height": 249,
+      "nodeId": "146:2515",
+      "page": "Branding",
+      "nodeIdAmbiguous": 18
+    },
+    {
+      "file": "Brand & Performance-1.png",
+      "figmaName": "Brand & Performance",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "146:408",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Brand & Performance-2.png",
+      "figmaName": "Brand & Performance",
+      "width": 289,
+      "height": 289,
+      "nodeId": "146:408",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Brand & Performance-3.png",
+      "figmaName": "Brand & Performance",
+      "width": 289,
+      "height": 289,
+      "nodeId": "146:408",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Brand & Performance.png",
+      "figmaName": "Brand & Performance",
+      "width": 555,
+      "height": 248,
+      "nodeId": "146:408",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Breakthrough.png",
+      "figmaName": "Breakthrough",
+      "width": 162,
+      "height": 133,
+      "nodeId": "164:7622",
+      "page": "Branding",
+      "nodeIdAmbiguous": 11
+    },
+    {
+      "file": "Building.png",
+      "figmaName": "Building",
+      "width": 283,
+      "height": 176,
+      "nodeId": "164:5716",
+      "page": "Branding"
+    },
+    {
+      "file": "Buttons & UI.png",
+      "figmaName": "Buttons & UI",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1545",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Click - Dark.svg",
+      "figmaName": "Click - Dark",
+      "width": null,
+      "height": null,
+      "nodeId": "144:302",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Colours-1.png",
+      "figmaName": "Colours",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1468",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Colours.png",
+      "figmaName": "Colours",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1468",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Confidence Score.png",
+      "figmaName": "Confidence Score",
+      "width": 513,
+      "height": 328,
+      "nodeId": "144:67",
+      "page": "Branding"
+    },
+    {
+      "file": "Culture & Trend-1.png",
+      "figmaName": "Culture & Trend",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "146:771",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Culture & Trend-2.png",
+      "figmaName": "Culture & Trend",
+      "width": 289,
+      "height": 187,
+      "nodeId": "146:771",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Culture & Trend-3.png",
+      "figmaName": "Culture & Trend",
+      "width": 289,
+      "height": 187,
+      "nodeId": "146:771",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Culture & Trend.png",
+      "figmaName": "Culture & Trend",
+      "width": 555,
+      "height": 248,
+      "nodeId": "146:771",
+      "page": "Branding",
+      "nodeIdAmbiguous": 21
+    },
+    {
+      "file": "Dashboard-1.png",
+      "figmaName": "Dashboard",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1559",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "Dashboard-2.png",
+      "figmaName": "Dashboard",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1559",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "Dashboard-3.png",
+      "figmaName": "Dashboard",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1559",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "Dashboard-4.png",
+      "figmaName": "Dashboard",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1559",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "Dashboard.png",
+      "figmaName": "Dashboard",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1559",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "Data Visualisations.png",
+      "figmaName": "Data Visualisations",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "192:135",
+      "page": "Branding"
+    },
+    {
+      "file": "Desktop - Dark.png",
+      "figmaName": "Desktop - Dark",
+      "width": 148,
+      "height": 160,
+      "nodeId": "207:3339",
+      "page": "Deck"
+    },
+    {
+      "file": "Desktop - Dark.svg",
+      "figmaName": "Desktop - Dark",
+      "width": null,
+      "height": null,
+      "nodeId": "207:3339",
+      "page": "Deck"
+    },
+    {
+      "file": "Frame 1820283669-1.png",
+      "figmaName": "Frame 1820283669",
+      "width": 323,
+      "height": 240,
+      "nodeId": "147:7032",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Frame 1820283669.png",
+      "figmaName": "Frame 1820283669",
+      "width": 323,
+      "height": 240,
+      "nodeId": "147:7032",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Graphs.png",
+      "figmaName": "Graphs",
+      "width": 1851,
+      "height": 1038,
+      "nodeId": "164:3524",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Group 1820283519.png",
+      "figmaName": "Group 1820283519",
+      "width": 131,
+      "height": 83,
+      "nodeId": "145:23691",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Group 1820283523.png",
+      "figmaName": "Group 1820283523",
+      "width": 290,
+      "height": 220,
+      "nodeId": "80:537",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "Group 1820283524.png",
+      "figmaName": "Group 1820283524",
+      "width": 537,
+      "height": 250,
+      "nodeId": "80:545",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "Group 1820283651.png",
+      "figmaName": "Group 1820283651",
+      "width": 464,
+      "height": 583,
+      "nodeId": "100:34",
+      "page": "Branding",
+      "nodeIdAmbiguous": 11
+    },
+    {
+      "file": "Group 1820283653.png",
+      "figmaName": "Group 1820283653",
+      "width": 645,
+      "height": 886,
+      "nodeId": "197:1712",
+      "page": "Deck"
+    },
+    {
+      "file": "Group 1820283702.png",
+      "figmaName": "Group 1820283702",
+      "width": 1,
+      "height": 1,
+      "nodeId": "146:283",
+      "page": "Branding",
+      "nodeIdAmbiguous": 15
+    },
+    {
+      "file": "Group 1820283738.png",
+      "figmaName": "Group 1820283738",
+      "width": 378,
+      "height": 378,
+      "nodeId": "144:427",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Group 1820283739.png",
+      "figmaName": "Group 1820283739",
+      "width": 209,
+      "height": 262,
+      "nodeId": "164:6223",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "Group 1820283748.png",
+      "figmaName": "Group 1820283748",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "145:7335",
+      "page": "Branding"
+    },
+    {
+      "file": "Group 1820283752.png",
+      "figmaName": "Group 1820283752",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "164:6222",
+      "page": "Branding",
+      "nodeIdAmbiguous": 4
+    },
+    {
+      "file": "Group 1820283757.png",
+      "figmaName": "Group 1820283757",
+      "width": 180,
+      "height": 265,
+      "nodeId": "164:7623",
+      "page": "Branding"
+    },
+    {
+      "file": "Group 1820283851-1.png",
+      "figmaName": "Group 1820283851",
+      "width": 831,
+      "height": 129,
+      "nodeId": "168:8035",
+      "page": "Branding",
+      "nodeIdAmbiguous": 9
+    },
+    {
+      "file": "Group 1820283851-2.png",
+      "figmaName": "Group 1820283851",
+      "width": 944,
+      "height": 146,
+      "nodeId": "168:8035",
+      "page": "Branding",
+      "nodeIdAmbiguous": 9
+    },
+    {
+      "file": "Group 1820283851-3.png",
+      "figmaName": "Group 1820283851",
+      "width": 944,
+      "height": 146,
+      "nodeId": "168:8035",
+      "page": "Branding",
+      "nodeIdAmbiguous": 9
+    },
+    {
+      "file": "Group 1820283851.png",
+      "figmaName": "Group 1820283851",
+      "width": 831,
+      "height": 129,
+      "nodeId": "168:8035",
+      "page": "Branding",
+      "nodeIdAmbiguous": 9
+    },
+    {
+      "file": "Group 1820283853-1.png",
+      "figmaName": "Group 1820283853",
+      "width": 471,
+      "height": 93,
+      "nodeId": "168:8034",
+      "page": "Branding",
+      "nodeIdAmbiguous": 4
+    },
+    {
+      "file": "Group 1820283853-2.png",
+      "figmaName": "Group 1820283853",
+      "width": 501,
+      "height": 186,
+      "nodeId": "168:8034",
+      "page": "Branding",
+      "nodeIdAmbiguous": 4
+    },
+    {
+      "file": "Group 1820283853.png",
+      "figmaName": "Group 1820283853",
+      "width": 789,
+      "height": 155,
+      "nodeId": "168:8034",
+      "page": "Branding",
+      "nodeIdAmbiguous": 4
+    },
+    {
+      "file": "Group 1820283854.png",
+      "figmaName": "Group 1820283854",
+      "width": 501,
+      "height": 185,
+      "nodeId": "145:23714",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Group 1820283862.png",
+      "figmaName": "Group 1820283862",
+      "width": 501,
+      "height": 249,
+      "nodeId": "151:7831",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Group 1820283863.png",
+      "figmaName": "Group 1820283863",
+      "width": 501,
+      "height": 249,
+      "nodeId": "151:7859",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Group 1820283864.png",
+      "figmaName": "Group 1820283864",
+      "width": 392,
+      "height": 392,
+      "nodeId": "226:36",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Group 1820283868.png",
+      "figmaName": "Group 1820283868",
+      "width": 1590,
+      "height": 562,
+      "nodeId": "207:979",
+      "page": "Deck",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Growth 1.png",
+      "figmaName": "Growth 1",
+      "width": 325,
+      "height": 311,
+      "nodeId": "144:117",
+      "page": "Branding"
+    },
+    {
+      "file": "Growth 2.png",
+      "figmaName": "Growth 2",
+      "width": 363,
+      "height": 363,
+      "nodeId": "144:121",
+      "page": "Branding"
+    },
+    {
+      "file": "How To Use This.png",
+      "figmaName": "How To Use This",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1626",
+      "page": "Branding"
+    },
+    {
+      "file": "Human Input-1.png",
+      "figmaName": "Human Input",
+      "width": 781,
+      "height": 482,
+      "nodeId": "164:6221",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Human Input-2.png",
+      "figmaName": "Human Input",
+      "width": 781,
+      "height": 482,
+      "nodeId": "164:6221",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Human Input.png",
+      "figmaName": "Human Input",
+      "width": 367,
+      "height": 176,
+      "nodeId": "164:6221",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Infinite.png",
+      "figmaName": "Infinite",
+      "width": 346,
+      "height": 176,
+      "nodeId": "164:5228",
+      "page": "Branding"
+    },
+    {
+      "file": "Linkedin.png",
+      "figmaName": "Linkedin",
+      "width": 1851,
+      "height": 1038,
+      "nodeId": "168:7952",
+      "page": "Branding"
+    },
+    {
+      "file": "Logos-1.png",
+      "figmaName": "Logos",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "165:7838",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Logos-2.png",
+      "figmaName": "Logos",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "165:7838",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Logos.png",
+      "figmaName": "Logos",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "165:7838",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Longer Arms, Less Cheerios.png",
+      "figmaName": "Longer Arms, Less Cheerios",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "145:7331",
+      "page": "Branding"
+    },
+    {
+      "file": "Market & Macro-1.png",
+      "figmaName": "Market & Macro",
+      "width": 289,
+      "height": 239,
+      "nodeId": "145:14331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 19
+    },
+    {
+      "file": "Market & Macro-2.png",
+      "figmaName": "Market & Macro",
+      "width": 289,
+      "height": 239,
+      "nodeId": "145:14331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 19
+    },
+    {
+      "file": "Market & Macro-3.png",
+      "figmaName": "Market & Macro",
+      "width": 228,
+      "height": 189,
+      "nodeId": "145:14331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 19
+    },
+    {
+      "file": "Market & Macro.png",
+      "figmaName": "Market & Macro",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "145:14331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 19
+    },
+    {
+      "file": "Mercury-Light-1.png",
+      "figmaName": "Mercury-Light",
+      "width": 731,
+      "height": 869,
+      "nodeId": "147:7023",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Mercury-Light.png",
+      "figmaName": "Mercury-Light",
+      "width": 731,
+      "height": 869,
+      "nodeId": "147:7023",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Motif-1.png",
+      "figmaName": "Motif",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1573",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "Motif-2.png",
+      "figmaName": "Motif",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1573",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "Motif-3.png",
+      "figmaName": "Motif",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1573",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "Motif-4.png",
+      "figmaName": "Motif",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1573",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "Motif.png",
+      "figmaName": "Motif",
+      "width": 1845,
+      "height": 1038,
+      "nodeId": "74:1573",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "Product & Retail Graph.png",
+      "figmaName": "Product & Retail Graph",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1708",
+      "page": "Branding"
+    },
+    {
+      "file": "Product & Retail.png",
+      "figmaName": "Product & Retail",
+      "width": 558,
+      "height": 249,
+      "nodeId": "146:22",
+      "page": "Branding",
+      "nodeIdAmbiguous": 17
+    },
+    {
+      "file": "Really Good Culture House.png",
+      "figmaName": "Really Good Culture House",
+      "width": 15787,
+      "height": 10745
+    },
+    {
+      "file": "Really Good Culture-1.png",
+      "figmaName": "Really Good Culture",
+      "width": 769,
+      "height": 99,
+      "nodeId": "74:1462",
+      "page": "Branding",
+      "nodeIdAmbiguous": 42
+    },
+    {
+      "file": "Really Good Culture-2.png",
+      "figmaName": "Really Good Culture",
+      "width": 874,
+      "height": 112,
+      "nodeId": "74:1462",
+      "page": "Branding",
+      "nodeIdAmbiguous": 42
+    },
+    {
+      "file": "Really Good Culture-3.png",
+      "figmaName": "Really Good Culture",
+      "width": 874,
+      "height": 112,
+      "nodeId": "74:1462",
+      "page": "Branding",
+      "nodeIdAmbiguous": 42
+    },
+    {
+      "file": "Really Good Culture.png",
+      "figmaName": "Really Good Culture",
+      "width": 769,
+      "height": 99,
+      "nodeId": "74:1462",
+      "page": "Branding",
+      "nodeIdAmbiguous": 42
+    },
+    {
+      "file": "Report Icons.png",
+      "figmaName": "Report Icons",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "145:23730",
+      "page": "Branding"
+    },
+    {
+      "file": "Ringfenced.png",
+      "figmaName": "Ringfenced",
+      "width": 442,
+      "height": 415,
+      "nodeId": "144:119",
+      "page": "Branding"
+    },
+    {
+      "file": "Safety-1.png",
+      "figmaName": "Safety",
+      "width": 389,
+      "height": 356,
+      "nodeId": "145:7398",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Safety.png",
+      "figmaName": "Safety",
+      "width": 389,
+      "height": 356,
+      "nodeId": "145:7398",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Section-1.png",
+      "figmaName": "Section",
+      "width": 519,
+      "height": 458,
+      "nodeId": "145:7346",
+      "page": "Branding",
+      "nodeIdAmbiguous": 16
+    },
+    {
+      "file": "Section.png",
+      "figmaName": "Section",
+      "width": 519,
+      "height": 458,
+      "nodeId": "145:7346",
+      "page": "Branding",
+      "nodeIdAmbiguous": 16
+    },
+    {
+      "file": "Social Posts.png",
+      "figmaName": "Social Posts",
+      "width": 1851,
+      "height": 1038,
+      "nodeId": "173:69",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Synthetic-1.png",
+      "figmaName": "Synthetic",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "146:2909",
+      "page": "Branding",
+      "nodeIdAmbiguous": 25
+    },
+    {
+      "file": "Synthetic-2.png",
+      "figmaName": "Synthetic",
+      "width": 289,
+      "height": 250,
+      "nodeId": "146:2909",
+      "page": "Branding",
+      "nodeIdAmbiguous": 25
+    },
+    {
+      "file": "Synthetic-3.png",
+      "figmaName": "Synthetic",
+      "width": 289,
+      "height": 250,
+      "nodeId": "146:2909",
+      "page": "Branding",
+      "nodeIdAmbiguous": 25
+    },
+    {
+      "file": "Synthetic-4.png",
+      "figmaName": "Synthetic",
+      "width": 228,
+      "height": 197,
+      "nodeId": "146:2909",
+      "page": "Branding",
+      "nodeIdAmbiguous": 25
+    },
+    {
+      "file": "Synthetic.png",
+      "figmaName": "Synthetic",
+      "width": 558,
+      "height": 249,
+      "nodeId": "146:2909",
+      "page": "Branding",
+      "nodeIdAmbiguous": 25
+    },
+    {
+      "file": "Traceable.png",
+      "figmaName": "Traceable",
+      "width": 513,
+      "height": 375,
+      "nodeId": "147:7031",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "Trend - Dark.png",
+      "figmaName": "Trend - Dark",
+      "width": 125,
+      "height": 151,
+      "nodeId": "144:249",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Trend - Dark.svg",
+      "figmaName": "Trend - Dark",
+      "width": null,
+      "height": null,
+      "nodeId": "144:249",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Type-1.png",
+      "figmaName": "Type",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1683",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "Type.png",
+      "figmaName": "Type",
+      "width": 1844,
+      "height": 1038,
+      "nodeId": "74:1683",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "be-icon-1.png",
+      "figmaName": "be-icon",
+      "width": 102,
+      "height": 88,
+      "nodeId": "164:4290",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "be-icon-2.png",
+      "figmaName": "be-icon",
+      "width": 141,
+      "height": 122,
+      "nodeId": "164:4290",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "be-icon-3.png",
+      "figmaName": "be-icon",
+      "width": 220,
+      "height": 189,
+      "nodeId": "164:4290",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "be-icon-4.png",
+      "figmaName": "be-icon",
+      "width": 220,
+      "height": 189,
+      "nodeId": "164:4290",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "be-icon.png",
+      "figmaName": "be-icon",
+      "width": 102,
+      "height": 88,
+      "nodeId": "164:4290",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "behave-screen.png",
+      "figmaName": "behave-screen",
+      "width": 685,
+      "height": 693,
+      "nodeId": "145:10976",
+      "page": "Branding"
+    },
+    {
+      "file": "behaveicon.png",
+      "figmaName": "behaveicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:384",
+      "page": "Branding"
+    },
+    {
+      "file": "bio-icon-1.png",
+      "figmaName": "bio-icon",
+      "width": 262,
+      "height": 262,
+      "nodeId": "145:10361",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "bio-icon-2.png",
+      "figmaName": "bio-icon",
+      "width": 262,
+      "height": 262,
+      "nodeId": "145:10361",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "bio-icon-3.png",
+      "figmaName": "bio-icon",
+      "width": 207,
+      "height": 207,
+      "nodeId": "145:10361",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "bio-icon.png",
+      "figmaName": "bio-icon",
+      "width": 84,
+      "height": 79,
+      "nodeId": "145:10361",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "biometric-screen.png",
+      "figmaName": "biometric-screen",
+      "width": 834,
+      "height": 717,
+      "nodeId": "145:10274",
+      "page": "Branding"
+    },
+    {
+      "file": "biometricicon.png",
+      "figmaName": "biometricicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:416",
+      "page": "Branding"
+    },
+    {
+      "file": "bp-icon-1.png",
+      "figmaName": "bp-icon",
+      "width": 255,
+      "height": 289,
+      "nodeId": "144:383",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "bp-icon-2.png",
+      "figmaName": "bp-icon",
+      "width": 261,
+      "height": 296,
+      "nodeId": "144:383",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "bp-icon-3.png",
+      "figmaName": "bp-icon",
+      "width": 183,
+      "height": 217,
+      "nodeId": "144:383",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "bp-icon.png",
+      "figmaName": "bp-icon",
+      "width": 255,
+      "height": 289,
+      "nodeId": "144:383",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "brandperforamanceicon.png",
+      "figmaName": "brandperforamanceicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:421",
+      "page": "Branding"
+    },
+    {
+      "file": "brandperform-screen.png",
+      "figmaName": "brandperform-screen",
+      "width": 826,
+      "height": 692,
+      "nodeId": "145:13276",
+      "page": "Branding"
+    },
+    {
+      "file": "colour-behaveicon-1.png",
+      "figmaName": "colour-behaveicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:309",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-behaveicon-2.png",
+      "figmaName": "colour-behaveicon",
+      "width": 263,
+      "height": 263,
+      "nodeId": "144:309",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-behaveicon-3.png",
+      "figmaName": "colour-behaveicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:309",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-behaveicon.png",
+      "figmaName": "colour-behaveicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:309",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-biometricicon-1.png",
+      "figmaName": "colour-biometricicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:374",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-biometricicon-2.png",
+      "figmaName": "colour-biometricicon",
+      "width": 263,
+      "height": 263,
+      "nodeId": "144:374",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-biometricicon-3.png",
+      "figmaName": "colour-biometricicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:374",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-biometricicon.png",
+      "figmaName": "colour-biometricicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:374",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-brandperforamanceicon-1.png",
+      "figmaName": "colour-brandperforamanceicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:379",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-brandperforamanceicon-2.png",
+      "figmaName": "colour-brandperforamanceicon",
+      "width": 296,
+      "height": 296,
+      "nodeId": "144:379",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-brandperforamanceicon-3.png",
+      "figmaName": "colour-brandperforamanceicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:379",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-brandperforamanceicon.png",
+      "figmaName": "colour-brandperforamanceicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:379",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-culturetrendicon-1.png",
+      "figmaName": "colour-culturetrendicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:314",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-culturetrendicon-2.png",
+      "figmaName": "colour-culturetrendicon",
+      "width": 296,
+      "height": 296,
+      "nodeId": "144:314",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-culturetrendicon-3.png",
+      "figmaName": "colour-culturetrendicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:314",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-culturetrendicon.png",
+      "figmaName": "colour-culturetrendicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:314",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-marketmacroicon-1.png",
+      "figmaName": "colour-marketmacroicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-marketmacroicon-2.png",
+      "figmaName": "colour-marketmacroicon",
+      "width": 263,
+      "height": 263,
+      "nodeId": "144:331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-marketmacroicon-3.png",
+      "figmaName": "colour-marketmacroicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-marketmacroicon.png",
+      "figmaName": "colour-marketmacroicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:331",
+      "page": "Branding",
+      "nodeIdAmbiguous": 5
+    },
+    {
+      "file": "colour-productretailicon-1.png",
+      "figmaName": "colour-productretailicon",
+      "width": 196,
+      "height": 196,
+      "nodeId": "168:7970",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "colour-productretailicon-2.png",
+      "figmaName": "colour-productretailicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "168:7970",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "colour-productretailicon-3.png",
+      "figmaName": "colour-productretailicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "168:7970",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "colour-productretailicon.png",
+      "figmaName": "colour-productretailicon",
+      "width": 196,
+      "height": 196,
+      "nodeId": "168:7970",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "colour-syntheticicon-1.png",
+      "figmaName": "colour-syntheticicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:369",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "colour-syntheticicon-2.png",
+      "figmaName": "colour-syntheticicon",
+      "width": 263,
+      "height": 263,
+      "nodeId": "144:369",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "colour-syntheticicon-3.png",
+      "figmaName": "colour-syntheticicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:369",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "colour-syntheticicon-4.png",
+      "figmaName": "colour-syntheticicon",
+      "width": 228,
+      "height": 228,
+      "nodeId": "144:369",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "colour-syntheticicon.png",
+      "figmaName": "colour-syntheticicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:369",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "confidence-screen.png",
+      "figmaName": "confidence-screen",
+      "width": 717,
+      "height": 642,
+      "nodeId": "145:21467",
+      "page": "Branding"
+    },
+    {
+      "file": "culturetrend-screen.png",
+      "figmaName": "culturetrend-screen",
+      "width": 842,
+      "height": 660,
+      "nodeId": "145:11890",
+      "page": "Branding"
+    },
+    {
+      "file": "culturetrendicon.png",
+      "figmaName": "culturetrendicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:389",
+      "page": "Branding"
+    },
+    {
+      "file": "image 63.png",
+      "figmaName": "image 63",
+      "width": 775,
+      "height": 414,
+      "nodeId": "197:1601",
+      "page": "Deck"
+    },
+    {
+      "file": "image 6523-1.png",
+      "figmaName": "image 6523",
+      "width": 147,
+      "height": 181,
+      "nodeId": "151:7829",
+      "page": "Branding",
+      "nodeIdAmbiguous": 4
+    },
+    {
+      "file": "image 6523.png",
+      "figmaName": "image 6523",
+      "width": 766,
+      "height": 766,
+      "nodeId": "151:7829",
+      "page": "Branding",
+      "nodeIdAmbiguous": 4
+    },
+    {
+      "file": "image 6534.png",
+      "figmaName": "image 6534",
+      "width": 427,
+      "height": 724,
+      "nodeId": "199:1776",
+      "page": "Deck"
+    },
+    {
+      "file": "image 6535.png",
+      "figmaName": "image 6535",
+      "width": 509,
+      "height": 607,
+      "nodeId": "199:1775",
+      "page": "Deck"
+    },
+    {
+      "file": "image 6540-1.png",
+      "figmaName": "image 6540",
+      "width": 350,
+      "height": 358,
+      "nodeId": "83:155",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "image 6540-2.png",
+      "figmaName": "image 6540",
+      "width": 503,
+      "height": 514,
+      "nodeId": "83:155",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "image 6540-3.png",
+      "figmaName": "image 6540",
+      "width": 503,
+      "height": 514,
+      "nodeId": "83:155",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "image 6540.png",
+      "figmaName": "image 6540",
+      "width": 350,
+      "height": 358,
+      "nodeId": "83:155",
+      "page": "Branding",
+      "nodeIdAmbiguous": 7
+    },
+    {
+      "file": "image 6541.png",
+      "figmaName": "image 6541",
+      "width": 179,
+      "height": 183,
+      "nodeId": "168:7969",
+      "page": "Branding",
+      "nodeIdAmbiguous": 4
+    },
+    {
+      "file": "image 6545-1.png",
+      "figmaName": "image 6545",
+      "width": 33,
+      "height": 31,
+      "nodeId": "146:643",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "image 6545-2.png",
+      "figmaName": "image 6545",
+      "width": 33,
+      "height": 30,
+      "nodeId": "146:643",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "image 6545-3.png",
+      "figmaName": "image 6545",
+      "width": 73,
+      "height": 73,
+      "nodeId": "146:643",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "image 6545-4.png",
+      "figmaName": "image 6545",
+      "width": 73,
+      "height": 73,
+      "nodeId": "146:643",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "image 6545.png",
+      "figmaName": "image 6545",
+      "width": 32,
+      "height": 32,
+      "nodeId": "146:643",
+      "page": "Branding",
+      "nodeIdAmbiguous": 10
+    },
+    {
+      "file": "image 6854.png",
+      "figmaName": "image 6854",
+      "width": 309,
+      "height": 311,
+      "nodeId": "144:118",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "image 6855.png",
+      "figmaName": "image 6855",
+      "width": 363,
+      "height": 363,
+      "nodeId": "144:122",
+      "page": "Branding",
+      "nodeIdAmbiguous": 3
+    },
+    {
+      "file": "image 6856.png",
+      "figmaName": "image 6856",
+      "width": 240,
+      "height": 569,
+      "nodeId": "227:3830",
+      "page": "Deck"
+    },
+    {
+      "file": "image 6857.png",
+      "figmaName": "image 6857",
+      "width": 304,
+      "height": 308,
+      "nodeId": "227:3832",
+      "page": "Deck"
+    },
+    {
+      "file": "image 6860.png",
+      "figmaName": "image 6860",
+      "width": 32,
+      "height": 32,
+      "nodeId": "164:5718",
+      "page": "Branding",
+      "nodeIdAmbiguous": 2
+    },
+    {
+      "file": "marketmacro-screen.png",
+      "figmaName": "marketmacro-screen",
+      "width": 813,
+      "height": 653,
+      "nodeId": "145:12575",
+      "page": "Branding"
+    },
+    {
+      "file": "marketmacroicon.png",
+      "figmaName": "marketmacroicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:406",
+      "page": "Branding"
+    },
+    {
+      "file": "mm-icon-1.png",
+      "figmaName": "mm-icon",
+      "width": 278,
+      "height": 239,
+      "nodeId": "144:335",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "mm-icon-2.png",
+      "figmaName": "mm-icon",
+      "width": 254,
+      "height": 219,
+      "nodeId": "144:335",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "mm-icon-3.png",
+      "figmaName": "mm-icon",
+      "width": 220,
+      "height": 189,
+      "nodeId": "144:335",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "mm-icon.png",
+      "figmaName": "mm-icon",
+      "width": 278,
+      "height": 239,
+      "nodeId": "144:335",
+      "page": "Branding",
+      "nodeIdAmbiguous": 6
+    },
+    {
+      "file": "prediction.png",
+      "figmaName": "prediction",
+      "width": 565,
+      "height": 150,
+      "nodeId": "145:23638",
+      "page": "Branding"
+    },
+    {
+      "file": "prodretail-screen.png",
+      "figmaName": "prodretail-screen",
+      "width": 798,
+      "height": 682,
+      "nodeId": "145:13976",
+      "page": "Branding"
+    },
+    {
+      "file": "productretailicon.png",
+      "figmaName": "productretailicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:353",
+      "page": "Branding"
+    },
+    {
+      "file": "roas-screen.png",
+      "figmaName": "roas-screen",
+      "width": 838,
+      "height": 685,
+      "nodeId": "145:8822",
+      "page": "Branding"
+    },
+    {
+      "file": "synthetic-screen.png",
+      "figmaName": "synthetic-screen",
+      "width": 853,
+      "height": 694,
+      "nodeId": "147:7058",
+      "page": "Branding"
+    },
+    {
+      "file": "syntheticicon.png",
+      "figmaName": "syntheticicon",
+      "width": 289,
+      "height": 289,
+      "nodeId": "144:411",
+      "page": "Branding"
+    },
+    {
+      "file": "whitespace-screen.png",
+      "figmaName": "whitespace-screen",
+      "width": 750,
+      "height": 649,
+      "nodeId": "145:22161",
+      "page": "Branding"
+    }
+  ]
+}

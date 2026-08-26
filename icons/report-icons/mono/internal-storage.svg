@@ -1,0 +1,35 @@
+<svg viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="ri-internal-storage-g" x1="2.61361" y1="5.85216" x2="2.61361" y2="28.694" gradientUnits="userSpaceOnUse"> <stop style="stop-color:var(--ri-accent-start,#C2FF00)"/> <stop offset="1" style="stop-color:var(--ri-accent-end,#CE6CBF)"/> </linearGradient></defs>
+<path d="M32.483 30.4463H34.2472V28.6937H35.9998V5.8519H34.2472V7.60453H32.483V9.35716H27.2136V11.1213H9.64122V12.8739H25.461V21.6601H27.2136V19.9075H32.483V18.1434H34.2472V19.9075H32.483V21.6601H27.2136V23.4128H25.461V32.199H9.64122V33.9631H27.2136V32.199H32.483V30.4463Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M30.7317 4.08757H34.2485V5.85172H30.7317V4.08757Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M25.4611 2.33523H30.7305V4.08785H25.4611V2.33523Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M9.64122 21.6598H25.461V23.4124H9.64122V21.6598Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M11.4072 26.9296H16.6766V28.6937H11.4072V26.9296Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M11.4072 16.3899H16.6766V18.1426H11.4072V16.3899Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M11.4072 0.570888H25.4628V2.33505H11.4072V0.570888Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M4.37381 30.4462H9.64322V32.1989H4.37381V30.4462Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M4.37381 19.9066H9.64322V21.6592H4.37381V19.9066Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M4.37381 9.35658H9.64322V11.1207H4.37381V9.35658Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M6.12535 2.33523H11.4063V4.08785H6.12535V2.33523Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M4.37381 23.4121H7.89059V26.9289H4.37381V23.4121Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M4.37381 12.8733H7.89059V16.39H4.37381V12.8733Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M2.61907 4.08757H6.12432V5.85172H2.61907V4.08757Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M2.61907 28.6931H4.3717V30.4457H2.61907V28.6931Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M2.62049 19.9075H4.37312V18.1434H2.62049V9.35716H4.37312V7.60453H2.62049V5.8519H0.856333V28.6937H2.62049V19.9075Z" fill="url(#ri-internal-storage-g)"/>
+<path d="M31.6267 29.8755H33.3909V28.1228H35.1435V5.28101H33.3909V7.03364H31.6267V8.78627H26.3573V10.5504H8.78489V12.3031H24.6047V21.0893H26.3573V19.3366H31.6267V17.5725H33.3909V19.3366H31.6267V21.0893H26.3573V22.8419H24.6047V31.6281H8.78489V33.3922H26.3573V31.6281H31.6267V29.8755Z" fill="currentColor"/>
+<path d="M29.8754 3.51668H33.3921V5.28083H29.8754V3.51668Z" fill="currentColor"/>
+<path d="M24.6047 1.76434H29.8741V3.51696H24.6047V1.76434Z" fill="currentColor"/>
+<path d="M8.78489 21.0889H24.6047V22.8415H8.78489V21.0889Z" fill="currentColor"/>
+<path d="M10.5508 26.3587H15.8202V28.1228H10.5508V26.3587Z" fill="currentColor"/>
+<path d="M10.5508 15.819H15.8202V17.5717H10.5508V15.819Z" fill="currentColor"/>
+<path d="M10.5508 0H24.6064V1.76416H10.5508V0Z" fill="currentColor"/>
+<path d="M3.51748 29.8754H8.78689V31.628H3.51748V29.8754Z" fill="currentColor"/>
+<path d="M3.51748 19.3357H8.78689V21.0884H3.51748V19.3357Z" fill="currentColor"/>
+<path d="M3.51748 8.78569H8.78689V10.5499H3.51748V8.78569Z" fill="currentColor"/>
+<path d="M5.26902 1.76434H10.55V3.51696H5.26902V1.76434Z" fill="currentColor"/>
+<path d="M3.51748 22.8412H7.03426V26.358H3.51748V22.8412Z" fill="currentColor"/>
+<path d="M3.51748 12.3024H7.03426V15.8192H3.51748V12.3024Z" fill="currentColor"/>
+<path d="M1.76274 3.51668H5.26799V5.28083H1.76274V3.51668Z" fill="currentColor"/>
+<path d="M1.76274 28.1222H3.51536V29.8748H1.76274V28.1222Z" fill="currentColor"/>
+<path d="M1.76416 19.3366H3.51679V17.5725H1.76416V8.78627H3.51679V7.03364H1.76416V5.28101H0V28.1228H1.76416V19.3366Z" fill="currentColor"/>
+</svg>

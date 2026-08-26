@@ -1,0 +1,72 @@
+{
+  "source": {
+    "via": "Figma UI export, promoted from extras/"
+  },
+  "count": 8,
+  "assets": [
+    {
+      "file": "readingdemand.png",
+      "figmaName": "readingdemand",
+      "nodeId": "164:3539",
+      "page": "Branding",
+      "width": 368,
+      "height": 176
+    },
+    {
+      "file": "endofgutfeel.png",
+      "figmaName": "endofgutfeel",
+      "nodeId": "164:3926",
+      "page": "Branding",
+      "width": 365,
+      "height": 175
+    },
+    {
+      "file": "whitespace.png",
+      "figmaName": "whitespace",
+      "nodeId": "164:4295",
+      "page": "Branding",
+      "width": 366,
+      "height": 174
+    },
+    {
+      "file": "rewardthepast.png",
+      "figmaName": "rewardthepast",
+      "nodeId": "164:4666",
+      "page": "Branding",
+      "width": 367,
+      "height": 176
+    },
+    {
+      "file": "bestdata.png",
+      "figmaName": "bestdata",
+      "nodeId": "164:5230",
+      "page": "Branding",
+      "width": 367,
+      "height": 176
+    },
+    {
+      "file": "Synthetic-shoppers.png",
+      "figmaName": "Synthetic-shoppers",
+      "nodeId": "164:5724",
+      "page": "Branding",
+      "width": 367,
+      "height": 176
+    },
+    {
+      "file": "whatpredictiveintelligene.png",
+      "figmaName": "whatpredictiveintelligene",
+      "nodeId": "164:6226",
+      "page": "Branding",
+      "width": 365,
+      "height": 174
+    },
+    {
+      "file": "sevendimensions.png",
+      "figmaName": "sevendimensions",
+      "nodeId": "164:6926",
+      "page": "Branding",
+      "width": 366,
+      "height": 174
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "source": {
+    "fileKey": "tK4jzuqvjdhLKK5KRSpk8k",
+    "figmaBoard": "Deck page - blank reusable slide templates (frames named 'Frame')"
+  },
+  "via": "Figma UI export, imported with sync/import-ui-export.mjs",
+  "importedAt": "2026-08-17",
+  "count": 34,
+  "expected": 34,
+  "assets": [
+    {
+      "file": "slide-01-really-good-culture-date.png",
+      "figmaName": "Slide template 01 - Really Good Culture / date",
+      "nodeId": "227:1932"
+    },
+    {
+      "file": "slide-02-section-one.png",
+      "figmaName": "Slide template 02 - Section one",
+      "nodeId": "227:1954"
+    },
+    {
+      "file": "slide-03-contents.png",
+      "figmaName": "Slide template 03 - Contents",
+      "nodeId": "227:1973"
+    },
+    {
+      "file": "slide-04-a-headline-for-the-detailed-argument-you-re-.png",
+      "figmaName": "Slide template 04 - A headline for the detailed argument you're making",
+      "nodeId": "227:2015"
+    },
+    {
+      "file": "slide-05-one-big-fat-idea-said-plainly.png",
+      "figmaName": "Slide template 05 - One big fat idea, said plainly.",
+      "nodeId": "227:2055"
+    },
+    {
+      "file": "slide-06-metric-label.png",
+      "figmaName": "Slide template 06 - Metric label",
+      "nodeId": "227:2068"
+    },
+    {
+      "file": "slide-07-a-punchy-testimonial-from-a-customer-partner.png",
+      "figmaName": "Slide template 07 - A punchy testimonial from a customer, partner, or ",
+      "nodeId": "227:2085"
+    },
+    {
+      "file": "slide-08-full-bleed-image.png",
+      "figmaName": "Slide template 08 - Full-bleed image",
+      "nodeId": "227:2122"
+    },
+    {
+      "file": "slide-09-or-text-on-one-side-image-on-the-other.png",
+      "figmaName": "Slide template 09 - Or text on one side, image on the other.",
+      "nodeId": "227:2153"
+    },
+    {
+      "file": "slide-10-three-things-side-by-side.png",
+      "figmaName": "Slide template 10 - Three things, side by side.",
+      "nodeId": "227:2200"
+    },
+    {
+      "file": "slide-11-this-vs-that.png",
+      "figmaName": "Slide template 11 - This vs. that.",
+      "nodeId": "227:2280"
+    },
+    {
+      "file": "slide-12-how-it-unfolds-step-by-step.png",
+      "figmaName": "Slide template 12 - How it unfolds, step by step.",
+      "nodeId": "227:2327"
+    },
+    {
+      "file": "slide-13-compare-values-across-categories.png",
+      "figmaName": "Slide template 13 - Compare values across categories.",
+      "nodeId": "227:2381"
+    },
+    {
+      "file": "slide-14-line-chart-trend.png",
+      "figmaName": "Slide template 14 - Line chart · trend",
+      "nodeId": "227:2435"
+    },
+    {
+      "file": "slide-15-convenience-seeker.png",
+      "figmaName": "Slide template 15 - Convenience Seeker",
+      "nodeId": "227:2489"
+    },
+    {
+      "file": "slide-16-line-items-in-a-clean-table.png",
+      "figmaName": "Slide template 16 - Line items in a clean table.",
+      "nodeId": "227:2539"
+    },
+    {
+      "file": "slide-17-the-numbers-at-a-glance.png",
+      "figmaName": "Slide template 17 - The numbers at a glance.",
+      "nodeId": "227:2620"
+    },
+    {
+      "file": "slide-18-our-partners.png",
+      "figmaName": "Slide template 18 - Our partners",
+      "nodeId": "227:2662"
+    },
+    {
+      "file": "slide-19-the-team-for-this-project.png",
+      "figmaName": "Slide template 19 - The team for this project:",
+      "nodeId": "227:2806"
+    },
+    {
+      "file": "slide-20-our-mission.png",
+      "figmaName": "Slide template 20 - Our mission",
+      "nodeId": "227:2908"
+    },
+    {
+      "file": "slide-21-what-we-believe.png",
+      "figmaName": "Slide template 21 - What we believe",
+      "nodeId": "227:2925"
+    },
+    {
+      "file": "slide-22-the-flywheel.png",
+      "figmaName": "Slide template 22 - The flywheel",
+      "nodeId": "227:2963"
+    },
+    {
+      "file": "slide-23-product-demo.png",
+      "figmaName": "Slide template 23 - Product demo",
+      "nodeId": "227:3014"
+    },
+    {
+      "file": "slide-24-walk-through-the-interface.png",
+      "figmaName": "Slide template 24 - Walk through the interface.",
+      "nodeId": "227:3064"
+    },
+    {
+      "file": "slide-25-deliverable.png",
+      "figmaName": "Slide template 25 - Deliverable",
+      "nodeId": "227:3117"
+    },
+    {
+      "file": "slide-26-how-we-studied-it.png",
+      "figmaName": "Slide template 26 - How we studied it",
+      "nodeId": "227:3176"
+    },
+    {
+      "file": "slide-27-what-we-learned.png",
+      "figmaName": "Slide template 27 - What we learned.",
+      "nodeId": "227:3233"
+    },
+    {
+      "file": "slide-28-validation.png",
+      "figmaName": "Slide template 28 - Validation",
+      "nodeId": "227:3285"
+    },
+    {
+      "file": "slide-29-pilot-90-days.png",
+      "figmaName": "Slide template 29 - Pilot · 90 days",
+      "nodeId": "227:3342"
+    },
+    {
+      "file": "slide-30-client-logo.png",
+      "figmaName": "Slide template 30 - Client logo",
+      "nodeId": "227:3399"
+    },
+    {
+      "file": "slide-31-where-we-re-headed.png",
+      "figmaName": "Slide template 31 - Where we're headed.",
+      "nodeId": "227:3447"
+    },
+    {
+      "file": "slide-32-simple-scalable-pricing.png",
+      "figmaName": "Slide template 32 - Simple, scalable pricing.",
+      "nodeId": "227:3525"
+    },
+    {
+      "file": "slide-33-objection-handling.png",
+      "figmaName": "Slide template 33 - Objection handling",
+      "nodeId": "227:3626"
+    },
+    {
+      "file": "slide-34-get-in-touch.png",
+      "figmaName": "Slide template 34 - Get in touch",
+      "nodeId": "227:3658"
+    }
+  ]
+}
