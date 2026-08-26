@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import {
   Button,
   Chip,
   CopyButton,
+  DescriptionList,
   Dialog,
   Panel,
   PanelHeader,
@@ -97,6 +98,40 @@ When you embed an asset, record its content_id alongside the url. To check later
 
 Logos are placed, never redrawn or recoloured. Every figure in deck and screen artwork is illustrative — never cite those numbers as real data.`;
 
+const TOOLS: [string, string][] = [
+  ["search_assets", "Find assets by filename or path, optionally inside one category."],
+  ["get_asset", "One asset by exact path, with dimensions, provenance and pinned urls."],
+  ["list_categories", "What categories exist and how many files each holds."],
+  ["check_pin", "Whether a url you embedded earlier has gone stale."],
+];
+
+const EXAMPLES: [string, string][] = [
+  [
+    "Which logo files are in the library? Give me the pinned url for the vector one.",
+    "search_assets",
+  ],
+  [
+    "Add the RGC wordmark to the header of index.html, using a pinned url.",
+    "search_assets, then embed",
+  ],
+  [
+    "What product screens exist, and what resolution is each one?",
+    "search_assets, metadata",
+  ],
+  [
+    "Find a 3D motif that works on a dark hero section and give me the markdown for it.",
+    "search_assets",
+  ],
+  [
+    "How many files are in each category?",
+    "list_categories",
+  ],
+  [
+    "I embedded screens/roas-screen.png a while back — here is the content_id I stored. Is my url still current?",
+    "check_pin",
+  ],
+];
+
 function Code({ value }: { value: string }) {
   return (
     <div className="flex items-start gap-(--rgc-space-2)">
@@ -131,7 +166,7 @@ export function ConnectDialog() {
           assets and hand back commit-pinned urls that will not break.
         </Dialog.Description>
 
-        <div className="flex flex-col gap-(--rgc-space-4)">
+        <div className="flex max-h-[60vh] flex-col gap-(--rgc-space-4) overflow-y-auto">
           <Panel>
             <PanelHeader
               title="Endpoint"
@@ -185,6 +220,42 @@ export function ConnectDialog() {
               </p>
               <Code value={PROMPT} />
             </div>
+          </Panel>
+
+          <Panel>
+            <PanelHeader
+              title="Try asking"
+              actions={<Chip tone="neutral">{TOOLS.length} tools</Chip>}
+            />
+            <div className="flex flex-col gap-(--rgc-space-2) p-(--rgc-space-3)">
+              {EXAMPLES.map(([ask, shows]) => (
+                <div
+                  key={ask}
+                  className="flex items-start gap-(--rgc-space-2) rounded-(--radius-control) bg-surface-2 p-(--rgc-space-3)"
+                >
+                  <div className="flex min-w-0 flex-1 flex-col gap-(--rgc-space-1)">
+                    <span className="text-(length:--rgc-text-ui) text-fg">&ldquo;{ask}&rdquo;</span>
+                    <span className="font-mono text-(length:--rgc-text-micro) text-fg-subtle">
+                      {shows}
+                    </span>
+                  </div>
+                  <CopyButton value={ask}>Copy</CopyButton>
+                </div>
+              ))}
+            </div>
+            <Separator />
+            <DescriptionList.Root>
+              {TOOLS.map(([name, what]) => (
+                <Fragment key={name}>
+                  <DescriptionList.Term>
+                    <span className="font-mono text-(length:--rgc-text-micro) text-accent">{name}</span>
+                  </DescriptionList.Term>
+                  <DescriptionList.Detail>
+                    <span className="text-(length:--rgc-text-micro) text-fg-muted">{what}</span>
+                  </DescriptionList.Detail>
+                </Fragment>
+              ))}
+            </DescriptionList.Root>
           </Panel>
         </div>
 
