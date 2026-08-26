@@ -27,6 +27,8 @@ type Agent = {
   hint: string;
   install: Action[];
   manual: Action[];
+  /** True when `install` also delivers the skill, making step 3 a no-op. */
+  bundlesSkill?: boolean;
 };
 
 /**
@@ -38,16 +40,21 @@ const agents = (url: string): Agent[] => [
   {
     value: "claude-code",
     label: "Claude Code",
-    hint: "terminal",
+    hint: "plugin · one step",
+    bundlesSkill: true,
     install: [
-      { do: "Run this, then restart Claude Code.", code: `claude mcp add --transport http rgc-assets ${url}` },
+      {
+        do: "Run these two inside Claude Code. The plugin carries the server and the skill together, so step 3 is already done.",
+        code: `/plugin marketplace add ${SKILL_REPO}\n/plugin install ${SKILL_NAME}@rgc-labs`,
+      },
     ],
     manual: [
+      { do: "Prefer the server on its own, without the skill?", code: `claude mcp add --transport http rgc-assets ${url}` },
       {
-        do: "Or add it to .mcp.json in your project root:",
+        do: "Or add it straight to .mcp.json in your project root:",
         code: JSON.stringify({ mcpServers: { "rgc-assets": { type: "http", url } } }, null, 2),
       },
-      { do: "Check it connected with /mcp inside Claude Code." },
+      { do: "Either way, /mcp inside Claude Code shows whether it connected." },
     ],
   },
   {
@@ -103,7 +110,14 @@ const agents = (url: string): Agent[] => [
     hint: "terminal",
     install: [
       {
-        do: "Run this, then reload the window.",
+        do: "Click to install, then confirm in VS Code.",
+        href: `vscode:mcp/install?${encodeURIComponent(
+          JSON.stringify({ name: "rgc-assets", type: "http", url }),
+        )}`,
+        hrefLabel: "Add to VS Code",
+      },
+      {
+        do: "Or run it from a terminal, then reload the window.",
         code: `code --add-mcp '{"name":"rgc-assets","type":"http","url":"${url}"}'`,
       },
     ],
@@ -298,7 +312,42 @@ function InstallStep({ agent, url }: { agent: Agent; url: string }) {
   );
 }
 
-function SkillStep() {
+function SkillStep({ agent }: { agent: Agent }) {
+  if (agent.bundlesSkill) {
+    return (
+      <>
+        <Panel>
+          <PanelHeader
+            title="Already done"
+            actions={<Chip tone="ok">installed with the plugin</Chip>}
+          />
+          <div className="flex flex-col gap-(--rgc-space-3) p-(--rgc-space-3)">
+            <p className="text-(length:--rgc-text-ui) text-fg-muted">
+              The {agent.label} plugin carries the skill as well as the server, so there is
+              nothing else to install. Confirm both arrived:
+            </p>
+            <Code value={`claude plugin details ${SKILL_NAME}`} />
+            <p className="text-(length:--rgc-text-micro) text-fg-subtle">
+              It should list one skill and one MCP server.
+            </p>
+          </div>
+          <Separator />
+          <div className="p-(--rgc-space-3)">
+            <Disclosure label="Install the skill separately anyway">
+              <div className="flex flex-col gap-(--rgc-space-2) pt-(--rgc-space-2)">
+                <span className="text-(length:--rgc-text-micro) text-fg-subtle">
+                  For another agent on the same machine, or if you skipped the plugin:
+                </span>
+                <Code value={`npx skills add ${SKILL_REPO}`} />
+              </div>
+            </Disclosure>
+          </div>
+        </Panel>
+        <WhySkill />
+      </>
+    );
+  }
+
   return (
     <>
       <Panel>
@@ -349,19 +398,25 @@ function SkillStep() {
         </div>
       </Panel>
 
-      <Panel>
-        <PanelHeader title="Why the skill as well as the server" />
-        <div className="p-(--rgc-space-3)">
-          <p className="text-(length:--rgc-text-ui) text-fg-muted">
-            The server gives the agent the tools. The skill teaches it the rules: copy pinned
-            urls verbatim, never rewrite one to point at a branch, and check{" "}
-            <span className="font-mono">content_id</span> before changing a url it already
-            shipped. Without it an agent will happily &ldquo;tidy&rdquo; a long url into one
-            that breaks at the next re-export.
-          </p>
-        </div>
-      </Panel>
+      <WhySkill />
     </>
+  );
+}
+
+function WhySkill() {
+  return (
+    <Panel>
+      <PanelHeader title="Why the skill as well as the server" />
+      <div className="p-(--rgc-space-3)">
+        <p className="text-(length:--rgc-text-ui) text-fg-muted">
+          The server gives the agent the tools. The skill teaches it the rules: copy pinned
+          urls verbatim, never rewrite one to point at a branch, and check{" "}
+          <span className="font-mono">content_id</span> before changing a url it already
+          shipped. Without it an agent will happily &ldquo;tidy&rdquo; a long url into one
+          that breaks at the next re-export.
+        </p>
+      </div>
+    </Panel>
   );
 }
 
@@ -408,7 +463,7 @@ export function ConnectDialog() {
             />
           ) : null}
           {step === "install" ? <InstallStep agent={active} url={url} /> : null}
-          {step === "skill" ? <SkillStep /> : null}
+          {step === "skill" ? <SkillStep agent={active} /> : null}
         </div>
 
         <Dialog.Footer>
@@ -424,7 +479,7 @@ export function ConnectDialog() {
           ) : null}
           {step === "install" ? (
             <Button variant="primary" onClick={() => setStep("skill")}>
-              Done — add the skill
+              {active.bundlesSkill ? "Done — what's next" : "Done — add the skill"}
             </Button>
           ) : null}
           {step === "skill" ? (
